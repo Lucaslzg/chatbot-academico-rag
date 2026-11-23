@@ -1,0 +1,4 @@
+﻿modelo;rotulo;correcao_media;correcao_mediana;correcao_n;correcao_zeros;completude_media;completude_mediana;completude_n;fidelidade_media;fidelidade_n;erros_do_juiz;notas_antigas
+llama3.1:8b;Llama 3.1 8B;0,369;0,300;52;15;0,571;0,592;52;0,691;54;0;0
+qwen3.8:27b;Qwen 3.8 27B;0,556;0,610;52;5;0,668;0,757;52;0,855;52;0;0
+phi4-mini;Phi-4-mini 3.8B;0,448;0,460;49;9;0,469;0,500;49;0,737;49;0;0

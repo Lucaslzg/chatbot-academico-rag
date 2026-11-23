@@ -1,0 +1,2785 @@
+{
+ "rodada": "2026-11-03_1112_perguntas_recuperacao",
+ "calculado_em": "2026-11-14T04:19:24",
+ "versao_chatbot": "13",
+ "semente": 20261104,
+ "linguas": [
+  "ingles",
+  "portugues"
+ ],
+ "juizes_por_lingua": {
+  "ingles": [
+   "ministral-3:8b",
+   "gemma4:e4b-it-qat"
+  ],
+  "portugues": [
+   "ministral-3:8b",
+   "gemma4:e4b-it-qat"
+  ]
+ },
+ "aviso_das_linguas": null,
+ "cortes": {
+  "correcao": [
+   0.25,
+   0.75
+  ],
+  "fidelidade": [
+   0.5,
+   1.0
+  ]
+ },
+ "reamostras": 2000,
+ "respostas": 30,
+ "notas_que_faltam": {
+  "correcao": [],
+  "fidelidade": []
+ },
+ "sem_nota_do_juiz": {
+  "ministral-3:8b": {
+   "correcao": [],
+   "completude": [],
+   "fidelidade": []
+  },
+  "gemma4:e4b-it-qat": {
+   "correcao": [],
+   "completude": [],
+   "fidelidade": []
+  },
+  "media_dos_juizes": {
+   "correcao": [],
+   "completude": [],
+   "fidelidade": []
+  },
+  "ministral-3:8b|pt": {
+   "correcao": [],
+   "completude": [],
+   "fidelidade": []
+  },
+  "gemma4:e4b-it-qat|pt": {
+   "correcao": [],
+   "completude": [],
+   "fidelidade": []
+  },
+  "media_dos_juizes|pt": {
+   "correcao": [],
+   "completude": [],
+   "fidelidade": []
+  }
+ },
+ "avisos_da_planilha": [],
+ "resultados": [
+  {
+   "avaliador": "ministral-3:8b",
+   "rotulo": "Ministral 3 8B, em inglês",
+   "lingua": "ingles",
+   "humana": "correcao",
+   "metrica_do_juiz": "correcao",
+   "n": 30,
+   "kappa_ponderado": 0.23,
+   "kappa_ic95": [
+    0.053,
+    0.439
+   ],
+   "spearman": 0.6,
+   "spearman_ic95": [
+    0.357,
+    0.77
+   ],
+   "concordancia_exata": 0.4,
+   "nivel_unico": false,
+   "matriz": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     2,
+     2,
+     0
+    ],
+    [
+     3,
+     13,
+     8
+    ]
+   ],
+   "por_modelo": {
+    "llama3.1:8b": {
+     "rotulo": "Llama 3.1 8B",
+     "n": 10,
+     "diferenca_media": -0.8,
+     "concordancia_exata": 0.4
+    },
+    "phi4-mini": {
+     "rotulo": "Phi-4-mini 3.8B",
+     "n": 10,
+     "diferenca_media": -0.7,
+     "concordancia_exata": 0.4
+    },
+    "qwen3.8:27b": {
+     "rotulo": "Qwen 3.8 27B",
+     "n": 10,
+     "diferenca_media": -0.6,
+     "concordancia_exata": 0.4
+    }
+   }
+  },
+  {
+   "avaliador": "ministral-3:8b|pt",
+   "rotulo": "Ministral 3 8B, em português",
+   "lingua": "portugues",
+   "humana": "correcao",
+   "metrica_do_juiz": "correcao",
+   "n": 30,
+   "kappa_ponderado": 0.192,
+   "kappa_ic95": [
+    0.037,
+    0.377
+   ],
+   "spearman": 0.59,
+   "spearman_ic95": [
+    0.348,
+    0.763
+   ],
+   "concordancia_exata": 0.333,
+   "nivel_unico": false,
+   "matriz": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     2,
+     2,
+     0
+    ],
+    [
+     3,
+     15,
+     6
+    ]
+   ],
+   "por_modelo": {
+    "llama3.1:8b": {
+     "rotulo": "Llama 3.1 8B",
+     "n": 10,
+     "diferenca_media": -0.9,
+     "concordancia_exata": 0.3
+    },
+    "phi4-mini": {
+     "rotulo": "Phi-4-mini 3.8B",
+     "n": 10,
+     "diferenca_media": -0.7,
+     "concordancia_exata": 0.4
+    },
+    "qwen3.8:27b": {
+     "rotulo": "Qwen 3.8 27B",
+     "n": 10,
+     "diferenca_media": -0.7,
+     "concordancia_exata": 0.3
+    }
+   }
+  },
+  {
+   "avaliador": "gemma4:e4b-it-qat",
+   "rotulo": "Gemma 4 E4B, em inglês",
+   "lingua": "ingles",
+   "humana": "correcao",
+   "metrica_do_juiz": "correcao",
+   "n": 30,
+   "kappa_ponderado": 0.265,
+   "kappa_ic95": [
+    0.091,
+    0.461
+   ],
+   "spearman": 0.633,
+   "spearman_ic95": [
+    0.39,
+    0.785
+   ],
+   "concordancia_exata": 0.467,
+   "nivel_unico": false,
+   "matriz": [
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     3,
+     1,
+     0
+    ],
+    [
+     1,
+     11,
+     12
+    ]
+   ],
+   "por_modelo": {
+    "llama3.1:8b": {
+     "rotulo": "Llama 3.1 8B",
+     "n": 10,
+     "diferenca_media": -0.5,
+     "concordancia_exata": 0.4
+    },
+    "phi4-mini": {
+     "rotulo": "Phi-4-mini 3.8B",
+     "n": 10,
+     "diferenca_media": -0.5,
+     "concordancia_exata": 0.5
+    },
+    "qwen3.8:27b": {
+     "rotulo": "Qwen 3.8 27B",
+     "n": 10,
+     "diferenca_media": -0.5,
+     "concordancia_exata": 0.5
+    }
+   }
+  },
+  {
+   "avaliador": "gemma4:e4b-it-qat|pt",
+   "rotulo": "Gemma 4 E4B, em português",
+   "lingua": "portugues",
+   "humana": "correcao",
+   "metrica_do_juiz": "correcao",
+   "n": 30,
+   "kappa_ponderado": 0.359,
+   "kappa_ic95": [
+    0.118,
+    0.603
+   ],
+   "spearman": 0.607,
+   "spearman_ic95": [
+    0.36,
+    0.784
+   ],
+   "concordancia_exata": 0.567,
+   "nivel_unico": false,
+   "matriz": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     2,
+     2,
+     0
+    ],
+    [
+     2,
+     9,
+     13
+    ]
+   ],
+   "por_modelo": {
+    "llama3.1:8b": {
+     "rotulo": "Llama 3.1 8B",
+     "n": 10,
+     "diferenca_media": -0.7,
+     "concordancia_exata": 0.5
+    },
+    "phi4-mini": {
+     "rotulo": "Phi-4-mini 3.8B",
+     "n": 10,
+     "diferenca_media": -0.3,
+     "concordancia_exata": 0.7
+    },
+    "qwen3.8:27b": {
+     "rotulo": "Qwen 3.8 27B",
+     "n": 10,
+     "diferenca_media": -0.5,
+     "concordancia_exata": 0.5
+    }
+   }
+  },
+  {
+   "avaliador": "media_dos_juizes",
+   "rotulo": "média dos juízes, em inglês",
+   "lingua": "ingles",
+   "humana": "correcao",
+   "metrica_do_juiz": "correcao",
+   "n": 30,
+   "kappa_ponderado": 0.286,
+   "kappa_ic95": [
+    0.082,
+    0.49
+   ],
+   "spearman": 0.639,
+   "spearman_ic95": [
+    0.395,
+    0.794
+   ],
+   "concordancia_exata": 0.433,
+   "nivel_unico": false,
+   "matriz": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     3,
+     1,
+     0
+    ],
+    [
+     1,
+     13,
+     10
+    ]
+   ],
+   "por_modelo": {
+    "llama3.1:8b": {
+     "rotulo": "Llama 3.1 8B",
+     "n": 10,
+     "diferenca_media": -0.7,
+     "concordancia_exata": 0.4
+    },
+    "phi4-mini": {
+     "rotulo": "Phi-4-mini 3.8B",
+     "n": 10,
+     "diferenca_media": -0.6,
+     "concordancia_exata": 0.4
+    },
+    "qwen3.8:27b": {
+     "rotulo": "Qwen 3.8 27B",
+     "n": 10,
+     "diferenca_media": -0.5,
+     "concordancia_exata": 0.5
+    }
+   }
+  },
+  {
+   "avaliador": "media_dos_juizes|pt",
+   "rotulo": "média dos juízes, em português",
+   "lingua": "portugues",
+   "humana": "correcao",
+   "metrica_do_juiz": "correcao",
+   "n": 30,
+   "kappa_ponderado": 0.278,
+   "kappa_ic95": [
+    0.068,
+    0.489
+   ],
+   "spearman": 0.623,
+   "spearman_ic95": [
+    0.357,
+    0.785
+   ],
+   "concordancia_exata": 0.433,
+   "nivel_unico": false,
+   "matriz": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     2,
+     2,
+     0
+    ],
+    [
+     1,
+     14,
+     9
+    ]
+   ],
+   "por_modelo": {
+    "llama3.1:8b": {
+     "rotulo": "Llama 3.1 8B",
+     "n": 10,
+     "diferenca_media": -0.6,
+     "concordancia_exata": 0.5
+    },
+    "phi4-mini": {
+     "rotulo": "Phi-4-mini 3.8B",
+     "n": 10,
+     "diferenca_media": -0.6,
+     "concordancia_exata": 0.4
+    },
+    "qwen3.8:27b": {
+     "rotulo": "Qwen 3.8 27B",
+     "n": 10,
+     "diferenca_media": -0.6,
+     "concordancia_exata": 0.4
+    }
+   }
+  },
+  {
+   "avaliador": "ministral-3:8b",
+   "rotulo": "Ministral 3 8B, em inglês",
+   "lingua": "ingles",
+   "humana": "correcao",
+   "metrica_do_juiz": "completude",
+   "n": 30,
+   "kappa_ponderado": 0.203,
+   "kappa_ic95": [
+    -0.024,
+    0.426
+   ],
+   "spearman": 0.489,
+   "spearman_ic95": [
+    0.155,
+    0.729
+   ],
+   "concordancia_exata": 0.4,
+   "nivel_unico": false,
+   "matriz": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     1
+    ],
+    [
+     3,
+     11,
+     10
+    ]
+   ],
+   "por_modelo": {
+    "llama3.1:8b": {
+     "rotulo": "Llama 3.1 8B",
+     "n": 10,
+     "diferenca_media": -0.5,
+     "concordancia_exata": 0.4
+    },
+    "phi4-mini": {
+     "rotulo": "Phi-4-mini 3.8B",
+     "n": 10,
+     "diferenca_media": -0.9,
+     "concordancia_exata": 0.3
+    },
+    "qwen3.8:27b": {
+     "rotulo": "Qwen 3.8 27B",
+     "n": 10,
+     "diferenca_media": -0.5,
+     "concordancia_exata": 0.5
+    }
+   }
+  },
+  {
+   "avaliador": "ministral-3:8b|pt",
+   "rotulo": "Ministral 3 8B, em português",
+   "lingua": "portugues",
+   "humana": "correcao",
+   "metrica_do_juiz": "completude",
+   "n": 30,
+   "kappa_ponderado": 0.201,
+   "kappa_ic95": [
+    -0.098,
+    0.497
+   ],
+   "spearman": 0.366,
+   "spearman_ic95": [
+    0.008,
+    0.652
+   ],
+   "concordancia_exata": 0.5,
+   "nivel_unico": false,
+   "matriz": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     0,
+     2,
+     2
+    ],
+    [
+     3,
+     10,
+     11
+    ]
+   ],
+   "por_modelo": {
+    "llama3.1:8b": {
+     "rotulo": "Llama 3.1 8B",
+     "n": 10,
+     "diferenca_media": -0.2,
+     "concordancia_exata": 0.5
+    },
+    "phi4-mini": {
+     "rotulo": "Phi-4-mini 3.8B",
+     "n": 10,
+     "diferenca_media": -0.7,
+     "concordancia_exata": 0.5
+    },
+    "qwen3.8:27b": {
+     "rotulo": "Qwen 3.8 27B",
+     "n": 10,
+     "diferenca_media": -0.5,
+     "concordancia_exata": 0.5
+    }
+   }
+  },
+  {
+   "avaliador": "gemma4:e4b-it-qat",
+   "rotulo": "Gemma 4 E4B, em inglês",
+   "lingua": "ingles",
+   "humana": "correcao",
+   "metrica_do_juiz": "completude",
+   "n": 30,
+   "kappa_ponderado": 0.298,
+   "kappa_ic95": [
+    0.016,
+    0.582
+   ],
+   "spearman": 0.356,
+   "spearman_ic95": [
+    -0.026,
+    0.654
+   ],
+   "concordancia_exata": 0.6,
+   "nivel_unico": false,
+   "matriz": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     0,
+     3,
+     1
+    ],
+    [
+     4,
+     7,
+     13
+    ]
+   ],
+   "por_modelo": {
+    "llama3.1:8b": {
+     "rotulo": "Llama 3.1 8B",
+     "n": 10,
+     "diferenca_media": -0.2,
+     "concordancia_exata": 0.7
+    },
+    "phi4-mini": {
+     "rotulo": "Phi-4-mini 3.8B",
+     "n": 10,
+     "diferenca_media": -0.9,
+     "concordancia_exata": 0.4
+    },
+    "qwen3.8:27b": {
+     "rotulo": "Qwen 3.8 27B",
+     "n": 10,
+     "diferenca_media": -0.3,
+     "concordancia_exata": 0.7
+    }
+   }
+  },
+  {
+   "avaliador": "gemma4:e4b-it-qat|pt",
+   "rotulo": "Gemma 4 E4B, em português",
+   "lingua": "portugues",
+   "humana": "correcao",
+   "metrica_do_juiz": "completude",
+   "n": 30,
+   "kappa_ponderado": 0.316,
+   "kappa_ic95": [
+    0.019,
+    0.605
+   ],
+   "spearman": 0.426,
+   "spearman_ic95": [
+    0.057,
+    0.707
+   ],
+   "concordancia_exata": 0.6,
+   "nivel_unico": false,
+   "matriz": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     0,
+     3,
+     1
+    ],
+    [
+     3,
+     8,
+     13
+    ]
+   ],
+   "por_modelo": {
+    "llama3.1:8b": {
+     "rotulo": "Llama 3.1 8B",
+     "n": 10,
+     "diferenca_media": -0.2,
+     "concordancia_exata": 0.7
+    },
+    "phi4-mini": {
+     "rotulo": "Phi-4-mini 3.8B",
+     "n": 10,
+     "diferenca_media": -0.8,
+     "concordancia_exata": 0.4
+    },
+    "qwen3.8:27b": {
+     "rotulo": "Qwen 3.8 27B",
+     "n": 10,
+     "diferenca_media": -0.3,
+     "concordancia_exata": 0.7
+    }
+   }
+  },
+  {
+   "avaliador": "media_dos_juizes",
+   "rotulo": "média dos juízes, em inglês",
+   "lingua": "ingles",
+   "humana": "correcao",
+   "metrica_do_juiz": "completude",
+   "n": 30,
+   "kappa_ponderado": 0.274,
+   "kappa_ic95": [
+    0.0,
+    0.544
+   ],
+   "spearman": 0.462,
+   "spearman_ic95": [
+    0.133,
+    0.711
+   ],
+   "concordancia_exata": 0.533,
+   "nivel_unico": false,
+   "matriz": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     2,
+     1
+    ],
+    [
+     3,
+     9,
+     12
+    ]
+   ],
+   "por_modelo": {
+    "llama3.1:8b": {
+     "rotulo": "Llama 3.1 8B",
+     "n": 10,
+     "diferenca_media": -0.2,
+     "concordancia_exata": 0.7
+    },
+    "phi4-mini": {
+     "rotulo": "Phi-4-mini 3.8B",
+     "n": 10,
+     "diferenca_media": -0.9,
+     "concordancia_exata": 0.3
+    },
+    "qwen3.8:27b": {
+     "rotulo": "Qwen 3.8 27B",
+     "n": 10,
+     "diferenca_media": -0.4,
+     "concordancia_exata": 0.6
+    }
+   }
+  },
+  {
+   "avaliador": "media_dos_juizes|pt",
+   "rotulo": "média dos juízes, em português",
+   "lingua": "portugues",
+   "humana": "correcao",
+   "metrica_do_juiz": "completude",
+   "n": 30,
+   "kappa_ponderado": 0.316,
+   "kappa_ic95": [
+    0.019,
+    0.605
+   ],
+   "spearman": 0.419,
+   "spearman_ic95": [
+    0.073,
+    0.679
+   ],
+   "concordancia_exata": 0.6,
+   "nivel_unico": false,
+   "matriz": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     0,
+     3,
+     1
+    ],
+    [
+     3,
+     8,
+     13
+    ]
+   ],
+   "por_modelo": {
+    "llama3.1:8b": {
+     "rotulo": "Llama 3.1 8B",
+     "n": 10,
+     "diferenca_media": -0.2,
+     "concordancia_exata": 0.7
+    },
+    "phi4-mini": {
+     "rotulo": "Phi-4-mini 3.8B",
+     "n": 10,
+     "diferenca_media": -0.8,
+     "concordancia_exata": 0.4
+    },
+    "qwen3.8:27b": {
+     "rotulo": "Qwen 3.8 27B",
+     "n": 10,
+     "diferenca_media": -0.3,
+     "concordancia_exata": 0.7
+    }
+   }
+  },
+  {
+   "avaliador": "ministral-3:8b",
+   "rotulo": "Ministral 3 8B, em inglês",
+   "lingua": "ingles",
+   "humana": "fidelidade",
+   "metrica_do_juiz": "fidelidade",
+   "n": 30,
+   "kappa_ponderado": 0.045,
+   "kappa_ic95": [
+    0.0,
+    0.167
+   ],
+   "spearman": 0.215,
+   "spearman_ic95": null,
+   "concordancia_exata": 0.5,
+   "nivel_unico": false,
+   "matriz": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     5,
+     10,
+     14
+    ]
+   ],
+   "por_modelo": {
+    "llama3.1:8b": {
+     "rotulo": "Llama 3.1 8B",
+     "n": 10,
+     "diferenca_media": -0.9,
+     "concordancia_exata": 0.4
+    },
+    "phi4-mini": {
+     "rotulo": "Phi-4-mini 3.8B",
+     "n": 10,
+     "diferenca_media": -0.7,
+     "concordancia_exata": 0.5
+    },
+    "qwen3.8:27b": {
+     "rotulo": "Qwen 3.8 27B",
+     "n": 10,
+     "diferenca_media": -0.4,
+     "concordancia_exata": 0.6
+    }
+   }
+  },
+  {
+   "avaliador": "ministral-3:8b|pt",
+   "rotulo": "Ministral 3 8B, em português",
+   "lingua": "portugues",
+   "humana": "fidelidade",
+   "metrica_do_juiz": "fidelidade",
+   "n": 30,
+   "kappa_ponderado": 0.037,
+   "kappa_ic95": [
+    0.0,
+    0.14
+   ],
+   "spearman": 0.144,
+   "spearman_ic95": null,
+   "concordancia_exata": 0.433,
+   "nivel_unico": false,
+   "matriz": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     4,
+     13,
+     12
+    ]
+   ],
+   "por_modelo": {
+    "llama3.1:8b": {
+     "rotulo": "Llama 3.1 8B",
+     "n": 10,
+     "diferenca_media": -0.9,
+     "concordancia_exata": 0.3
+    },
+    "phi4-mini": {
+     "rotulo": "Phi-4-mini 3.8B",
+     "n": 10,
+     "diferenca_media": -0.7,
+     "concordancia_exata": 0.5
+    },
+    "qwen3.8:27b": {
+     "rotulo": "Qwen 3.8 27B",
+     "n": 10,
+     "diferenca_media": -0.5,
+     "concordancia_exata": 0.5
+    }
+   }
+  },
+  {
+   "avaliador": "gemma4:e4b-it-qat",
+   "rotulo": "Gemma 4 E4B, em inglês",
+   "lingua": "ingles",
+   "humana": "fidelidade",
+   "metrica_do_juiz": "fidelidade",
+   "n": 30,
+   "kappa_ponderado": 0.079,
+   "kappa_ic95": [
+    0.0,
+    0.268
+   ],
+   "spearman": 0.109,
+   "spearman_ic95": null,
+   "concordancia_exata": 0.633,
+   "nivel_unico": false,
+   "matriz": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     3,
+     8,
+     18
+    ]
+   ],
+   "por_modelo": {
+    "llama3.1:8b": {
+     "rotulo": "Llama 3.1 8B",
+     "n": 10,
+     "diferenca_media": -0.7,
+     "concordancia_exata": 0.4
+    },
+    "phi4-mini": {
+     "rotulo": "Phi-4-mini 3.8B",
+     "n": 10,
+     "diferenca_media": -0.5,
+     "concordancia_exata": 0.7
+    },
+    "qwen3.8:27b": {
+     "rotulo": "Qwen 3.8 27B",
+     "n": 10,
+     "diferenca_media": -0.2,
+     "concordancia_exata": 0.8
+    }
+   }
+  },
+  {
+   "avaliador": "gemma4:e4b-it-qat|pt",
+   "rotulo": "Gemma 4 E4B, em português",
+   "lingua": "portugues",
+   "humana": "fidelidade",
+   "metrica_do_juiz": "fidelidade",
+   "n": 30,
+   "kappa_ponderado": 0.135,
+   "kappa_ic95": [
+    0.0,
+    0.444
+   ],
+   "spearman": 0.225,
+   "spearman_ic95": null,
+   "concordancia_exata": 0.733,
+   "nivel_unico": false,
+   "matriz": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     7,
+     21
+    ]
+   ],
+   "por_modelo": {
+    "llama3.1:8b": {
+     "rotulo": "Llama 3.1 8B",
+     "n": 10,
+     "diferenca_media": -0.5,
+     "concordancia_exata": 0.5
+    },
+    "phi4-mini": {
+     "rotulo": "Phi-4-mini 3.8B",
+     "n": 10,
+     "diferenca_media": -0.3,
+     "concordancia_exata": 0.8
+    },
+    "qwen3.8:27b": {
+     "rotulo": "Qwen 3.8 27B",
+     "n": 10,
+     "diferenca_media": -0.1,
+     "concordancia_exata": 0.9
+    }
+   }
+  },
+  {
+   "avaliador": "media_dos_juizes",
+   "rotulo": "média dos juízes, em inglês",
+   "lingua": "ingles",
+   "humana": "fidelidade",
+   "metrica_do_juiz": "fidelidade",
+   "n": 30,
+   "kappa_ponderado": 0.037,
+   "kappa_ic95": [
+    0.0,
+    0.139
+   ],
+   "spearman": 0.166,
+   "spearman_ic95": null,
+   "concordancia_exata": 0.433,
+   "nivel_unico": false,
+   "matriz": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     4,
+     13,
+     12
+    ]
+   ],
+   "por_modelo": {
+    "llama3.1:8b": {
+     "rotulo": "Llama 3.1 8B",
+     "n": 10,
+     "diferenca_media": -0.8,
+     "concordancia_exata": 0.4
+    },
+    "phi4-mini": {
+     "rotulo": "Phi-4-mini 3.8B",
+     "n": 10,
+     "diferenca_media": -0.7,
+     "concordancia_exata": 0.5
+    },
+    "qwen3.8:27b": {
+     "rotulo": "Qwen 3.8 27B",
+     "n": 10,
+     "diferenca_media": -0.6,
+     "concordancia_exata": 0.4
+    }
+   }
+  },
+  {
+   "avaliador": "media_dos_juizes|pt",
+   "rotulo": "média dos juízes, em português",
+   "lingua": "portugues",
+   "humana": "fidelidade",
+   "metrica_do_juiz": "fidelidade",
+   "n": 30,
+   "kappa_ponderado": 0.037,
+   "kappa_ic95": [
+    0.0,
+    0.138
+   ],
+   "spearman": 0.143,
+   "spearman_ic95": null,
+   "concordancia_exata": 0.4,
+   "nivel_unico": false,
+   "matriz": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     17,
+     11
+    ]
+   ],
+   "por_modelo": {
+    "llama3.1:8b": {
+     "rotulo": "Llama 3.1 8B",
+     "n": 10,
+     "diferenca_media": -0.7,
+     "concordancia_exata": 0.3
+    },
+    "phi4-mini": {
+     "rotulo": "Phi-4-mini 3.8B",
+     "n": 10,
+     "diferenca_media": -0.7,
+     "concordancia_exata": 0.4
+    },
+    "qwen3.8:27b": {
+     "rotulo": "Qwen 3.8 27B",
+     "n": 10,
+     "diferenca_media": -0.5,
+     "concordancia_exata": 0.5
+    }
+   }
+  }
+ ],
+ "diferencas": [
+  {
+   "comparacao": "português menos inglês: correção (F1)",
+   "avaliador": "ministral-3:8b",
+   "rotulo": "Ministral 3 8B",
+   "linguas": [
+    "portugues",
+    "ingles"
+   ],
+   "n": 30,
+   "spearman": -0.01,
+   "spearman_ic95": [
+    -0.161,
+    0.137
+   ],
+   "kappa": -0.038,
+   "kappa_ic95": [
+    -0.126,
+    0.028
+   ]
+  },
+  {
+   "comparacao": "português menos inglês: completude",
+   "avaliador": "ministral-3:8b",
+   "rotulo": "Ministral 3 8B",
+   "linguas": [
+    "portugues",
+    "ingles"
+   ],
+   "n": 30,
+   "spearman": -0.123,
+   "spearman_ic95": [
+    -0.386,
+    0.025
+   ],
+   "kappa": -0.002,
+   "kappa_ic95": [
+    -0.167,
+    0.131
+   ]
+  },
+  {
+   "comparacao": "português menos inglês: fidelidade",
+   "avaliador": "ministral-3:8b",
+   "rotulo": "Ministral 3 8B",
+   "linguas": [
+    "portugues",
+    "ingles"
+   ],
+   "n": 30,
+   "spearman": -0.071,
+   "spearman_ic95": null,
+   "kappa": -0.008,
+   "kappa_ic95": [
+    -0.054,
+    0.021
+   ]
+  },
+  {
+   "comparacao": "português menos inglês: correção (F1)",
+   "avaliador": "gemma4:e4b-it-qat",
+   "rotulo": "Gemma 4 E4B",
+   "linguas": [
+    "portugues",
+    "ingles"
+   ],
+   "n": 30,
+   "spearman": -0.026,
+   "spearman_ic95": [
+    -0.146,
+    0.057
+   ],
+   "kappa": 0.094,
+   "kappa_ic95": [
+    -0.059,
+    0.277
+   ]
+  },
+  {
+   "comparacao": "português menos inglês: completude",
+   "avaliador": "gemma4:e4b-it-qat",
+   "rotulo": "Gemma 4 E4B",
+   "linguas": [
+    "portugues",
+    "ingles"
+   ],
+   "n": 30,
+   "spearman": 0.07,
+   "spearman_ic95": [
+    0.0,
+    0.192
+   ],
+   "kappa": 0.018,
+   "kappa_ic95": [
+    0.0,
+    0.058
+   ]
+  },
+  {
+   "comparacao": "português menos inglês: fidelidade",
+   "avaliador": "gemma4:e4b-it-qat",
+   "rotulo": "Gemma 4 E4B",
+   "linguas": [
+    "portugues",
+    "ingles"
+   ],
+   "n": 30,
+   "spearman": 0.116,
+   "spearman_ic95": null,
+   "kappa": 0.056,
+   "kappa_ic95": [
+    0.0,
+    0.19
+   ]
+  },
+  {
+   "comparacao": "português menos inglês: correção (F1)",
+   "avaliador": "media_dos_juizes",
+   "rotulo": "média dos juízes",
+   "linguas": [
+    "portugues",
+    "ingles"
+   ],
+   "n": 30,
+   "spearman": -0.016,
+   "spearman_ic95": [
+    -0.12,
+    0.071
+   ],
+   "kappa": -0.008,
+   "kappa_ic95": [
+    -0.065,
+    0.044
+   ]
+  },
+  {
+   "comparacao": "português menos inglês: completude",
+   "avaliador": "media_dos_juizes",
+   "rotulo": "média dos juízes",
+   "linguas": [
+    "portugues",
+    "ingles"
+   ],
+   "n": 30,
+   "spearman": -0.043,
+   "spearman_ic95": [
+    -0.117,
+    0.0
+   ],
+   "kappa": 0.042,
+   "kappa_ic95": [
+    0.0,
+    0.123
+   ]
+  },
+  {
+   "comparacao": "português menos inglês: fidelidade",
+   "avaliador": "media_dos_juizes",
+   "rotulo": "média dos juízes",
+   "linguas": [
+    "portugues",
+    "ingles"
+   ],
+   "n": 30,
+   "spearman": -0.023,
+   "spearman_ic95": null,
+   "kappa": 0.0,
+   "kappa_ic95": [
+    -0.026,
+    0.028
+   ]
+  },
+  {
+   "comparacao": "F1 menos completude",
+   "avaliador": "ministral-3:8b",
+   "rotulo": "Ministral 3 8B, em inglês",
+   "linguas": [
+    "ingles"
+   ],
+   "n": 30,
+   "spearman": 0.111,
+   "spearman_ic95": [
+    -0.095,
+    0.413
+   ],
+   "kappa": 0.027,
+   "kappa_ic95": [
+    -0.102,
+    0.181
+   ]
+  },
+  {
+   "comparacao": "F1 menos completude",
+   "avaliador": "ministral-3:8b|pt",
+   "rotulo": "Ministral 3 8B, em português",
+   "linguas": [
+    "portugues"
+   ],
+   "n": 30,
+   "spearman": 0.224,
+   "spearman_ic95": [
+    -0.065,
+    0.553
+   ],
+   "kappa": -0.009,
+   "kappa_ic95": [
+    -0.212,
+    0.212
+   ]
+  },
+  {
+   "comparacao": "F1 menos completude",
+   "avaliador": "gemma4:e4b-it-qat",
+   "rotulo": "Gemma 4 E4B, em inglês",
+   "linguas": [
+    "ingles"
+   ],
+   "n": 30,
+   "spearman": 0.277,
+   "spearman_ic95": [
+    -0.009,
+    0.633
+   ],
+   "kappa": -0.033,
+   "kappa_ic95": [
+    -0.261,
+    0.176
+   ]
+  },
+  {
+   "comparacao": "F1 menos completude",
+   "avaliador": "gemma4:e4b-it-qat|pt",
+   "rotulo": "Gemma 4 E4B, em português",
+   "linguas": [
+    "portugues"
+   ],
+   "n": 30,
+   "spearman": 0.181,
+   "spearman_ic95": [
+    -0.065,
+    0.515
+   ],
+   "kappa": 0.043,
+   "kappa_ic95": [
+    -0.19,
+    0.286
+   ]
+  },
+  {
+   "comparacao": "F1 menos completude",
+   "avaliador": "media_dos_juizes",
+   "rotulo": "média dos juízes, em inglês",
+   "linguas": [
+    "ingles"
+   ],
+   "n": 30,
+   "spearman": 0.177,
+   "spearman_ic95": [
+    -0.021,
+    0.457
+   ],
+   "kappa": 0.012,
+   "kappa_ic95": [
+    -0.161,
+    0.179
+   ]
+  },
+  {
+   "comparacao": "F1 menos completude",
+   "avaliador": "media_dos_juizes|pt",
+   "rotulo": "média dos juízes, em português",
+   "linguas": [
+    "portugues"
+   ],
+   "n": 30,
+   "spearman": 0.204,
+   "spearman_ic95": [
+    -0.011,
+    0.491
+   ],
+   "kappa": -0.038,
+   "kappa_ic95": [
+    -0.23,
+    0.152
+   ]
+  },
+  {
+   "comparacao": "juiz menos a média: correção (F1)",
+   "avaliador": "ministral-3:8b",
+   "rotulo": "Ministral 3 8B, em inglês",
+   "linguas": [
+    "ingles"
+   ],
+   "n": 30,
+   "spearman": -0.039,
+   "spearman_ic95": [
+    -0.149,
+    0.033
+   ]
+  },
+  {
+   "comparacao": "juiz menos a média: completude",
+   "avaliador": "ministral-3:8b",
+   "rotulo": "Ministral 3 8B, em inglês",
+   "linguas": [
+    "ingles"
+   ],
+   "n": 30,
+   "spearman": 0.027,
+   "spearman_ic95": [
+    0.0,
+    0.101
+   ]
+  },
+  {
+   "comparacao": "juiz menos a média: fidelidade",
+   "avaliador": "ministral-3:8b",
+   "rotulo": "Ministral 3 8B, em inglês",
+   "linguas": [
+    "ingles"
+   ],
+   "n": 30,
+   "spearman": 0.049,
+   "spearman_ic95": null
+  },
+  {
+   "comparacao": "juiz menos a média: correção (F1)",
+   "avaliador": "ministral-3:8b|pt",
+   "rotulo": "Ministral 3 8B, em português",
+   "linguas": [
+    "portugues"
+   ],
+   "n": 30,
+   "spearman": -0.033,
+   "spearman_ic95": [
+    -0.152,
+    0.062
+   ]
+  },
+  {
+   "comparacao": "juiz menos a média: completude",
+   "avaliador": "ministral-3:8b|pt",
+   "rotulo": "Ministral 3 8B, em português",
+   "linguas": [
+    "portugues"
+   ],
+   "n": 30,
+   "spearman": -0.053,
+   "spearman_ic95": [
+    -0.214,
+    0.049
+   ]
+  },
+  {
+   "comparacao": "juiz menos a média: fidelidade",
+   "avaliador": "ministral-3:8b|pt",
+   "rotulo": "Ministral 3 8B, em português",
+   "linguas": [
+    "portugues"
+   ],
+   "n": 30,
+   "spearman": 0.001,
+   "spearman_ic95": null
+  },
+  {
+   "comparacao": "juiz menos a média: correção (F1)",
+   "avaliador": "gemma4:e4b-it-qat",
+   "rotulo": "Gemma 4 E4B, em inglês",
+   "linguas": [
+    "ingles"
+   ],
+   "n": 30,
+   "spearman": -0.006,
+   "spearman_ic95": [
+    -0.057,
+    0.026
+   ]
+  },
+  {
+   "comparacao": "juiz menos a média: completude",
+   "avaliador": "gemma4:e4b-it-qat",
+   "rotulo": "Gemma 4 E4B, em inglês",
+   "linguas": [
+    "ingles"
+   ],
+   "n": 30,
+   "spearman": -0.106,
+   "spearman_ic95": [
+    -0.259,
+    0.011
+   ]
+  },
+  {
+   "comparacao": "juiz menos a média: fidelidade",
+   "avaliador": "gemma4:e4b-it-qat",
+   "rotulo": "Gemma 4 E4B, em inglês",
+   "linguas": [
+    "ingles"
+   ],
+   "n": 30,
+   "spearman": -0.057,
+   "spearman_ic95": null
+  },
+  {
+   "comparacao": "juiz menos a média: correção (F1)",
+   "avaliador": "gemma4:e4b-it-qat|pt",
+   "rotulo": "Gemma 4 E4B, em português",
+   "linguas": [
+    "portugues"
+   ],
+   "n": 30,
+   "spearman": -0.016,
+   "spearman_ic95": [
+    -0.107,
+    0.073
+   ]
+  },
+  {
+   "comparacao": "juiz menos a média: completude",
+   "avaliador": "gemma4:e4b-it-qat|pt",
+   "rotulo": "Gemma 4 E4B, em português",
+   "linguas": [
+    "portugues"
+   ],
+   "n": 30,
+   "spearman": 0.007,
+   "spearman_ic95": [
+    -0.067,
+    0.07
+   ]
+  },
+  {
+   "comparacao": "juiz menos a média: fidelidade",
+   "avaliador": "gemma4:e4b-it-qat|pt",
+   "rotulo": "Gemma 4 E4B, em português",
+   "linguas": [
+    "portugues"
+   ],
+   "n": 30,
+   "spearman": 0.082,
+   "spearman_ic95": null
+  }
+ ],
+ "itens": [
+  {
+   "codigo": "P01",
+   "modelo": "llama3.1:8b",
+   "id": "R32",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.67,
+     "completude": 0.6667,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes": {
+     "correcao": 0.835,
+     "completude": 0.8334,
+     "fidelidade": 1.0
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.67,
+     "completude": 0.6667,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.835,
+     "completude": 0.8334,
+     "fidelidade": 1.0
+    }
+   }
+  },
+  {
+   "codigo": "P02",
+   "modelo": "llama3.1:8b",
+   "id": "R14",
+   "humana": {
+    "correcao": 1,
+    "fidelidade": 2
+   },
+   "com_observacao": true,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.0,
+     "completude": 0.75,
+     "fidelidade": 0.2
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.0,
+     "completude": 1.0,
+     "fidelidade": 0.8
+    },
+    "media_dos_juizes": {
+     "correcao": 0.0,
+     "completude": 0.875,
+     "fidelidade": 0.5
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.29,
+     "completude": 0.75,
+     "fidelidade": 0.4
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.29,
+     "completude": 1.0,
+     "fidelidade": 0.9
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.29,
+     "completude": 0.875,
+     "fidelidade": 0.65
+    }
+   }
+  },
+  {
+   "codigo": "P03",
+   "modelo": "qwen3.8:27b",
+   "id": "R09",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    }
+   }
+  },
+  {
+   "codigo": "P04",
+   "modelo": "phi4-mini",
+   "id": "R44",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.8,
+     "completude": 0.75,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.9,
+     "completude": 0.875,
+     "fidelidade": 1.0
+    }
+   }
+  },
+  {
+   "codigo": "P05",
+   "modelo": "llama3.1:8b",
+   "id": "R24",
+   "humana": {
+    "correcao": 1,
+    "fidelidade": 2
+   },
+   "com_observacao": true,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.25,
+     "completude": 0.0,
+     "fidelidade": 0.6667
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.0,
+     "completude": 0.6667,
+     "fidelidade": 0.5
+    },
+    "media_dos_juizes": {
+     "correcao": 0.125,
+     "completude": 0.3333,
+     "fidelidade": 0.5834
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.0,
+     "completude": 0.75,
+     "fidelidade": 0.5
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.22,
+     "completude": 0.5,
+     "fidelidade": 0.8
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.11,
+     "completude": 0.625,
+     "fidelidade": 0.65
+    }
+   }
+  },
+  {
+   "codigo": "P06",
+   "modelo": "phi4-mini",
+   "id": "R46",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.67,
+     "completude": 0.3333,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.5,
+     "completude": 0.3333,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes": {
+     "correcao": 0.585,
+     "completude": 0.3333,
+     "fidelidade": 1.0
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.4,
+     "completude": 0.3333,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.8,
+     "completude": 0.5,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.6,
+     "completude": 0.4166,
+     "fidelidade": 1.0
+    }
+   }
+  },
+  {
+   "codigo": "P07",
+   "modelo": "llama3.1:8b",
+   "id": "R38",
+   "humana": {
+    "correcao": 1,
+    "fidelidade": 1
+   },
+   "com_observacao": true,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.0,
+     "completude": 0.2,
+     "fidelidade": 0.5
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.0,
+     "completude": 0.3333,
+     "fidelidade": 0.8333
+    },
+    "media_dos_juizes": {
+     "correcao": 0.0,
+     "completude": 0.2666,
+     "fidelidade": 0.6666
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.0,
+     "completude": 0.25,
+     "fidelidade": 0.7143
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.0,
+     "completude": 0.3333,
+     "fidelidade": 0.8333
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.0,
+     "completude": 0.2916,
+     "fidelidade": 0.7738
+    }
+   }
+  },
+  {
+   "codigo": "P08",
+   "modelo": "qwen3.8:27b",
+   "id": "R15",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.8,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.9,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    }
+   }
+  },
+  {
+   "codigo": "P09",
+   "modelo": "llama3.1:8b",
+   "id": "R41",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.4,
+     "completude": 1.0,
+     "fidelidade": 0.8
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.5,
+     "completude": 1.0,
+     "fidelidade": 0.6667
+    },
+    "media_dos_juizes": {
+     "correcao": 0.45,
+     "completude": 1.0,
+     "fidelidade": 0.7333
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.0,
+     "completude": 1.0,
+     "fidelidade": 0.8
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.5,
+     "completude": 1.0,
+     "fidelidade": 0.75
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.25,
+     "completude": 1.0,
+     "fidelidade": 0.775
+    }
+   }
+  },
+  {
+   "codigo": "P10",
+   "modelo": "llama3.1:8b",
+   "id": "R02",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": true,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.0,
+     "completude": 0.0,
+     "fidelidade": 0.4
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.0,
+     "completude": 0.0,
+     "fidelidade": 0.3333
+    },
+    "media_dos_juizes": {
+     "correcao": 0.0,
+     "completude": 0.0,
+     "fidelidade": 0.3667
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.2,
+     "completude": 0.0,
+     "fidelidade": 0.4
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.0,
+     "completude": 0.0,
+     "fidelidade": 0.7143
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.1,
+     "completude": 0.0,
+     "fidelidade": 0.5572
+    }
+   }
+  },
+  {
+   "codigo": "P11",
+   "modelo": "qwen3.8:27b",
+   "id": "R45",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.63,
+     "completude": 0.6,
+     "fidelidade": 0.8333
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.57,
+     "completude": 0.6667,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes": {
+     "correcao": 0.6,
+     "completude": 0.6333,
+     "fidelidade": 0.9166
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.63,
+     "completude": 0.6667,
+     "fidelidade": 0.9091
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.53,
+     "completude": 0.6667,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.58,
+     "completude": 0.6667,
+     "fidelidade": 0.9546
+    }
+   }
+  },
+  {
+   "codigo": "P12",
+   "modelo": "llama3.1:8b",
+   "id": "R48",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.83,
+     "completude": 0.6667,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.8,
+     "completude": 0.6,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes": {
+     "correcao": 0.815,
+     "completude": 0.6333,
+     "fidelidade": 1.0
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.83,
+     "completude": 0.6667,
+     "fidelidade": 0.8
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.8,
+     "completude": 0.6,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.815,
+     "completude": 0.6333,
+     "fidelidade": 0.9
+    }
+   }
+  },
+  {
+   "codigo": "P13",
+   "modelo": "llama3.1:8b",
+   "id": "R15",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes": {
+     "correcao": 0.5,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.5,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.25,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    }
+   }
+  },
+  {
+   "codigo": "P14",
+   "modelo": "qwen3.8:27b",
+   "id": "R47",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.56,
+     "completude": 0.8,
+     "fidelidade": 0.9091
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.63,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes": {
+     "correcao": 0.595,
+     "completude": 0.9,
+     "fidelidade": 0.9546
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.44,
+     "completude": 0.7143,
+     "fidelidade": 0.9091
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.67,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.555,
+     "completude": 0.8572,
+     "fidelidade": 0.9546
+    }
+   }
+  },
+  {
+   "codigo": "P15",
+   "modelo": "phi4-mini",
+   "id": "R02",
+   "humana": {
+    "correcao": 1,
+    "fidelidade": 2
+   },
+   "com_observacao": true,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.33,
+     "completude": 0.2,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.4,
+     "completude": 0.25,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes": {
+     "correcao": 0.365,
+     "completude": 0.225,
+     "fidelidade": 1.0
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.33,
+     "completude": 0.25,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.4,
+     "completude": 0.25,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.365,
+     "completude": 0.25,
+     "fidelidade": 1.0
+    }
+   }
+  },
+  {
+   "codigo": "P16",
+   "modelo": "phi4-mini",
+   "id": "R29",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": true,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.4,
+     "completude": 0.1667,
+     "fidelidade": 0.75
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.4,
+     "completude": 0.1667,
+     "fidelidade": 0.5
+    },
+    "media_dos_juizes": {
+     "correcao": 0.4,
+     "completude": 0.1667,
+     "fidelidade": 0.625
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.4,
+     "completude": 0.1667,
+     "fidelidade": 0.5
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.4,
+     "completude": 0.1667,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.4,
+     "completude": 0.1667,
+     "fidelidade": 0.75
+    }
+   }
+  },
+  {
+   "codigo": "P17",
+   "modelo": "llama3.1:8b",
+   "id": "R25",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.8,
+     "completude": 0.75,
+     "fidelidade": 0.8
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.75,
+     "completude": 1.0,
+     "fidelidade": 0.75
+    },
+    "media_dos_juizes": {
+     "correcao": 0.775,
+     "completude": 0.875,
+     "fidelidade": 0.775
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.73,
+     "completude": 0.75,
+     "fidelidade": 0.6667
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.86,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.795,
+     "completude": 0.875,
+     "fidelidade": 0.8334
+    }
+   }
+  },
+  {
+   "codigo": "P18",
+   "modelo": "qwen3.8:27b",
+   "id": "R37",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.93,
+     "completude": 1.0,
+     "fidelidade": 0.6667
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.93,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes": {
+     "correcao": 0.93,
+     "completude": 1.0,
+     "fidelidade": 0.8334
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.82,
+     "completude": 0.8889,
+     "fidelidade": 0.9
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.93,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.875,
+     "completude": 0.9445,
+     "fidelidade": 0.95
+    }
+   }
+  },
+  {
+   "codigo": "P19",
+   "modelo": "phi4-mini",
+   "id": "R33",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.17,
+     "completude": 0.0,
+     "fidelidade": 0.0
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.67,
+     "completude": 0.0,
+     "fidelidade": 0.0
+    },
+    "media_dos_juizes": {
+     "correcao": 0.42,
+     "completude": 0.0,
+     "fidelidade": 0.0
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.13,
+     "completude": 0.0,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.86,
+     "completude": 0.0,
+     "fidelidade": 0.5
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.495,
+     "completude": 0.0,
+     "fidelidade": 0.75
+    }
+   }
+  },
+  {
+   "codigo": "P20",
+   "modelo": "qwen3.8:27b",
+   "id": "R32",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.67,
+     "completude": 0.6667,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes": {
+     "correcao": 0.835,
+     "completude": 0.8334,
+     "fidelidade": 1.0
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.67,
+     "completude": 0.6667,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.835,
+     "completude": 0.8334,
+     "fidelidade": 1.0
+    }
+   }
+  },
+  {
+   "codigo": "P21",
+   "modelo": "phi4-mini",
+   "id": "R06",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 1.0,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    }
+   }
+  },
+  {
+   "codigo": "P22",
+   "modelo": "qwen3.8:27b",
+   "id": "R17",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.73,
+     "completude": 1.0,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.73,
+     "completude": 1.0,
+     "fidelidade": 0.8571
+    },
+    "media_dos_juizes": {
+     "correcao": 0.73,
+     "completude": 1.0,
+     "fidelidade": 0.9285
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.73,
+     "completude": 1.0,
+     "fidelidade": 0.875
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.73,
+     "completude": 1.0,
+     "fidelidade": 0.8571
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.73,
+     "completude": 1.0,
+     "fidelidade": 0.866
+    }
+   }
+  },
+  {
+   "codigo": "P23",
+   "modelo": "qwen3.8:27b",
+   "id": "R46",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.33,
+     "completude": 0.6667,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.33,
+     "completude": 0.3333,
+     "fidelidade": 0.6667
+    },
+    "media_dos_juizes": {
+     "correcao": 0.33,
+     "completude": 0.5,
+     "fidelidade": 0.8334
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.29,
+     "completude": 0.3333,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.4,
+     "completude": 0.5,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.345,
+     "completude": 0.4166,
+     "fidelidade": 1.0
+    }
+   }
+  },
+  {
+   "codigo": "P24",
+   "modelo": "phi4-mini",
+   "id": "R34",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.44,
+     "completude": 0.6667,
+     "fidelidade": 0.7778
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.38,
+     "completude": 0.1429,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes": {
+     "correcao": 0.41,
+     "completude": 0.4048,
+     "fidelidade": 0.8889
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.53,
+     "completude": 0.6667,
+     "fidelidade": 0.9167
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.47,
+     "completude": 0.7143,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.5,
+     "completude": 0.6905,
+     "fidelidade": 0.9584
+    }
+   }
+  },
+  {
+   "codigo": "P25",
+   "modelo": "phi4-mini",
+   "id": "R39",
+   "humana": {
+    "correcao": 0,
+    "fidelidade": 2
+   },
+   "com_observacao": true,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.0,
+     "completude": 0.0,
+     "fidelidade": 0.0
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.0,
+     "completude": 0.0,
+     "fidelidade": 0.0
+    },
+    "media_dos_juizes": {
+     "correcao": 0.0,
+     "completude": 0.0,
+     "fidelidade": 0.0
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.0,
+     "completude": 0.0,
+     "fidelidade": 0.4
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.0,
+     "completude": 0.0,
+     "fidelidade": 0.2
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.0,
+     "completude": 0.0,
+     "fidelidade": 0.3
+    }
+   }
+  },
+  {
+   "codigo": "P26",
+   "modelo": "phi4-mini",
+   "id": "R42",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.4,
+     "completude": 0.3333,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.67,
+     "completude": 0.5,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes": {
+     "correcao": 0.535,
+     "completude": 0.4166,
+     "fidelidade": 1.0
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.5,
+     "completude": 0.5,
+     "fidelidade": 0.0
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.67,
+     "completude": 0.5,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.585,
+     "completude": 0.5,
+     "fidelidade": 0.5
+    }
+   }
+  },
+  {
+   "codigo": "P27",
+   "modelo": "phi4-mini",
+   "id": "R01",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.67,
+     "completude": 0.6667,
+     "fidelidade": 0.6667
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.8,
+     "completude": 0.6667,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes": {
+     "correcao": 0.735,
+     "completude": 0.6667,
+     "fidelidade": 0.8334
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.67,
+     "completude": 0.75,
+     "fidelidade": 0.8
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.8,
+     "completude": 0.6667,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.735,
+     "completude": 0.7084,
+     "fidelidade": 0.9
+    }
+   }
+  },
+  {
+   "codigo": "P28",
+   "modelo": "qwen3.8:27b",
+   "id": "R12",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.78,
+     "completude": 0.6429,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.86,
+     "completude": 0.7857,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes": {
+     "correcao": 0.82,
+     "completude": 0.7143,
+     "fidelidade": 1.0
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.4,
+     "completude": 0.7857,
+     "fidelidade": 1.0
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.86,
+     "completude": 0.75,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.63,
+     "completude": 0.7678,
+     "fidelidade": 1.0
+    }
+   }
+  },
+  {
+   "codigo": "P29",
+   "modelo": "qwen3.8:27b",
+   "id": "R20",
+   "humana": {
+    "correcao": 2,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.44,
+     "completude": 0.3333,
+     "fidelidade": 0.6
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.44,
+     "completude": 0.3333,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes": {
+     "correcao": 0.44,
+     "completude": 0.3333,
+     "fidelidade": 0.8
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.4,
+     "completude": 0.3333,
+     "fidelidade": 0.8
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.44,
+     "completude": 0.3333,
+     "fidelidade": 1.0
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.42,
+     "completude": 0.3333,
+     "fidelidade": 0.9
+    }
+   }
+  },
+  {
+   "codigo": "P30",
+   "modelo": "llama3.1:8b",
+   "id": "R21",
+   "humana": {
+    "correcao": 0,
+    "fidelidade": 2
+   },
+   "com_observacao": false,
+   "juizes": {
+    "ministral-3:8b": {
+     "correcao": 0.0,
+     "completude": 0.0,
+     "fidelidade": 0.3333
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": 0.29,
+     "completude": 0.0,
+     "fidelidade": 0.5
+    },
+    "media_dos_juizes": {
+     "correcao": 0.145,
+     "completude": 0.0,
+     "fidelidade": 0.4166
+    },
+    "ministral-3:8b|pt": {
+     "correcao": 0.14,
+     "completude": 0.0,
+     "fidelidade": 0.5
+    },
+    "gemma4:e4b-it-qat|pt": {
+     "correcao": 0.0,
+     "completude": 0.0,
+     "fidelidade": 0.5
+    },
+    "media_dos_juizes|pt": {
+     "correcao": 0.07,
+     "completude": 0.0,
+     "fidelidade": 0.5
+    }
+   }
+  }
+ ]
+}

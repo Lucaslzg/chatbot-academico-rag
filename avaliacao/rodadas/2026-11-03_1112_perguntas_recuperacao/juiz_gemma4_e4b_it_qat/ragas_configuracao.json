@@ -1,0 +1,38 @@
+[
+ {
+  "juiz": "gemma4:e4b-it-qat",
+  "opcoes": {
+   "temperature": 0,
+   "num_ctx": 8192,
+   "num_predict": 2048,
+   "seed": 42
+  },
+  "ragas": "0.4.3",
+  "versao_chatbot": "09",
+  "inicio": "2026-11-03T14:44:45"
+ },
+ {
+  "juiz": "gemma4:e4b-it-qat",
+  "opcoes": {
+   "temperature": 0,
+   "num_ctx": 8192,
+   "num_predict": 2048,
+   "seed": 42
+  },
+  "ragas": "0.4.3",
+  "versao_chatbot": "10",
+  "inicio": "2026-11-04T03:10:36"
+ },
+ {
+  "juiz": "gemma4:e4b-it-qat",
+  "opcoes": {
+   "temperature": 0,
+   "num_ctx": 8192,
+   "num_predict": 2048,
+   "seed": 42
+  },
+  "ragas": "0.4.3",
+  "versao_chatbot": "12",
+  "inicio": "2026-11-04T23:37:06"
+ }
+]

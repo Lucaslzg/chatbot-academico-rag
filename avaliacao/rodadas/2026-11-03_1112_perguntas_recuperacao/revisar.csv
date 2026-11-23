@@ -1,0 +1,86 @@
+﻿modelo;id;pergunta;sem_resposta;categoria;motivo;resposta;resposta_correta;sua conferência
+llama3.1:8b;R03;Quantas vezes posso trancar a mesma disciplina?;não;mista;cita trechos e diz que não encontrou;Não há menção específica sobre trancar disciplinas no texto fornecido. O documento trata sobre o Trancamento Total de matrícula, que ocorre quando o discente solicita interrupção dos estudos pelo prazo de 1 (um) semestre letivo regular [1]. Não encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.;Cada componente curricular pode ser trancado apenas uma vez ao longo do curso.;manter
+llama3.1:8b;R11;Em quais situações o aluno perde o vínculo com a universidade?;não;abstencao_com_acrescimo;diz que não encontrou e acrescenta algo sem citar;"O aluno perde o vínculo com a universidade em seguintes situações:
+
+- Cancelamento de matrícula [6, I];
+- Abandono [7];
+- Desligamento [8], que ocorre em 7 situações:
+  - Discente ultrapassa o tempo máximo de integralização curricular previsto no projeto pedagógico do curso com o qual possui vínculo [8, I];
+  - Discente reprovado por frequência em todos os componentes curriculares matriculados no semestre, durante 2 (dois) semestres consecutivos ou 4 (quatro) intercalados, quando discente de curso presencial [8, II];
+  - Ao ser reprovado por nota em todos os componentes curriculares em que estiver matriculado no semestre, por 2 (duas) vezes consecutivas ou 3 (três) intercaladas, quando discente de curso nas modalidades semipresencial e a distância [8, III];
+  - Discente ingressante sem registro de frequência em nenhum componente curricular, no primeiro semestre letivo [8, IV];
+  - Sanção disciplinar submetida ao discente, em consonância com o inciso V, do artigo 158, do Regimento Geral da Universidade [8, V];
+  - Decisão judicial, com trânsito em julgado [8, VI];
+  - Em caso de óbito do discente [8, VII].
+- Transferência externa (voluntária ou ex-officio) [5, V].
+
+Não encontrei informação sobre a perda do vínculo por meio da colação de grau.";O discente perde o vínculo com o curso, e a vaga, por cancelamento de matrícula, abandono, desligamento, reopção de curso, transferência externa (voluntária ou ex-officio) ou colação de grau. O abandono ocorre quando, nos prazos do Calendário Acadêmico, o discente não faz matrícula no semestre letivo regular nem solicita trancamento de matrícula ou sem oferta de disciplina. O desligamento ocorre, entre outros casos, quando o discente ultrapassa o tempo máximo de integralização (salvo discente com deficiência), é reprovado por frequência em todos os componentes do semestre por 2 semestres consecutivos ou 4 intercalados em curso presencial, ou é ingressante sem frequência em nenhum componente no primeiro semestre, além de sanção disciplinar, decisão judicial transitada em julgado ou óbito.;corrigir para resposta
+llama3.1:8b;R21;Quem pode ser professor orientador de estágio?;não;mista;cita trechos e diz que não encontrou;"De acordo com o Art. 34 da Resolução CONSUNI/UNIPAMPA nº 329, de 4 de novembro de 2021 [3], os Orientadores de Estágio são responsáveis por assegurar-se das adequações da parte concedente do estágio, física, cultural e profissional para formação do educando.
+
+Não encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.";O orientador de estágio deve ser um docente em exercício na UNIPAMPA, vinculado ao curso em que o estagiário está matriculado, e precisa estar em exercício durante o período de orientação previsto no Termo de Compromisso de Estágio.;manter
+llama3.1:8b;R52;Quantas horas de atividades de extensão o curso de Engenharia de Computação exige?;não;abstencao;abstenção com outras palavras (conferir se é mesmo abstenção);"Não há informações sobre horas de atividades de extensão no trecho fornecido.
+
+O que não foi encontrado: Informações específicas sobre horas de atividades de extensão.";O curso exige 360 horas de atividades curriculares de extensão, o que corresponde a 24 créditos e a 10% da carga horária total do curso.;manter
+llama3.1:8b;N02;Qual é o cardápio do restaurante universitário hoje?;sim;abstencao;abstenção com outras palavras (conferir se é mesmo abstenção);Não encontrei informações sobre o cardápio do restaurante universitário nos trechos fornecidos [1]. Procure a coordenação do seu curso para obter orientação.;;manter
+llama3.1:8b;N03;Qual é a nota de corte do SISU para Engenharia de Computação?;sim;mista;respondeu a uma pergunta que os documentos não respondem;"Não há informações específicas sobre a nota de corte do SISU para Engenharia de Computação nos trechos fornecidos.
+
+[2] Documento: Resolução nº 260, de 11 de novembro de 2019: normas para ingresso no ensino de graduação (texto consolidado até a Resolução nº 474/2026) | p. 3-4 | CAPÍTULO II (Do processo seletivo) | Arts. 13 a 18
+
+§ 3º A partir de consulta realizada pela Pró-Reitoria de Graduação antes de cada edição do SiSU, poderão ser definidos pesos e notas mínimas diferentes dos estabelecidos no inciso 2. A alteração deverá ser aprovada pela Comissão Local de Ensino.
+
+[2] Documento: Resolução nº 260, de 11 de novembro de 2019: normas para ingresso no ensino de graduação (texto consolidado até a Resolução nº 474/2026) | p. 3-4 | CAPÍTULO II (Do processo seletivo) | Arts. 13 a 18
+
+§ 2º Serão aplicados os seguintes pesos e notas mínimas para todos os cursos:
+Prova | Peso | Nota Mínima
+Matemática e suas tecnologias | 1 (um) | 300 pontos
+Ciências da Natureza e suas tecnologias | 1 (um) | 300 pontos
+Linguagens, Códigos e suas tecnologias | 1 (um) | 300 pontos
+Ciências Humanas e suas tecnologias | 1 (um) | 300 pontos
+Redação | 1 (um) | 300 pontos
+Média minima no ENEM | - | 300 pontos
+
+Não encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.";;corrigir para abstenção (acréscimo citado e fiel aos documentos, como informação relacionada)
+llama3.1:8b;N04;Qual é a capital da França?;sim;abstencao;abstenção com outras palavras (conferir se é mesmo abstenção);"Não encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.
+
+(Era esperado que o trecho [2] mencionasse Paris como capital da França, mas não foi encontrado.)";;corrigir para abstenção com acréscimo
+llama3.1:8b;N05;Quanto custa a refeição no restaurante universitário?;sim;resposta;respondeu a uma pergunta que os documentos não respondem;"A refeição no restaurante universitário custa 100% da refeição subsidiada pela UNIPAMPA, mas não há valor específico mencionado nesse trecho [1]. O valor é referido apenas como ""70% do valor da refeição subsidiada pela UNIPAMPA nos Restaurantes Universitários"" para os estudantes que recebem o subsídio parcial. Não encontrei a informação sobre o valor da refeição no restaurante universitário. Procure a coordenação do seu curso para obter orientação.";;manter
+qwen3.8:27b;R38;Qual o período para solicitar o trancamento total em 2026/1?;não;mista;cita trechos e diz que não encontrou;"Os trechos fornecidos **não contêm** as datas específicas (prazo de início e término) para solicitar o trancamento total no semestre letivo 2026/1.
+
+O que os documentos informam é:
+*   O trancamento deve ser solicitado ""nos prazos previstos no Calendário Acadêmico"" [1].
+*   O Semestre Letivo 2026/1 ocorre de **09/03 a 18/07/2026** [5].
+*   Os trechos trazem datas específicas para outros processos (como abandonos, regime especial e mobilidade) no semestre 2026/2, mas não listam as datas do trancamento total para o semestre 2026/1 [3].
+
+Não encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.";O trancamento total de 2026/1 pode ser solicitado pelo discente de 23/02/2026 a 10/04/2026, no Portal do Aluno.;manter
+qwen3.8:27b;N05;Quanto custa a refeição no restaurante universitário?;sim;resposta;respondeu a uma pergunta que os documentos não respondem;Os trechos fornecidos não especificam o valor monetário da refeição no restaurante universitário [1]. Eles informam apenas que os estudantes recebem um subsídio de 70% ou 100% do valor subsidiado pela UNIPAMPA, dependendo da modalidade do benefício [1].;;corrigir para abstenção (acréscimo citado e correto, apresentado como informação adicional)
+phi4-mini;R03;Quantas vezes posso trancar a mesma disciplina?;não;abstencao;abstenção com outras palavras (conferir se é mesmo abstenção);Não foi encontrada na informação fornecida quantas vezes você pode trancar a mesma disciplina. [1];Cada componente curricular pode ser trancado apenas uma vez ao longo do curso.;manter
+phi4-mini;R07;Qual o prazo para pedir revisão de nota?;não;abstencao;abstenção com outras palavras (conferir se é mesmo abstenção);Não encontrei esa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.;O pedido de revisão da nota parcial ou final deve ser feito à Coordenação de Curso, com justificativa em documento físico, em até 5 (cinco) dias úteis após a informação do resultado da avaliação.;manter
+phi4-mini;R09;Quantos dias letivos tem, no mínimo, um semestre regular?;não;abstencao;abstenção com outras palavras (conferir se é mesmo abstenção);Não encontrei esa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.;Cada semestre letivo regular tem, no mínimo, 100 (cem) dias letivos.;manter
+phi4-mini;R12;Qual é a ordem de prioridade na matrícula em componentes curriculares?;não;mista;cita trechos e diz que não encontrou;"A ordem de prioridade na matrícula em componentes curriculares é:
+
+1. Discentes com deficiência (III) - [3]
+2. Discentes classificados como público-alvo das demais ações afirmativas, acadêmicas-mães de menores de idade (até cinco anos de idade) e pessoas transgêneros (II) - [3]
+3. Discentes ingressantes (IV) - [3]
+4. Discentes com matrícula regular em período ideal (IV) - [3]
+5. Discentes no último ano do Curso (V) - [3]
+6. Discentes que integralizaram mais de 80% da carga horária do curso em componentes curriculares obrigatórios e complementares (VI) - [3]
+7. Discentes com matrícula regular (VII) - [3]
+8. Discentes ingressantes pelo edital do Segundo Ciclo de Formação, do Bacharelado Interdisciplinar, em sua primeira solicitação de matrícula (VIII) - [3]
+
+Não encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.";"A prioridade de matrícula segue esta ordem: (1) discentes com deficiência; (2) discentes público-alvo das demais ações afirmativas, acadêmicas mães de crianças de até cinco anos de idade e pessoas transgênero; (3) ingressantes; (4) discentes com matrícula regular em período ideal; (5) discentes no último ano do curso; (6) discentes que integralizaram mais de 80% da carga horária do curso em componentes obrigatórios e complementares; (7) discentes com matrícula regular; (8) ingressantes pelo edital do Segundo Ciclo de Formação do Bacharelado Interdisciplinar, em sua primeira solicitação de matrícula; (9) ingressantes pelo edital do Processo Seletivo Complementar; (10) ingressantes por transferência ex-officio. Quando as solicitações superam as vagas, usa-se o índice de desempenho para priorizar a matrícula entre os grupos 3 a 10.";manter
+phi4-mini;R23;O que é a láurea acadêmica?;não;mista;cita trechos e diz que não encontrou;"A Láurea Acadêmica é menção conferida ao discente que concluir o curso de graduação com desempenho acadêmico excepcional [2]. Os critérios incluem média aritmética resultante das notas atribuídas, atividades complementares de graduação desenvolvidas pelo discente, aspectos formativos como assiduidade, responsabilidade, ética e respeito, além do compromisso com o Projeto Institucional da UNIPAMPA [2][5]. A concessão é determinada pela Comissão de Curso em consonância com as Normas Básicas de Graduação [1][2] [5].
+
+Não encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.";A Láurea Acadêmica é uma menção concedida ao discente que conclui o curso de graduação com desempenho acadêmico excepcional. A Comissão de Curso decide a concessão avaliando, de forma conjunta e equilibrada, a média das notas nos componentes curriculares, as atividades complementares, os aspectos formativos e o comprometimento com o Projeto Institucional da UNIPAMPA. Em Engenharia de Computação, os critérios incluem média no curso igual ou superior a 8,5, nota no Trabalho de Conclusão de Curso II igual ou superior a 9,0 e nenhuma reprovação em componentes do curso.;manter
+phi4-mini;R24;Quanto da carga horária pode ser aproveitada por quem entra por transferência voluntária?;não;abstencao;abstenção com outras palavras (conferir se é mesmo abstenção);A carga horária que pode ser aproveitada por quem entra por transferência voluntária não foi especificada em os trechos fornecidos. [1][2][3];Para quem ingressa por transferência, não se aplica o limite geral de aproveitamento de até 50% da carga horária do curso atual, pois os casos de transferência são exceção a essa regra.;manter
+phi4-mini;R50;Quais são os feriados e pontos facultativos do semestre 2026/1?;não;mista;cita trechos e diz que não encontrou;"Os feriados e pontos facultativos do semestre 2026/1 são:
+
+- Tiradentes (21/04/2026, terça-feira) [2]
+- Corpus Christi (04/06/2026, quinta-feira) [2]
+- Paixão de Cristo (03/04/2026, sexta-feira) [3]
+- São Gabriel (04/04/2026, sábado) [3]
+
+Não encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.";No semestre 2026/1, os feriados nacionais são 03/04/2026 (Paixão de Cristo), 21/04/2026 (Tiradentes) e 01/05/2026 (Dia Mundial do Trabalhador), e os pontos facultativos são 20/04/2026, 04/06/2026 (Corpus Christi) e 05/06/2026. Há também datas municipais: 17/03/2026 (feriado em Itaqui), 04/04/2026 (feriado em São Gabriel), 21/05/2026 (ponto facultativo em São Borja) e 24/05/2026 (feriado em Bagé).;manter
+phi4-mini;N03;Qual é a nota de corte do SISU para Engenharia de Computação?;sim;mista;respondeu a uma pergunta que os documentos não respondem;"A nota de corte específica do SISU (Sistema de Seleção Unificada) para Engenharia de Computação não é mencionada explicitamente em nenhum dos trechos fornecidos [1][2]. Portanto, respondo: ""Não encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.""";;corrigir para abstenção
+phi4-mini;N04;Qual é a capital da França?;sim;abstencao;abstenção com outras palavras (conferir se é mesmo abstenção);A capital da França não foi mencionada nos trechos fornecidos. [1];;manter
+phi4-mini;N05;Quanto custa a refeição no restaurante universitário?;sim;abstencao;abstenção com outras palavras (conferir se é mesmo abstenção);A informação sobre o custo da refeição no restaurante universitário não foi encontrada nos documentos disponíveis. [1];;manter
+phi4-mini;N06;Quais linhas de ônibus levam ao campus Bagé?;sim;abstencao;abstenção com outras palavras (conferir se é mesmo abstenção);Não encontrei esa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.;;manter

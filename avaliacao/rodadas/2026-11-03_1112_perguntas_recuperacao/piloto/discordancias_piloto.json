@@ -1,0 +1,2611 @@
+[
+ {
+  "codigo": "P01",
+  "modelo": "llama3.1:8b",
+  "id": "R32",
+  "pergunta": "A partir de quando a licença maternidade pode ser requerida?",
+  "resposta_correta": "A licença maternidade pode ser requerida à Secretaria Acadêmica a partir do 8º (oitavo) mês de gestação ou após o nascimento do bebê.",
+  "resposta": "A licença maternidade pode ser requerida à Secretaria Acadêmica a partir do 8º (oitavo) mês de gestação, ou após o nascimento do bebê [2].",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 0.835,
+   "completude": 0.8334,
+   "fidelidade": 1.0
+  },
+  "nivel_pt": {
+   "correcao": 2,
+   "completude": 2,
+   "fidelidade": 2
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.6667,
+    "f1": 0.67,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "A licença maternidade pode ser requerida **pela** Secretaria Acadêmica.",
+      "motivo": "O contexto menciona que a licença pode ser requerida **à** Secretaria Acadêmica, mas não afirma que a própria Secretaria é a solicitante. A redação sugere que a solicitação é feita **para** a Secretaria, não que ela é a responsável por requerer. Além disso, a formulação 'pela' implica que a Secretaria é a agente ativo, o que não é explicitado no texto."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "A licença maternidade pode ser requerida **pela** Secretaria Acadêmica.",
+      "motivo": "O contexto menciona que a licença pode ser requerida **à** Secretaria Acadêmica, mas não afirma explicitamente que a própria Secretaria é a solicitante. A redação sugere que a solicitação é feita **para** a Secretaria, não que ela é a responsável por requerer. Além disso, não há menção de que a Secretaria é a única ou principal responsável por iniciar o processo. A palavra 'pela' implica uma agência ativa, o que não é confirmado."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 3,
+    "n_afirmacoes_fidelidade": 3
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 1.0,
+    "f1": 1.0,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [],
+    "resposta_sem_apoio_na_referencia": [],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 2,
+    "n_afirmacoes_fidelidade": 2
+   }
+  }
+ },
+ {
+  "codigo": "P02",
+  "modelo": "llama3.1:8b",
+  "id": "R14",
+  "pergunta": "Em quanto tempo devo entregar o atestado médico?",
+  "resposta_correta": "Na licença para tratamento de saúde, o pedido com o atestado ou laudo deve ser entregue à Secretaria Acadêmica em até 5 (cinco) dias consecutivos a partir do prazo indicado no atestado ou laudo. Pedidos apresentados depois desse prazo não são aceitos.",
+  "resposta": "De acordo com o documento [1], em até 5 (cinco) dias consecutivos a partir do prazo indicado em laudo ou atestado de médico ou de cirurgião dentista à Secretaria Acadêmica, determinando o início e o fim do período da licença. [1] Art. 17, I.\n\nAlém disso, também é mencionado que a solicitação de licença deverá ser apresentada pelo discente ou seu representante legal em até 5 (cinco) dias úteis após o início pretendido para o gozo, não sendo aceitos pedidos posteriores ao período mencionado, mediante apresentação da certidão de óbito, nos casos de falecimento, atestado médico, nos casos de doença ou certidão de casamento, à Secretaria Acadêmica. [3] Art. 19, II.\n\nE também em até 5 (cinco) dias após o início pretendido para o gozo, não sendo aceitos pedidos posteriores ao período mencionado, mediante apresentação da certidão de óbito, nos casos de falecimento, atestado médico, nos casos de doença ou certidão de casamento. [3] Art. 19, II.\n\nPortanto, a resposta é que o prazo para entrega do atestado médico varia entre 5 dias consecutivos e 5 dias úteis após o início pretendido para o gozo da licença, dependendo do tipo de licença solicitada. [1][3]\n\nNão foi encontrado qual é o prazo específico para a entrega do atestado médico em caso de licença maternidade.",
+  "humana": {
+   "correcao": 1,
+   "fidelidade": 2
+  },
+  "com_observacao": true,
+  "media_pt": {
+   "correcao": 0.29,
+   "completude": 0.875,
+   "fidelidade": 0.65
+  },
+  "nivel_pt": {
+   "correcao": 1,
+   "completude": 2,
+   "fidelidade": 1
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.75,
+    "f1": 0.29,
+    "fidelidade": 0.4,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "O prazo para entrega do pedido de licença para tratamento de saúde é de até 5 (cinco) dias consecutivos a partir da data indicada no atestado ou laudo.",
+      "motivo": "O contexto menciona que, em casos de doença, o prazo para entrega da solicitação é de até 5 dias consecutivos a partir do início pretendido para o gozo da licença, mas não especifica se isso se aplica *exclusivamente* ao pedido ou ao atestado. Além disso, o contexto também menciona um prazo de 5 dias úteis para a solicitação inicial. Portanto, não é possível inferir que o prazo de 5 dias consecutivos se aplica *somente* ao pedido de licença para tratamento de saúde, pois o contexto não diferencia explicitamente os prazos para entrega do pedido vs. do atestado. Além disso, o contexto menciona que o prazo pode variar entre 5 dias consecutivos e 5 dias úteis, dependendo do tipo de licença."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "O documento menciona que, em até 5 dias consecutivos a partir do prazo indicado em laudo ou atestado médico ou de cirurgião dentista, é possível solicitar uma licença à Secretaria Acadêmica, com início e fim do período definidos no documento. (Art. 17, I)",
+      "motivo": "O contexto menciona que o pedido deve ser entregue em até 5 dias consecutivos a partir do prazo indicado no atestado ou laudo, mas não menciona explicitamente que a solicitação é feita 'em até 5 dias consecutivos a partir do prazo indicado no documento' como início e fim do período. Além disso, não há referência ao Art. 17, I no contexto fornecido. A afirmação é parcialmente correta, mas não pode ser diretamente inferida com precisão."
+     },
+     {
+      "afirmacao": "A solicitação de licença deve ser apresentada pelo discente ou seu representante legal em até 5 dias úteis após o início pretendido para o gozo da licença. (Art. 19, II)",
+      "motivo": "O contexto menciona apenas '5 (cinco) dias consecutivos' e não '5 dias úteis'. Além disso, não há menção ao Art. 19, II ou à apresentação pelo discente ou representante legal. A afirmação não pode ser inferida diretamente do contexto."
+     },
+     {
+      "afirmacao": "Pedidos de licença não são aceitos após o período de 5 dias úteis após o início pretendido, exceto nos casos de falecimento, doença ou casamento, mediante apresentação de certidão de óbito, atestado médico ou certidão de casamento, respectivamente. (Art. 19, II)",
+      "motivo": "O contexto afirma que pedidos apresentados após 5 dias consecutivos não são aceitos, mas não menciona '5 dias úteis' nem exceções como falecimento, doença ou casamento. Além disso, não há referência ao Art. 19, II. A afirmação não pode ser inferida diretamente do contexto."
+     },
+     {
+      "afirmacao": "O prazo para entrega do atestado médico pode variar entre 5 dias consecutivos e 5 dias úteis após o início pretendido para o gozo da licença, dependendo do tipo de licença solicitada.",
+      "motivo": "O contexto menciona apenas '5 (cinco) dias consecutivos' e não faz referência a '5 dias úteis' ou a variações dependendo do tipo de licença. Não há menção a essa variação no texto."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "O documento estabelece que o atestado médico deve ser entregue em até 5 dias consecutivos a partir do prazo indicado no laudo ou atestado de médico ou cirurgião dentista à Secretaria Acadêmica. Esse prazo determina o início e o fim do período da licença. Essa informação está prevista no Artigo 17, inciso I.",
+      "motivo": "O contexto menciona no Art. 17, inciso I, que a solicitação de licença deve ser apresentada em até 5 dias consecutivos a partir do prazo indicado no laudo ou atestado médico. No entanto, o texto não afirma explicitamente que o atestado médico deve ser entregue em até 5 dias consecutivos a partir do prazo indicado no próprio atestado ou laudo. Além disso, o inciso I menciona que a solicitação deve ser apresentada em até 5 dias consecutivos a partir do prazo indicado no laudo ou atestado, não necessariamente que o atestado deve ser entregue nesse prazo. A afirmação é parcialmente correta, mas não é uma inferência direta e precisa."
+     },
+     {
+      "afirmacao": "O prazo para entrega do atestado médico também deve ser feito em até 5 dias após o início pretendido para o gozo da licença, independentemente do tipo de licença solicitada. Pedidos posteriores ao período mencionado não serão aceitos. Essa informação é complementar ao Artigo 19, inciso II.",
+      "motivo": "O contexto não afirma explicitamente que o prazo para entrega do atestado médico é de 5 dias após o início pretendido para o gozo da licença de forma geral ou independente do tipo de licença. O Art. 17 menciona 5 dias consecutivos, enquanto o Art. 19 menciona 5 dias úteis. Além disso, o Art. 12 (licença maternidade) menciona 15 dias após o início da licença. Portanto, o prazo não é universalmente de 5 dias para todas as licenças."
+     },
+     {
+      "afirmacao": "O documento não especifica qual é o prazo específico para a entrega do atestado médico em caso de licença maternidade.",
+      "motivo": "O contexto menciona no Art. 12, inciso II, que a solicitação de licença maternidade deve ser apresentada em até 15 dias após o início da licença, mediante entrega de atestado médico. Portanto, o documento especifica o prazo de 15 dias para a licença maternidade."
+     }
+    ],
+    "n_afirmacoes_referencia": 4,
+    "n_afirmacoes_fidelidade": 5
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 1.0,
+    "f1": 0.29,
+    "fidelidade": 0.9,
+    "referencia_nao_encontrada": [],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "O documento estabelece que, em até 5 dias consecutivos a partir do prazo indicado em laudo ou atestado de médico ou de cirurgião dentista, deve ser apresentado à Secretaria Acadêmica a determinação do início e do fim do período da licença (Art. 17, I).",
+      "motivo": "O contexto afirma que o pedido com o atestado ou laudo deve ser entregue à Secretaria Acadêmica em até 5 (cinco) dias consecutivos a partir do prazo indicado no atestado ou laudo, mas não especifica a determinação do início e do fim do período da licença nem cita o Art. 17, I."
+     },
+     {
+      "afirmacao": "A solicitação de licença deve ser apresentada pelo discente ou seu representante legal em até 5 dias úteis após o início pretendido para o gozo da licença (Art. 19, II).",
+      "motivo": "O contexto não menciona a apresentação da solicitação de licença por discente ou representante legal nem especifica um prazo de 5 dias úteis após o início pretendido, apenas o prazo para entrega do atestado/laudo."
+     },
+     {
+      "afirmacao": "Pedidos de licença apresentados após o período mencionado não serão aceitos, exceto mediante apresentação de certidão de óbito em casos de falecimento, atestado médico em casos de doença ou certidão de casamento à Secretaria Acadêmica (Art. 19, II).",
+      "motivo": "O contexto afirma que pedidos apresentados depois do prazo não são aceitos, mas não menciona exceções como certidão de óbito, atestado médico ou certidão de casamento."
+     },
+     {
+      "afirmacao": "Existe uma menção de que, em até 5 dias após o início pretendido para o gozo, pedidos de licença não serão aceitos se apresentados após o período mencionado, exceto mediante apresentação de certidão de óbito, atestado médico ou certidão de casamento (Art. 19, II).",
+      "motivo": "O contexto não menciona um prazo de 5 dias após o início pretendido para o gozo, nem as exceções listadas."
+     },
+     {
+      "afirmacao": "O prazo para entrega do atestado médico varia entre 5 dias consecutivos e 5 dias úteis após o início pretendido para o gozo da licença, dependendo do tipo de licença solicitada.",
+      "motivo": "O contexto estabelece um prazo de 5 dias consecutivos a partir do prazo indicado no atestado ou laudo, mas não menciona variação para 5 dias úteis nem dependência do tipo de licença."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "Não foi encontrado o prazo específico para a entrega do atestado médico em caso de licença maternidade.",
+      "motivo": "O Art. 12, inciso II, da Seção III estabelece que a solicitação de licença maternidade deve ser apresentada em até 15 (quinze) dias após o seu início, mediante entrega de atestado ou laudo médico à Secretaria Acadêmica."
+     }
+    ],
+    "n_afirmacoes_referencia": 3,
+    "n_afirmacoes_fidelidade": 10
+   }
+  }
+ },
+ {
+  "codigo": "P03",
+  "modelo": "qwen3.8:27b",
+  "id": "R09",
+  "pergunta": "Quantos dias letivos tem, no mínimo, um semestre regular?",
+  "resposta_correta": "Cada semestre letivo regular tem, no mínimo, 100 (cem) dias letivos.",
+  "resposta": "Um semestre regular tem, no mínimo, 100 dias letivos [4].",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 1.0,
+   "completude": 1.0,
+   "fidelidade": 1.0
+  },
+  "nivel_pt": {
+   "correcao": 2,
+   "completude": 2,
+   "fidelidade": 2
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 1.0,
+    "f1": 1.0,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [],
+    "resposta_sem_apoio_na_referencia": [],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 2,
+    "n_afirmacoes_fidelidade": 2
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 1.0,
+    "f1": 1.0,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [],
+    "resposta_sem_apoio_na_referencia": [],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 1,
+    "n_afirmacoes_fidelidade": 1
+   }
+  }
+ },
+ {
+  "codigo": "P04",
+  "modelo": "phi4-mini",
+  "id": "R44",
+  "pergunta": "Qual a duração máxima de um estágio na mesma empresa?",
+  "resposta_correta": "O estágio na mesma parte concedente não pode durar mais de 2 (dois) anos, exceto quando se tratar de discente com deficiência.",
+  "resposta": "A duração máxima de um estágio na mesma empresa é de 2 (dois) anos, exceto quando se trata de discente com deficiência [1][2].",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 0.9,
+   "completude": 0.875,
+   "fidelidade": 1.0
+  },
+  "nivel_pt": {
+   "correcao": 2,
+   "completude": 2,
+   "fidelidade": 2
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.75,
+    "f1": 0.8,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "A regra de limite de 2 anos para estágio na mesma parte concedente não se aplica em casos específicos.",
+      "motivo": "O contexto menciona que a regra de 2 anos não se aplica 'exceto quando se trata de discente com deficiência', o que é uma exceção específica, não uma regra geral de casos específicos genéricos."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 4,
+    "n_afirmacoes_fidelidade": 2
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 1.0,
+    "f1": 1.0,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [],
+    "resposta_sem_apoio_na_referencia": [],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 2,
+    "n_afirmacoes_fidelidade": 2
+   }
+  }
+ },
+ {
+  "codigo": "P05",
+  "modelo": "llama3.1:8b",
+  "id": "R24",
+  "pergunta": "Quanto da carga horária pode ser aproveitada por quem entra por transferência voluntária?",
+  "resposta_correta": "Para quem ingressa por transferência, não se aplica o limite geral de aproveitamento de até 50% da carga horária do curso atual, pois os casos de transferência são exceção a essa regra.",
+  "resposta": "A resposta está no [3] Documento: Resolução CONSUNI/UNIPAMPA nº 480, de 20 de agosto de 2026.\n\nArt. 60. Um componente curricular pode ser aproveitado por equivalência de conteúdos ou por valor formativo.\n§ 2º Poderá ser aproveitada até 50% (cinquenta por cento) da carga horária do curso atual, salvo norma institucional específica, ou regramento definido no projeto pedagógico do curso de graduação, ou nos casos de transferência.\n\nPortanto, a resposta é: Poderá ser aproveitada até 50% (cinquenta por cento) da carga horária do curso atual.",
+  "humana": {
+   "correcao": 1,
+   "fidelidade": 2
+  },
+  "com_observacao": true,
+  "media_pt": {
+   "correcao": 0.11,
+   "completude": 0.625,
+   "fidelidade": 0.65
+  },
+  "nivel_pt": {
+   "correcao": 0,
+   "completude": 1,
+   "fidelidade": 1
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.75,
+    "f1": 0.0,
+    "fidelidade": 0.5,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "Os casos de ingresso por transferência não estão sujeitos ao limite geral de aproveitamento de até 50% da carga horária do curso atual.",
+      "motivo": "O §2º do Art. 60 menciona que 'nos casos de transferência' pode haver uma exceção ao limite geral de 50%, mas não afirma explicitamente que os casos de transferência *não* estão sujeitos ao limite geral. A redação é ambígua: 'salvo' pode indicar que o limite geral não se aplica *somente* nos casos de transferência, mas não necessariamente que o limite geral não se aplica *de todo* nesses casos. Portanto, não é possível inferir diretamente que os casos de transferência estão isentos do limite geral."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "A resposta está no Documento: Resolução CONSUNI/UNIPAMPA nº 480, de 20 de agosto de 2026.",
+      "motivo": "O contexto não menciona nenhum documento específico ou referência à Resolução CONSUNI/UNIPAMPA nº 480/2026. Não há base para inferir isso."
+     },
+     {
+      "afirmacao": "O Artigo 60 da Resolução CONSUNI/UNIPAMPA nº 480/2026 trata sobre o aproveitamento de componentes curriculares.",
+      "motivo": "O contexto não faz referência ao Artigo 60 ou à Resolução mencionada, tampouco detalha o aproveitamento de componentes curriculares. Não é possível inferir isso."
+     },
+     {
+      "afirmacao": "Um componente curricular pode ser aproveitado por equivalência de conteúdos ou por valor formativo.",
+      "motivo": "O contexto não aborda o aproveitamento de componentes curriculares por equivalência ou valor formativo. Não há base para inferir isso."
+     },
+     {
+      "afirmacao": "O aproveitamento de carga horária pode atingir até 50% (cinquenta por cento) do curso atual, conforme o § 2º do Art. 60.",
+      "motivo": "O contexto menciona que o limite geral de aproveitamento é de até 50% da carga horária, mas não faz referência ao § 2º do Art. 60 ou a uma norma específica que o regulamente. Além disso, o contexto esclarece que os casos de transferência são exceção a essa regra geral."
+     },
+     {
+      "afirmacao": "O limite de 50% (cinquenta por cento) da carga horária pode ser alterado por norma institucional específica ou regramento definido no projeto pedagógico do curso de graduação.",
+      "motivo": "O contexto não menciona a possibilidade de alteração do limite de 50% por normas institucionais ou projetos pedagógicos. Não há base para inferir isso."
+     },
+     {
+      "afirmacao": "O aproveitamento de carga horária também pode ser aplicado em casos de transferência, conforme o Art. 60 da Resolução CONSUNI/UNIPAMPA nº 480/2026.",
+      "motivo": "O contexto afirma que, para quem ingressa por transferência, não se aplica o limite geral de aproveitamento de até 50% da carga horária, mas não menciona o Art. 60 ou a Resolução específica. Além disso, não há referência direta ao aproveitamento de carga horária em casos de transferência como regra geral."
+     },
+     {
+      "afirmacao": "A resposta final é que até 50% (cinquenta por cento) da carga horária do curso atual pode ser aproveitada.",
+      "motivo": "O contexto esclarece que o limite geral de aproveitamento é de até 50% da carga horária, mas ressalta que os casos de transferência são exceção a essa regra. Portanto, não é possível afirmar que até 50% da carga horária pode ser aproveitada de forma geral, já que os transferidos estão isentos desse limite."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "A resposta sobre a carga horária aproveitável por transferência voluntária está no Documento: Resolução CONSUNI/UNIPAMPA nº 480, de 20 de agosto de 2026.",
+      "motivo": "O contexto menciona a transferência voluntária no Art. 58 da Resolução nº 260/2019, mas não detalha a carga horária aproveitável diretamente. A Resolução CONSUNI/UNIPAMPA nº 480/2026 trata de aproveitamentos em geral (Art. 59 e 60), não especificando carga horária para transferência voluntária. Não há menção explícita de que a resposta sobre carga horária para transferência voluntária esteja nesse documento específico."
+     },
+     {
+      "afirmacao": "Até 50% (cinquenta por cento) da carga horária do curso atual pode ser aproveitada por transferência voluntária.",
+      "motivo": "O Art. 59, §2º da Resolução CONSUNI/UNIPAMPA nº 480/2026 menciona que até 50% da carga horária pode ser aproveitada, mas isso se aplica ao aproveitamento de estudos em geral, não especificando transferência voluntária diretamente. No entanto, o parágrafo único do Art. 61 da Resolução nº 260/2019 menciona que a transferência voluntária pode ser realizada com aproveitamento de estudos, e o Art. 59, §2º é genérico, mas não restringe a transferência voluntária. Portanto, não há menção explícita de que essa porcentagem se aplique *somente* à transferência voluntária."
+     },
+     {
+      "afirmacao": "Essa porcentagem de aproveitamento pode ser alterada em casos específicos de transferência.",
+      "motivo": "O Art. 59, §2º da Resolução CONSUNI/UNIPAMPA nº 480/2026 menciona que a porcentagem pode ser alterada em casos específicos, mas não especifica 'transferência' como um caso específico. No entanto, o parágrafo único do Art. 61 da Resolução nº 260/2019 menciona que a transferência voluntária pode ser realizada com aproveitamento de estudos, o que pode implicar em casos específicos de transferência. Apesar disso, não há menção explícita de que a porcentagem seja alterada *somente* em casos de transferência."
+     },
+     {
+      "afirmacao": "Portanto, a carga horária máxima aproveitável por transferência voluntária é até 50% (cinquenta por cento) da carga horária do curso atual.",
+      "motivo": "O contexto não estabelece explicitamente que a porcentagem de 50% se aplique *unicamente* à transferência voluntária. Embora o Art. 59, §2º mencione a porcentagem de 50% e o Art. 61 da Resolução nº 260/2019 mencione a transferência voluntária, não há uma conexão direta que limite a porcentagem de 50% apenas à transferência voluntária. Além disso, o Art. 59, §2º menciona que a porcentagem pode ser alterada por normas institucionais ou projetos pedagógicos, o que não é mencionado como exclusivo para transferência voluntária."
+     }
+    ],
+    "n_afirmacoes_referencia": 4,
+    "n_afirmacoes_fidelidade": 8
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 0.5,
+    "f1": 0.22,
+    "fidelidade": 0.8,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "O limite geral de aproveitamento de até 50% da carga horária do curso atual não se aplica a quem ingressa por transferência.",
+      "motivo": "O contexto afirma que o limite de 50% se aplica 'salvo norma institucional específica, ou regramento definido no projeto pedagógico do curso de graduação, ou nos casos de transferência', o que sugere que os casos de transferência são exceções, e não que o limite não se aplica a eles."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "A resposta está no Documento: Resolução CONSUNI/UNIPAMPA nº 480, de 20 de agosto de 2026.",
+      "motivo": "O contexto não menciona nenhum documento específico, como a Resolução CONSUNI/UNIPAMPA nº 480, de 20 de agosto de 2026."
+     },
+     {
+      "afirmacao": "Um componente curricular pode ser aproveitado por equivalência de conteúdos.",
+      "motivo": "O contexto não menciona a possibilidade de aproveitamento por equivalência de conteúdos."
+     },
+     {
+      "afirmacao": "Um componente curricular pode ser aproveitado por valor formativo.",
+      "motivo": "O contexto não menciona a possibilidade de aproveitamento por valor formativo."
+     },
+     {
+      "afirmacao": "Poderá ser aproveitada até 50% da carga horária do curso atual.",
+      "motivo": "O contexto afirma que o limite geral é de até 50% da carga horária do curso atual, mas isso não significa que *poderá* ser aproveitado, apenas que o limite é esse."
+     },
+     {
+      "afirmacao": "A exceção para o aproveitamento de até 50% da carga horária do curso atual é uma norma institucional específica.",
+      "motivo": "O contexto afirma que os casos de transferência são exceção à regra, mas não especifica que essa exceção é uma norma institucional específica."
+     },
+     {
+      "afirmacao": "A exceção para o aproveitamento de até 50% da carga horária do curso atual é um regramento definido no projeto pedagógico do curso de graduação.",
+      "motivo": "O contexto não menciona que a exceção é definida no projeto pedagógico do curso de graduação."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "A resposta está no Documento: Resolução CONSUNI/UNIPAMPA nº 480, de 20 de agosto de 2026.",
+      "motivo": "O contexto contém informações em vários documentos, incluindo a Resolução CONSUNI/UNIPAMPA nº 480, de 20 de agosto de 2026, mas não afirma que a resposta para todas as questões esteja exclusivamente neste documento."
+     }
+    ],
+    "n_afirmacoes_referencia": 2,
+    "n_afirmacoes_fidelidade": 5
+   }
+  }
+ },
+ {
+  "codigo": "P06",
+  "modelo": "phi4-mini",
+  "id": "R46",
+  "pergunta": "Qual é o tempo máximo para concluir o curso de Engenharia de Computação?",
+  "resposta_correta": "O tempo máximo para concluir o curso de Engenharia de Computação é de 20 (vinte) semestres letivos, o dobro da duração prevista de 10 semestres.",
+  "resposta": "O tempo máximo para concluir o curso de Engenharia de Computação é 20 semestres letivos [2].",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 0.6,
+   "completude": 0.4166,
+   "fidelidade": 1.0
+  },
+  "nivel_pt": {
+   "correcao": 1,
+   "completude": 1,
+   "fidelidade": 2
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.3333,
+    "f1": 0.4,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "A duração prevista para o curso de Engenharia de Computação é de 10 semestres letivos.",
+      "motivo": "O contexto não menciona a duração prevista, apenas o tempo máximo para conclusão. Não há informação suficiente para inferir que a duração prevista é de 10 semestres."
+     },
+     {
+      "afirmacao": "A duração máxima do curso de Engenharia de Computação é o dobro da duração prevista.",
+      "motivo": "O contexto não fornece informações sobre a duração prevista, apenas o tempo máximo de 20 semestres. Não é possível inferir que a duração máxima é o dobro de uma duração prevista não especificada."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "O tempo máximo para conclusão de um curso de Engenharia de Computação é regulamentado em 20 semestres letivos.",
+      "motivo": "O contexto afirma que o tempo máximo para concluir o curso é de 20 semestres, mas não menciona explicitamente que isso é uma regulamentação formal ou oficial. A palavra 'regulamentado' não é usada no texto."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 3,
+    "n_afirmacoes_fidelidade": 3
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 0.5,
+    "f1": 0.8,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "A duração prevista para o curso de Engenharia de Computação é de 10 semestres.",
+      "motivo": "O contexto especifica o tempo máximo (20 semestres), mas não menciona uma duração prevista de 10 semestres."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 2,
+    "n_afirmacoes_fidelidade": 1
+   }
+  }
+ },
+ {
+  "codigo": "P07",
+  "modelo": "llama3.1:8b",
+  "id": "R38",
+  "pergunta": "Qual o período para solicitar o trancamento total em 2026/1?",
+  "resposta_correta": "O trancamento total de 2026/1 pode ser solicitado pelo discente de 23/02/2026 a 10/04/2026, no Portal do Aluno.",
+  "resposta": "O período para solicitar o trancamento total em 2026/1 não está especificado nos trechos fornecidos.\n\nNo entanto, é possível inferir que o período letivo de vigência do Trancamento Total ocorre até o início do próximo semestre letivo regular. Conforme Art. 36 da Resolução CONSUNI/UNIPAMPA nº 480 [1], \"O discente mantém-se em situação regular no período letivo de vigência do Trancamento Total até o início do próximo semestre letivo regular.\"\n\nJá o Calendário Acadêmico da Graduação 2026, retificado pela Portaria nº 618 [4] e [5], especifica os períodos letivos para o semestre 2026/1: \"09/03 a 18/07/2026 | Semestre Letivo 2026/1\".\n\nPortanto, podemos concluir que o período para solicitar o trancamento total em 2026/1 é durante o semestre letivo de 09/03 a 18/07/2026.\n\nNão foi encontrado o prazo específico para solicitar o trancamento total.",
+  "humana": {
+   "correcao": 1,
+   "fidelidade": 1
+  },
+  "com_observacao": true,
+  "media_pt": {
+   "correcao": 0.0,
+   "completude": 0.2916,
+   "fidelidade": 0.7738
+  },
+  "nivel_pt": {
+   "correcao": 0,
+   "completude": 1,
+   "fidelidade": 1
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.25,
+    "f1": 0.0,
+    "fidelidade": 0.7143,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "O período de solicitação de trancamento total do período 2026/1 inicia em 23 de fevereiro de 2026.",
+      "motivo": "O contexto não menciona nenhuma data específica para início do período de solicitação, apenas que o período letivo é de 09/03 a 18/07/2026. Não há informações sobre datas específicas de início ou fim para a solicitação."
+     },
+     {
+      "afirmacao": "O período de solicitação de trancamento total do período 2026/1 termina em 10 de abril de 2026.",
+      "motivo": "O contexto não fornece nenhuma data específica para o término do período de solicitação, apenas o período letivo geral. Não há menção a uma data concreta como 10 de abril de 2026."
+     },
+     {
+      "afirmacao": "A solicitação de trancamento total deve ser feita pelo discente (aluno) no Portal do Aluno.",
+      "motivo": "O contexto não menciona explicitamente que a solicitação deve ser feita no Portal do Aluno. Não há informações sobre o meio de solicitação."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "Não há menção explícita ao período para solicitar o trancamento total no texto fornecido para o ano letivo 2026/1.",
+      "motivo": "O contexto menciona explicitamente o período de solicitação do trancamento total (23/02/2026 a 10/04/2026), portanto a afirmação é falsa."
+     },
+     {
+      "afirmacao": "O Art. 36 da Resolução CONSUNI/UNIPAMPA nº 480 afirma que o discente mantém-se em situação regular durante o período letivo de vigência do Trancamento Total até o início do próximo semestre letivo regular.",
+      "motivo": "O contexto não menciona o Art. 36 da Resolução CONSUNI/UNIPAMPA nº 480 nem qualquer informação sobre a situação regular após o trancamento. Não é possível inferir isso a partir do texto fornecido."
+     },
+     {
+      "afirmacao": "O Calendário Acadêmico da Graduação 2026, retificado pela Portaria nº 618, define o período do semestre letivo 2026/1 como sendo de 09/03/2026 a 18/07/2026.",
+      "motivo": "O contexto não menciona o Calendário Acadêmico da Graduação 2026 ou a Portaria nº 618. Não há base para inferir essa informação."
+     },
+     {
+      "afirmacao": "O período de solicitação do trancamento total em 2026/1 é inferido como sendo durante o semestre letivo de 09/03/2026 a 18/07/2026.",
+      "motivo": "O contexto não menciona o período do semestre letivo (09/03/2026 a 18/07/2026) nem relaciona diretamente o período de solicitação do trancamento a esse intervalo. O período de solicitação é 23/02/2026 a 10/04/2026, que não coincide com o intervalo citado na afirmação."
+     },
+     {
+      "afirmacao": "Não foi encontrado um prazo específico para solicitar o trancamento total no texto ou em documentos citados.",
+      "motivo": "O contexto menciona explicitamente o prazo para solicitação do trancamento total (23/02/2026 a 10/04/2026), portanto a afirmação é falsa."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "O período de vigência do Trancamento Total não é limitado a um intervalo específico de solicitação, mas está associado ao semestre letivo em curso.",
+      "motivo": "O contexto não menciona explicitamente que o período de vigência do trancamento total não é limitado a um intervalo específico de solicitação. O Art. 35 menciona que o trancamento ocorre durante um semestre letivo regular, mas não afirma que não há limite de solicitação. Além disso, o Art. 37 menciona prazos e limites de solicitação (prazos no Calendário Acadêmico)."
+     },
+     {
+      "afirmacao": "A conclusão é que a solicitação do trancamento total pode ser feita durante o período do semestre letivo 2026/1, que vai de 09 de março a 18 de julho de 2026.",
+      "motivo": "O contexto não permite inferir diretamente que a solicitação do trancamento total pode ser feita durante todo o período do semestre letivo 2026/1. Embora o semestre seja mencionado, não há referência explícita a que a solicitação possa ser feita em qualquer momento do semestre. O Calendário Acadêmico é a fonte para prazos, mas não está detalhado no texto fornecido."
+     }
+    ],
+    "n_afirmacoes_referencia": 4,
+    "n_afirmacoes_fidelidade": 7
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 0.3333,
+    "f1": 0.0,
+    "fidelidade": 0.8333,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "O período para solicitação do trancamento total de 2026/1 é de 23/02/2026 a 10/04/2026.",
+      "motivo": "O contexto não menciona o período de 23/02/2026 a 10/04/2026 para a solicitação do trancamento total, apenas o período letivo de 09/03 a 18/07/2026."
+     },
+     {
+      "afirmacao": "A solicitação do trancamento total de 2026/1 deve ser feita no Portal do Aluno.",
+      "motivo": "O contexto não menciona em nenhum momento que a solicitação deve ser feita no Portal do Aluno."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "O período para solicitar o trancamento total em 2026/1 não está especificado nos trechos fornecidos.",
+      "motivo": "O contexto especifica um período para solicitação: de 23/02/2026 a 10/04/2026."
+     },
+     {
+      "afirmacao": "O período letivo de vigência do Trancamento Total ocorre até o início do próximo semestre letivo regular.",
+      "motivo": "O contexto não menciona o período de vigência do Trancamento Total, apenas o período para solicitação."
+     },
+     {
+      "afirmacao": "O Art. 36 da Resolução CONSUNI/UNIPAMPA nº 480 estabelece que o discente mantém-se em situação regular no período letivo de vigência do Trancamento Total até o início do próximo semestre letivo regular.",
+      "motivo": "O contexto não menciona o Art. 36 da Resolução CONSUNI/UNIPAMPA nº 480."
+     },
+     {
+      "afirmacao": "O Calendário Acadêmico da Graduação 2026, retificado pela Portaria nº 618, especifica os períodos letivos para o semestre 2026/1 como de 09/03 a 18/07/2026.",
+      "motivo": "O contexto não menciona o Calendário Acadêmico da Graduação 2026 ou a Portaria nº 618."
+     },
+     {
+      "afirmacao": "O período para solicitar o trancamento total em 2026/1 é durante o semestre letivo de 09/03 a 18/07/2026.",
+      "motivo": "O contexto informa que o período para solicitar o trancamento total é de 23/02/2026 a 10/04/2026, e não durante o semestre letivo de 09/03 a 18/07/2026."
+     },
+     {
+      "afirmacao": "Não foi encontrado o prazo específico para solicitar o trancamento total.",
+      "motivo": "O contexto fornece um prazo específico para solicitar o trancamento total: de 23/02/2026 a 10/04/2026."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "O período para solicitar o trancamento total em 2026/1 é durante o semestre letivo de 09/03 a 18/07/2026.",
+      "motivo": "Embora o semestre 2026/1 seja de 09/03 a 18/07/2026, o contexto não especifica que o período para solicitar o trancamento total seja durante este período."
+     }
+    ],
+    "n_afirmacoes_referencia": 3,
+    "n_afirmacoes_fidelidade": 6
+   }
+  }
+ },
+ {
+  "codigo": "P08",
+  "modelo": "qwen3.8:27b",
+  "id": "R15",
+  "pergunta": "Qual o prazo máximo de uma licença acadêmica?",
+  "resposta_correta": "A licença pode ser concedida por, no máximo, 30 (trinta) dias consecutivos.",
+  "resposta": "O prazo máximo para a concessão de licença acadêmica é de 30 (trinta) dias consecutivos [1].",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 0.9,
+   "completude": 1.0,
+   "fidelidade": 1.0
+  },
+  "nivel_pt": {
+   "correcao": 2,
+   "completude": 2,
+   "fidelidade": 2
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 1.0,
+    "f1": 0.8,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "O prazo máximo para a concessão de licença acadêmica é de 30 dias.",
+      "motivo": "O contexto menciona um prazo máximo de 30 dias para a concessão da licença, mas não especifica explicitamente se é para licença acadêmica. A afirmação assume que a licença em questão é acadêmica, o que não é confirmado no texto."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 2,
+    "n_afirmacoes_fidelidade": 2
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 1.0,
+    "f1": 1.0,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [],
+    "resposta_sem_apoio_na_referencia": [],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 1,
+    "n_afirmacoes_fidelidade": 1
+   }
+  }
+ },
+ {
+  "codigo": "P09",
+  "modelo": "llama3.1:8b",
+  "id": "R41",
+  "pergunta": "Qual o horário de funcionamento da biblioteca do campus Bagé?",
+  "resposta_correta": "A biblioteca funciona das 8 horas às 21 horas, de segunda a sexta-feira.",
+  "resposta": "A biblioteca do campus Bagé funciona das 08h às 21h de segunda-feira a sexta-feira [2]. Já o acesso à Biblioteca Digital tem acesso disponível em tempo integral [2].\n\nNão encontrei informações sobre os horários específicos para o acesso à Biblioteca Digital.",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 0.25,
+   "completude": 1.0,
+   "fidelidade": 0.775
+  },
+  "nivel_pt": {
+   "correcao": 1,
+   "completude": 2,
+   "fidelidade": 1
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 1.0,
+    "f1": 0.0,
+    "fidelidade": 0.8,
+    "referencia_nao_encontrada": [],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "A biblioteca física do campus Bagé possui horário de funcionamento de segunda-feira a sexta-feira.",
+      "motivo": "O contexto menciona apenas o horário de funcionamento geral da biblioteca, sem especificar o campus Bagé ou se é física. Além disso, não há menção explícita à biblioteca física, apenas à biblioteca em geral."
+     },
+     {
+      "afirmacao": "A biblioteca física do campus Bagé abre às 08h e fecha às 21h.",
+      "motivo": "O contexto menciona o horário de funcionamento (8h às 21h), mas não especifica se é para a biblioteca física do campus Bagé. Além disso, não há referência direta ao campus Bagé ou à biblioteca física."
+     },
+     {
+      "afirmacao": "O acesso à Biblioteca Digital está disponível em tempo integral.",
+      "motivo": "O contexto não menciona nada sobre a Biblioteca Digital ou seu horário de acesso. Não há informações suficientes para inferir isso."
+     },
+     {
+      "afirmacao": "Não há informações específicas sobre horários de acesso à Biblioteca Digital disponíveis na fonte consultada.",
+      "motivo": "O contexto não aborda a Biblioteca Digital, mas como não há menção a ela, a afirmação é verdadeira por omissão. No entanto, não é algo que pode ser diretamente inferido do contexto fornecido, que se limita à biblioteca física (geral)."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "Não há informações específicas sobre horários de acesso à Biblioteca Digital disponíveis no momento.",
+      "motivo": "O contexto esclarece que a Biblioteca Digital está disponível em tempo integral, o que invalida a afirmação de que não há informações sobre horários de acesso."
+     }
+    ],
+    "n_afirmacoes_referencia": 3,
+    "n_afirmacoes_fidelidade": 5
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 1.0,
+    "f1": 0.5,
+    "fidelidade": 0.75,
+    "referencia_nao_encontrada": [],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "A biblioteca do campus Bagé funciona das 08h às 21h de segunda-feira a sexta-feira.",
+      "motivo": "O contexto informa que a biblioteca funciona das 8 horas às 21 horas, de segunda a sexta-feira, mas não especifica que seja a biblioteca do campus Bagé."
+     },
+     {
+      "afirmacao": "O acesso à Biblioteca Digital tem acesso disponível em tempo integral.",
+      "motivo": "O contexto fornecido apenas os horários de funcionamento da biblioteca física e não menciona a Biblioteca Digital ou seu horário de acesso."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "Informações sobre os horários específicos para o acesso à Biblioteca Digital não foram encontradas.",
+      "motivo": "O contexto afirma que o acesso à Biblioteca Digital tem acesso disponível em tempo integral, o que indica que não há horários específicos restritivos."
+     }
+    ],
+    "n_afirmacoes_referencia": 2,
+    "n_afirmacoes_fidelidade": 4
+   }
+  }
+ },
+ {
+  "codigo": "P10",
+  "modelo": "llama3.1:8b",
+  "id": "R02",
+  "pergunta": "Aluno ingressante pode fazer trancamento total da matrícula?",
+  "resposta_correta": "Não. O trancamento total não é concedido a discentes ingressantes, independentemente da forma de ingresso, exceto quando o discente for convocado ou já estiver em serviço militar obrigatório.",
+  "resposta": "Sim, o aluno ingressante pode fazer trancamento total da matrícula, conforme Art. 37, § 1º [1].\n\nO parágrafo único do Art. 16 [3] também menciona que, se o período da licença coincidir com o início do semestre letivo, o discente ou seu representante legal pode solicitar trancamento total, mediante deferimento da Coordenação do Curso.\n\nNão foi encontrado qual é o prazo para solicitação de trancamento total por aluno ingressante.",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": true,
+  "media_pt": {
+   "correcao": 0.1,
+   "completude": 0.0,
+   "fidelidade": 0.5572
+  },
+  "nivel_pt": {
+   "correcao": 0,
+   "completude": 0,
+   "fidelidade": 1
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.0,
+    "f1": 0.2,
+    "fidelidade": 0.4,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "O trancamento total não é concedido a discentes ingressantes.",
+      "motivo": "O contexto afirma explicitamente que o aluno ingressante **pode** fazer trancamento total da matrícula, conforme Art. 37, § 1º. Portanto, a afirmação de que não é concedido é falsa."
+     },
+     {
+      "afirmacao": "O trancamento total não é concedido independentemente da forma de ingresso.",
+      "motivo": "O contexto não aborda a questão de forma geral para todos os ingressantes, apenas menciona o caso específico do ingressante. Não há menção de exclusão para outras formas de ingresso, mas também não há afirmação de que é concedido a todos. Como não há informação suficiente para inferir que é negado a todos, a afirmação não pode ser confirmada como verdadeira."
+     },
+     {
+      "afirmacao": "O trancamento total é concedido apenas em casos específicos de discente convocado para serviço militar obrigatório.",
+      "motivo": "O contexto não menciona nada sobre serviço militar obrigatório ou casos específicos relacionados a ele. A informação é irrelevante ao contexto fornecido."
+     },
+     {
+      "afirmacao": "O trancamento total é concedido a discentes já em serviço militar obrigatório.",
+      "motivo": "Assim como no caso anterior, o contexto não aborda serviço militar obrigatório ou qualquer situação específica que envolva discente em serviço militar. Não há base para inferir essa afirmação."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "O aluno ingressante tem a possibilidade de realizar trancamento total da matrícula.",
+      "motivo": "O contexto afirma explicitamente que o trancamento total não é concedido a discentes ingressantes, independentemente da forma de ingresso, exceto em casos específicos (serviço militar obrigatório). Portanto, não há possibilidade geral para ingressantes."
+     },
+     {
+      "afirmacao": "O trancamento total da matrícula está previsto no Art. 37, § 1º.",
+      "motivo": "O contexto não menciona qualquer artigo ou parágrafo específico (como o Art. 37, § 1º) que trate do trancamento total. Não há inferência possível sobre essa informação."
+     },
+     {
+      "afirmacao": "O parágrafo único do Art. 16 menciona que, se o período de licença coincidir com o início do semestre letivo, o discente ou seu representante legal pode solicitar trancamento total.",
+      "motivo": "O contexto não faz referência a nenhum artigo (como o Art. 16) ou parágrafo único sobre licença ou trancamento. Não há base para essa afirmação."
+     },
+     {
+      "afirmacao": "A solicitação de trancamento total por discente ingressante depende de deferimento pela Coordenação do Curso.",
+      "motivo": "O contexto não menciona qualquer processo de deferimento ou papel da Coordenação do Curso em relação ao trancamento total. A informação não pode ser inferida."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "O aluno ingressante possui a possibilidade de realizar trancamento total da matrícula.",
+      "motivo": "O Art. 37, §1º, explicitamente veda o trancamento total aos discentes ingressantes, exceto em casos específicos (serviço militar obrigatório). Portanto, não há possibilidade geral para ingressantes."
+     },
+     {
+      "afirmacao": "Essa possibilidade está prevista no Artigo 37, parágrafo 1º.",
+      "motivo": "O Art. 37, §1º, não prevê a possibilidade de trancamento total para ingressantes, mas sim a sua vedação. Além disso, o parágrafo não menciona a possibilidade, apenas restrições."
+     },
+     {
+      "afirmacao": "A solicitação de trancamento total depende do deferimento da Coordenação do Curso.",
+      "motivo": "O contexto menciona que o trancamento total é automaticamente deferido quando respeitados os limites de carga horária (Art. 37, §2º), mas também menciona que o trancamento parcial depende de deferimento da Coordenação (Art. 38, §2º). Além disso, o parágrafo único do Art. 16 menciona que o trancamento total em caso de licença depende de deferimento. Portanto, não é universalmente obrigatório o deferimento para todos os casos, mas sim em situações específicas."
+     }
+    ],
+    "n_afirmacoes_referencia": 4,
+    "n_afirmacoes_fidelidade": 5
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 0.0,
+    "f1": 0.0,
+    "fidelidade": 0.7143,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "O trancamento total não é concedido a discentes ingressantes.",
+      "motivo": "O contexto afirma que o aluno ingressante pode fazer trancamento total da matrícula, conforme Art. 37, § 1º."
+     },
+     {
+      "afirmacao": "A não concessão do trancamento total a discentes ingressantes ocorre independentemente da forma de ingresso.",
+      "motivo": "O contexto afirma que o aluno ingressante pode fazer trancamento total, o que contradiz a afirmação de que não é concedido."
+     },
+     {
+      "afirmacao": "O trancamento total é concedido a discentes ingressantes quando o discente for convocado.",
+      "motivo": "O contexto não menciona nenhuma condição de convocação para a concessão do trancamento total a discentes ingressantes."
+     },
+     {
+      "afirmacao": "O trancamento total é concedido a discentes ingressantes quando o discente estiver em serviço militar obrigatório.",
+      "motivo": "O contexto não menciona nenhuma condição de serviço militar obrigatório para a concessão do trancamento total a discentes ingressantes."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "O aluno ingressante pode fazer trancamento total da matrícula conforme Art. 37, § 1º.",
+      "motivo": "O contexto afirma que o trancamento total não é concedido a discentes ingressantes, exceto em casos específicos, e não menciona o Art. 37, § 1º."
+     },
+     {
+      "afirmacao": "O parágrafo único do Art. 16 menciona que o discente ou seu representante legal pode solicitar trancamento total se o período da licença coincidir com o início do semestre letivo.",
+      "motivo": "O contexto não menciona o Art. 16 nem qualquer condição sobre o período da licença coincidir com o início do semestre letivo."
+     },
+     {
+      "afirmacao": "A solicitação de trancamento total, mencionada no parágrafo único do Art. 16, depende do deferimento da Coordenação do Curso.",
+      "motivo": "O contexto não menciona o Art. 16 nem a dependência de deferimento da Coordenação do Curso."
+     },
+     {
+      "afirmacao": "Não foi encontrado o prazo para solicitação de trancamento total por aluno ingressante.",
+      "motivo": "O contexto afirma que o trancamento total não é concedido a discentes ingressantes, mas não menciona a ausência de um prazo específico."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "O aluno ingressante pode fazer trancamento total da matrícula.",
+      "motivo": "O Art. 37, § 1º da Resolução CONSUNI/UNIPAMPA nº 480 estabelece que \"Não é concedido Trancamento Total aos discentes ingressantes, independente da forma de ingresso, exceto quando se tratar de discente convocado ou já em serviço militar obrigatório.\""
+     },
+     {
+      "afirmacao": "O trancamento total da matrícula ocorre conforme o Art. 37, § 1º.",
+      "motivo": "O Art. 37, § 1º trata das exceções para o Trancamento Total de ingressantes, não definindo o procedimento geral de ocorrência do trancamento total."
+     }
+    ],
+    "n_afirmacoes_referencia": 4,
+    "n_afirmacoes_fidelidade": 7
+   }
+  }
+ },
+ {
+  "codigo": "P11",
+  "modelo": "qwen3.8:27b",
+  "id": "R45",
+  "pergunta": "Quantas horas por semana posso fazer de estágio?",
+  "resposta_correta": "A jornada de estágio pode ser de até 30 horas semanais, com no máximo 6 horas diárias. Em cursos que alternam teoria e prática, nos períodos sem aulas presenciais e se previsto no projeto pedagógico do curso, pode chegar a 40 horas semanais, com até 8 horas diárias.",
+  "resposta": "Com base nos documentos institucionais fornecidos, as limitações de carga horária semanal para estágio são:\n\n*   **Regra geral:** 30 (trinta) horas semanais [6].\n*   **Cursos que alternam teoria e prática:** 40 (quarenta) horas semanais, nos períodos em que não estão programadas aulas presenciais, desde que isso esteja previsto no projeto pedagógico do curso [6].\n*   **Discentes com deficiência:** A carga pode ser reduzida para 20 (vinte) horas semanais, se necessário [6].\n\nAlém disso, os documentos indicam as seguintes condições e exceções:\n\n1.  A jornada de trabalho não poderá ultrapassar 30 (trinta) horas semanais, exceto quando fora do período letivo regular ou quando o Estágio Obrigatório é o único componente curricular no qual o discente está matriculado [3][5].\n2.  Nos casos excepcionais descritos acima, a jornada de trabalho semanal é limitada a 40 (quarenta) horas semanais [3][5].\n3.  A carga horária semanal do estágio deve obrigatoriamente ser reduzida durante os períodos nos quais o estagiário estiver realizando verificações de aprendizagem periódicas ou finais [6].\n4.  É permitido realizar mais de um estágio em paralelo, desde que a carga horária máxima permitida não seja ultrapassada [6].\n\nNão encontrei informações específicas sobre a distribuição exata da carga horária para o curso de Engenharia de Computação além das regras gerais citadas acima, pois os trechos do PPC mencionam apenas as limitações gerais definidas pela resolução e pelo próprio PPC em artigos específicos.",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 0.58,
+   "completude": 0.6667,
+   "fidelidade": 0.9546
+  },
+  "nivel_pt": {
+   "correcao": 1,
+   "completude": 1,
+   "fidelidade": 1
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.6667,
+    "f1": 0.63,
+    "fidelidade": 0.9091,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "A jornada de estágio tem limite máximo de 6 horas diárias.",
+      "motivo": "O contexto não menciona qualquer limite diário de horas para a jornada de estágio. A informação é sobre carga horária semanal, não diária."
+     },
+     {
+      "afirmacao": "A jornada de estágio ampliada para 40 horas semanais permite até 8 horas diárias.",
+      "motivo": "O contexto não menciona qualquer limite diário de horas para a jornada de estágio, apenas limites semanais. Não há informação sobre a distribuição diária das horas."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "A carga horária para discentes com deficiência pode ser reduzida para 20 horas semanais, se necessário.",
+      "motivo": "O contexto não aborda essa situação específica para discentes com deficiência. Não há menção a redução de carga horária para esse grupo."
+     },
+     {
+      "afirmacao": "A jornada de trabalho de estágio não pode ultrapassar 30 horas semanais, exceto fora do período letivo regular ou quando o Estágio Obrigatório é o único componente curricular do discente.",
+      "motivo": "O contexto não menciona explicitamente essas exceções (fora do período letivo regular ou Estágio Obrigatório como único componente curricular). A exceção mencionada é apenas para cursos que alternam teoria e prática, com base no projeto pedagógico."
+     },
+     {
+      "afirmacao": "A carga horária do estágio deve ser reduzida durante períodos de verificações de aprendizagem periódicas ou finais.",
+      "motivo": "O contexto não menciona nenhuma redução de carga horária durante verificações de aprendizagem. Não há base para essa afirmação."
+     },
+     {
+      "afirmacao": "É permitido realizar mais de um estágio em paralelo, desde que a carga horária máxima permitida não seja ultrapassada.",
+      "motivo": "O contexto não aborda a possibilidade de realizar mais de um estágio simultaneamente, tampouco menciona restrições ou permissões sobre isso."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "A exceção para jornada de trabalho de até quarenta horas semanais ocorre fora do período letivo regular ou quando o estágio obrigatório é o único componente curricular do estudante.",
+      "motivo": "O contexto menciona que a exceção para 40 horas semanais está relacionada a cursos que alternam teoria e prática nos períodos sem aulas presenciais (Resolução CONSUNI/UNIPAMPA nº 329/2021, Art. 14, Inciso II), não especificamente para estágio obrigatório único ou fora do período letivo regular. No entanto, o Art. 11º do PPC menciona que a jornada pode ultrapassar 30 horas em casos excepcionais, como quando o estágio obrigatório é o único componente curricular. Portanto, há uma inferência indireta, mas não é explicitamente detalhado como uma regra geral."
+     }
+    ],
+    "n_afirmacoes_referencia": 6,
+    "n_afirmacoes_fidelidade": 11
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 0.6667,
+    "f1": 0.53,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "A jornada de estágio pode ter no máximo 6 horas diárias.",
+      "motivo": "O contexto fornece limites em horas semanais (30h, 40h, 20h), mas não especifica um limite máximo de horas diárias."
+     },
+     {
+      "afirmacao": "A jornada de estágio em cursos que alternam teoria e prática pode ter até 8 horas diárias.",
+      "motivo": "O contexto menciona 40 horas semanais para esses cursos, mas não especifica um limite de 8 horas diárias."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "As limitações de carga horária semanal para estágio são definidas em documentos institucionais.",
+      "motivo": "O contexto não menciona que as limitações de carga horária são definidas em documentos institucionais, apenas estabelece limites."
+     },
+     {
+      "afirmacao": "A carga horária semanal para discentes com deficiência pode ser reduzida para 20 horas semanais se necessário.",
+      "motivo": "O contexto não faz nenhuma menção sobre discentes com deficiência ou redução de carga horária para esse grupo."
+     },
+     {
+      "afirmacao": "As exceções para ultrapassar 30 horas semanais são quando o estágio ocorre fora do período letivo regular ou quando o Estágio Obrigatório é o único componente curricular do discente.",
+      "motivo": "O contexto não menciona nenhuma exceção específica relacionada ao estágio ocorrer fora do período letivo regular ou quando o Estágio Obrigatório é o único componente curricular."
+     },
+     {
+      "afirmacao": "A carga horária semanal do estágio deve ser reduzida durante os períodos em que o estagiário realiza verificações de aprendizagem periódicas ou finais.",
+      "motivo": "O contexto não menciona nenhuma regra sobre redução de carga horária durante verificações de aprendizagem periódicas ou finais."
+     },
+     {
+      "afirmacao": "É permitido realizar mais de um estágio em paralelo, desde que a carga horária máxima permitida não seja ultrapassada.",
+      "motivo": "O contexto não aborda a possibilidade de realizar mais de um estágio em paralelo."
+     },
+     {
+      "afirmacao": "Não foram encontradas informações específicas sobre a distribuição exata da carga horária para o curso de Engenharia de Computação além das regras gerais.",
+      "motivo": "O contexto não menciona o curso de Engenharia de Computação, portanto, não há informações específicas sobre ele."
+     },
+     {
+      "afirmacao": "Os trechos do PPC mencionam apenas as limitações gerais definidas pela resolução e pelo próprio PPC em artigos específicos.",
+      "motivo": "O contexto menciona que a possibilidade de 40 horas depende de estar previsto no projeto pedagógico do curso, mas não afirma que os trechos do PPC mencionam *apenas* as limitações gerais definidas pela resolução e pelo próprio PPC em artigos específicos."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 6,
+    "n_afirmacoes_fidelidade": 16
+   }
+  }
+ },
+ {
+  "codigo": "P12",
+  "modelo": "llama3.1:8b",
+  "id": "R48",
+  "pergunta": "Filhos de estudantes podem comer no restaurante universitário?",
+  "resposta_correta": "Sim. A norma prevê o acesso ao Restaurante Universitário de crianças filhas ou dependentes legais de estudantes regularmente matriculados em cursos presenciais de graduação ou de pós-graduação, desde que acompanhadas pela mãe ou por outros agentes da maternagem, conforme as normas institucionais vigentes. Também prevê, conforme disponibilidade orçamentária e normas específicas, a oferta de refeição subsidiada para filhos ou dependentes legais de estudantes.",
+  "resposta": "Sim, filhos de estudantes podem comer no restaurante universitário.\n\n[1] (XV) permitir o acesso ao Restaurante Universitário (RU) por crianças filhas ou dependentes legais de estudantes regularmente matriculados em cursos presenciais de graduação ou de pós-graduação, desde que acompanhados pela mãe ou demais agentes da maternagem, conforme normas institucionais vigentes.\n\nNão encontrei informação sobre o valor a ser pago pelos filhos dos estudantes no restaurante universitário.",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 0.815,
+   "completude": 0.6333,
+   "fidelidade": 0.9
+  },
+  "nivel_pt": {
+   "correcao": 2,
+   "completude": 1,
+   "fidelidade": 1
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.6667,
+    "f1": 0.83,
+    "fidelidade": 0.8,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "A norma prevê a oferta de refeição subsidiada para filhos ou dependentes legais de estudantes, conforme disponibilidade orçamentária.",
+      "motivo": "O contexto não menciona nada sobre refeições subsidiadas ou disponibilidade orçamentária para filhos de estudantes. Apenas afirma que não há informação sobre valor a ser pago."
+     },
+     {
+      "afirmacao": "A oferta de refeição subsidiada está sujeita a normas específicas além da disponibilidade orçamentária.",
+      "motivo": "Não há menção a refeições subsidiadas ou normas específicas além da disponibilidade orçamentária no contexto. A afirmação não pode ser inferida."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "Não há informação disponível sobre o valor a ser pago pelos filhos dos estudantes no Restaurante Universitário.",
+      "motivo": "O contexto não menciona explicitamente o valor a ser pago pelos filhos ou dependentes legais no RU. Embora o Art. XV fale sobre normas institucionais vigentes, não há detalhes sobre valores específicos para esse público no trecho fornecido."
+     }
+    ],
+    "n_afirmacoes_referencia": 6,
+    "n_afirmacoes_fidelidade": 5
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 0.6,
+    "f1": 0.8,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "A norma prevê a oferta de refeição subsidiada para filhos ou dependentes legais de estudantes.",
+      "motivo": "O contexto afirma que 'filhos de estudantes podem comer no restaurante universitário', o que implica a oferta de refeição, mas não especifica se é subsidiada."
+     },
+     {
+      "afirmacao": "A oferta de refeição subsidiada está sujeita à disponibilidade orçamentária e normas específicas.",
+      "motivo": "O contexto não menciona nenhuma condição relacionada à disponibilidade orçamentária ou normas específicas para a oferta de refeição."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 5,
+    "n_afirmacoes_fidelidade": 4
+   }
+  }
+ },
+ {
+  "codigo": "P13",
+  "modelo": "llama3.1:8b",
+  "id": "R15",
+  "pergunta": "Qual o prazo máximo de uma licença acadêmica?",
+  "resposta_correta": "A licença pode ser concedida por, no máximo, 30 (trinta) dias consecutivos.",
+  "resposta": "O prazo máximo de uma licença acadêmica é de 30 dias consecutivos [1].",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 0.25,
+   "completude": 1.0,
+   "fidelidade": 1.0
+  },
+  "nivel_pt": {
+   "correcao": 1,
+   "completude": 2,
+   "fidelidade": 2
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 1.0,
+    "f1": 0.5,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "Existe um prazo máximo definido para uma licença acadêmica.",
+      "motivo": "O contexto menciona um prazo máximo de 30 dias para a licença, mas não especifica explicitamente se é uma licença acadêmica. No entanto, como não há informações contrárias e o termo 'licença' pode ser interpretado de forma geral, não é possível afirmar diretamente que se refere apenas a licença acadêmica. Além disso, o contexto não afirma explicitamente a existência de um prazo máximo, apenas que o prazo máximo é de 30 dias."
+     },
+     {
+      "afirmacao": "O prazo máximo de uma licença acadêmica é de 30 dias.",
+      "motivo": "O contexto menciona um prazo máximo de 30 dias para a licença, mas não especifica se é uma licença acadêmica. Portanto, não é possível inferir diretamente que se refere a uma licença acadêmica."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 2,
+    "n_afirmacoes_fidelidade": 2
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 1.0,
+    "f1": 0.0,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "O prazo máximo de uma licença acadêmica é de 30 dias.",
+      "motivo": "O contexto afirma que a licença pode ser concedida por, no máximo, 30 dias consecutivos, o que implica que o prazo máximo é de 30 dias, embora não especifique que seja uma licença acadêmica."
+     },
+     {
+      "afirmacao": "A licença acadêmica deve ser concedida de forma consecutiva.",
+      "motivo": "O contexto diz que a licença pode ser concedida por, no máximo, 30 dias consecutivos, o que indica que a concessão pode ser consecutiva, mas não afirma que ela DEVE ser concedida de forma consecutiva."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 1,
+    "n_afirmacoes_fidelidade": 1
+   }
+  }
+ },
+ {
+  "codigo": "P14",
+  "modelo": "qwen3.8:27b",
+  "id": "R47",
+  "pergunta": "Como faço para usar o nome social nos registros da universidade?",
+  "resposta_correta": "A pessoa transgênero deve fazer uma solicitação de próprio punho, nas devidas instâncias, a qualquer tempo a partir do ingresso na UNIPAMPA, pedindo a inclusão do nome social nos documentos acadêmicos. Na solicitação, deve apresentar a Carteira de Nome Social ou, na falta dela, uma autodeclaração. Menores de 18 anos precisam apresentar autorização por escrito dos pais ou responsáveis legais.",
+  "resposta": "Com base nos documentos fornecidos, o procedimento para incluir ou solicitar a retirada do nome social nos registros da Universidade Federal do Pampa (UNIPAMPA) é o seguinte:\n\n*   **Quem pode solicitar:** Transgêneros (travestis e transexuais), tanto discentes quanto servidores [1].\n*   **Quando solicitar:** A partir do ingresso na universidade, a qualquer tempo durante a permanência na UNIPAMPA [1].\n*   **Como solicitar:**\n    1.  O pedido deve ser feito nas devidas instâncias da universidade [1].\n    2.  A solicitação deve ser feita em documento de próprio punho [1].\n    3.  É necessário apresentar a Carteira de Nome Social; caso não possua esse documento, deve-se apresentar uma autodeclaração [1].\n*   **Requisito especial para menores:** No caso de discentes menores de 18 anos, é obrigatória a apresentação de autorização por escrito dos pais ou responsáveis legais [1].\n\n**Observações sobre o uso do nome social nos documentos:**\n*   Em documentos gerais da universidade referentes a servidores e discentes, o nome social deve ser registrado seguido pelo nome civil entre parênteses [1].\n*   Em documentos internos de visualização aberta ao público, constam apenas o nome social e o número do SIAPE ou matrícula [1].\n*   Nos documentos de identificação estudantil, no endereço de correio eletrônico e no nome de usuário em sistemas de informática, deve constar apenas o nome social [1].\n*   **Exceção:** Nos diplomas e certificados de conclusão de curso, deve constar apenas o nome civil (registro civil), mesmo que o estudante possua nome social [1][3].",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 0.555,
+   "completude": 0.8572,
+   "fidelidade": 0.9546
+  },
+  "nivel_pt": {
+   "correcao": 1,
+   "completude": 2,
+   "fidelidade": 1
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.7143,
+    "f1": 0.44,
+    "fidelidade": 0.9091,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "A solicitação de inclusão do nome social deve ser feita a partir do ingresso na UNIPAMPA.",
+      "motivo": "O contexto afirma que a solicitação pode ser feita a partir do ingresso, mas não restringe a solicitação apenas a esse momento inicial. Ela pode ser feita a qualquer tempo durante a permanência na instituição."
+     },
+     {
+      "afirmacao": "A pessoa solicitante deve apresentar a Carteira de Nome Social para inclusão do nome social nos documentos acadêmicos.",
+      "motivo": "O contexto menciona que é necessário apresentar a Carteira de Nome Social, mas não afirma que ela é obrigatória como único documento. A apresentação da autodeclaração também é aceita na ausência da carteira."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "A Universidade Federal do Pampa (UNIPAMPA) permite a inclusão ou retirada do nome social em seus registros.",
+      "motivo": "O contexto menciona apenas a inclusão do nome social nos documentos acadêmicos, não aborda explicitamente a retirada ou se isso é permitido em outros registros além dos acadêmicos. Além disso, não há menção à retirada em si, apenas à inclusão."
+     },
+     {
+      "afirmacao": "Transgêneros, incluindo travestis e transexuais, tanto discentes quanto servidores, podem solicitar inclusão ou retirada do nome social na UNIPAMPA.",
+      "motivo": "O contexto menciona apenas 'pessoa transgênero' e não aborda explicitamente se servidores também podem solicitar. Além disso, não menciona a retirada do nome social, apenas a inclusão."
+     },
+     {
+      "afirmacao": "A solicitação de inclusão ou retirada do nome social na UNIPAMPA pode ser feita a partir do ingresso na universidade e a qualquer momento durante a permanência.",
+      "motivo": "O contexto afirma que a solicitação pode ser feita 'a qualquer tempo a partir do ingresso' na UNIPAMPA, o que implica durante a permanência, mas não menciona explicitamente a retirada."
+     },
+     {
+      "afirmacao": "É necessário apresentar a Carteira de Nome Social para solicitar inclusão ou retirada do nome social na UNIPAMPA.",
+      "motivo": "O contexto menciona que deve ser apresentada a Carteira de Nome Social ou, na falta dela, uma autodeclaração. Portanto, a Carteira de Nome Social não é obrigatória, apenas recomendada ou preferencial."
+     },
+     {
+      "afirmacao": "Em documentos gerais da UNIPAMPA referentes a servidores e discentes, o nome social deve ser registrado seguido pelo nome civil entre parênteses.",
+      "motivo": "O contexto não aborda como os documentos devem ser formatados após a inclusão do nome social, apenas menciona a solicitação e os documentos acadêmicos."
+     },
+     {
+      "afirmacao": "Em documentos internos de visualização aberta ao público na UNIPAMPA, constam apenas o nome social e o número do SIAPE ou matrícula.",
+      "motivo": "O contexto não menciona nada sobre como os documentos internos ou públicos devem ser formatados após a inclusão do nome social."
+     },
+     {
+      "afirmacao": "Nos documentos de identificação estudantil, endereço de correio eletrônico e nome de usuário em sistemas de informática da UNIPAMPA, deve constar apenas o nome social.",
+      "motivo": "O contexto não aborda como os documentos de identificação estudantil ou sistemas de informática devem ser formatados após a inclusão do nome social."
+     },
+     {
+      "afirmacao": "Nos diplomas e certificados de conclusão de curso emitidos pela UNIPAMPA, deve constar apenas o nome civil (registro civil), mesmo que o estudante possua nome social.",
+      "motivo": "O contexto não menciona nada sobre diplomas ou certificados de conclusão de curso, apenas sobre documentos acadêmicos em geral."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "A solicitação deve ser feita em um documento escrito à mão.",
+      "motivo": "O contexto menciona 'solicitação de próprio punho', o que pode ser interpretado como uma solicitação escrita à mão, mas não é explicitamente descrito como *obrigatório* que seja feito à mão. Além disso, o termo 'solicitação' pode abranger outros formatos, como preenchimento de formulários impressos ou digitais."
+     }
+    ],
+    "n_afirmacoes_referencia": 7,
+    "n_afirmacoes_fidelidade": 11
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 1.0,
+    "f1": 0.67,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "Transgêneros, incluindo travestis e transexuais, podem solicitar a inclusão ou retirada do nome social na UNIPAMPA.",
+      "motivo": "O contexto menciona que \"A pessoa transgênero deve fazer uma solicitação...\", o que abrange transgêneros, mas não especifica explicitamente travestis e transexuais."
+     },
+     {
+      "afirmacao": "Discentes e servidores da UNIPAMPA podem solicitar a inclusão ou retirada do nome social.",
+      "motivo": "O contexto menciona \"A pessoa transgênero deve fazer uma solicitação...\", mas não especifica se isso se aplica a discentes e servidores em geral, apenas a quem se enquadra como pessoa transgênero."
+     },
+     {
+      "afirmacao": "É necessário apresentar a Carteira de Nome Social para solicitar o nome social.",
+      "motivo": "O contexto diz que deve apresentar a Carteira de Nome Social \"ou, na falta dela, uma autodeclaração\", indicando que não é estritamente necessário apenas a carteira."
+     },
+     {
+      "afirmacao": "Em documentos gerais da universidade para servidores e discentes, o nome social deve ser registrado seguido pelo nome civil entre parênteses.",
+      "motivo": "Esta informação não está presente no contexto fornecido."
+     },
+     {
+      "afirmacao": "Em documentos internos de visualização aberta ao público, constam apenas o nome social e o número do SIAPE ou matrícula.",
+      "motivo": "Esta informação não está presente no contexto fornecido."
+     },
+     {
+      "afirmacao": "Em documentos de identificação estudantil, no endereço de correio eletrônico e no nome de usuário em sistemas de informática, deve constar apenas o nome social.",
+      "motivo": "Esta informação não está presente no contexto fornecido."
+     },
+     {
+      "afirmacao": "Nos diplomas e certificados de conclusão de curso, deve constar apenas o nome civil, mesmo que o estudante possua nome social.",
+      "motivo": "Esta informação não está presente no contexto fornecido."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 5,
+    "n_afirmacoes_fidelidade": 14
+   }
+  }
+ },
+ {
+  "codigo": "P15",
+  "modelo": "phi4-mini",
+  "id": "R02",
+  "pergunta": "Aluno ingressante pode fazer trancamento total da matrícula?",
+  "resposta_correta": "Não. O trancamento total não é concedido a discentes ingressantes, independentemente da forma de ingresso, exceto quando o discente for convocado ou já estiver em serviço militar obrigatório.",
+  "resposta": "Não, um aluno ingressante não pode fazer trancamento total da matrícula [2][3].",
+  "humana": {
+   "correcao": 1,
+   "fidelidade": 2
+  },
+  "com_observacao": true,
+  "media_pt": {
+   "correcao": 0.365,
+   "completude": 0.25,
+   "fidelidade": 1.0
+  },
+  "nivel_pt": {
+   "correcao": 1,
+   "completude": 1,
+   "fidelidade": 2
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.25,
+    "f1": 0.33,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "O trancamento total não é concedido independentemente da forma de ingresso.",
+      "motivo": "O contexto menciona apenas a situação específica de alunos ingressantes, não abrangendo outras formas de ingresso (como transferências, reingressos, etc.). Não há informação suficiente para inferir que o trancamento total é negado a todos os discentes, independentemente da forma de ingresso."
+     },
+     {
+      "afirmacao": "O trancamento total é concedido apenas em casos específicos de discente convocado para serviço militar obrigatório.",
+      "motivo": "O contexto não menciona nada sobre concessão de trancamento total para discentes convocados para serviço militar obrigatório. Não há base para inferir essa afirmação."
+     },
+     {
+      "afirmacao": "O trancamento total é concedido a discentes já em serviço militar obrigatório.",
+      "motivo": "O contexto não fornece informações sobre concessão de trancamento total para discentes em serviço militar obrigatório. Não há base para inferir essa afirmação."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "A regra sobre trancamento total de matrícula se aplica a alunos ingressantes em uma instituição específica ou geral.",
+      "motivo": "O contexto menciona 'discentes ingressantes' de forma geral, sem restrição a uma instituição específica. No entanto, não esclarece se a regra é geral ou se aplica apenas a instituições específicas. A afirmação é ambígua, pois o texto não especifica se a regra é universal ou restrita a certas instituições. Portanto, não é possível inferir diretamente se a regra se aplica a uma instituição específica ou geral."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 4,
+    "n_afirmacoes_fidelidade": 2
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 0.25,
+    "f1": 0.4,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "A não concessão do trancamento total a discentes ingressantes ocorre independentemente da forma de ingresso.",
+      "motivo": "O contexto apenas afirma que o aluno ingressante não pode trancar a matrícula, mas não especifica se isso é independente da forma de ingresso."
+     },
+     {
+      "afirmacao": "O trancamento total é concedido a discentes ingressantes quando o discente for convocado.",
+      "motivo": "O contexto afirma o oposto, que o aluno ingressante não pode fazer trancamento total da matrícula."
+     },
+     {
+      "afirmacao": "O trancamento total é concedido a discentes ingressantes quando o discente estiver em serviço militar obrigatório.",
+      "motivo": "O contexto não menciona nenhuma exceção ou condição para o trancamento total, como o serviço militar obrigatório."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 4,
+    "n_afirmacoes_fidelidade": 1
+   }
+  }
+ },
+ {
+  "codigo": "P16",
+  "modelo": "phi4-mini",
+  "id": "R29",
+  "pergunta": "Posso cursar disciplinas em outro campus da UNIPAMPA?",
+  "resposta_correta": "Sim, por meio da mobilidade acadêmica intrainstitucional, que permite cursar temporariamente componentes curriculares em outro campus, até o máximo de 14 (quatorze) componentes. Para isso, é preciso estar em situação regular, ter plano de atividades aprovado pelos coordenadores dos cursos de origem e de destino, matricular-se em pelo menos o número mínimo de créditos exigido pelo curso de origem e fazer o pedido no prazo do Calendário Acadêmico.",
+  "resposta": "Sim, você pode cursar disciplinas em outro campus da UNIPAMPA de forma temporária através da Mobilidade Acadêmica Intrainstitucional ou Interinstitucional [2][3].",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": true,
+  "media_pt": {
+   "correcao": 0.4,
+   "completude": 0.1667,
+   "fidelidade": 0.75
+  },
+  "nivel_pt": {
+   "correcao": 1,
+   "completude": 0,
+   "fidelidade": 1
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.1667,
+    "f1": 0.4,
+    "fidelidade": 0.5,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "O limite máximo de componentes curriculares que podem ser cursados por meio da mobilidade acadêmica intrainstitucional é de 14.",
+      "motivo": "O contexto não menciona qualquer limite específico de componentes curriculares para a mobilidade acadêmica intrainstitucional."
+     },
+     {
+      "afirmacao": "Para participar da mobilidade acadêmica intrainstitucional, é necessário estar em situação regular no curso de origem.",
+      "motivo": "O contexto não menciona explicitamente a necessidade de estar em situação regular para participar da mobilidade acadêmica intrainstitucional, embora seja uma prática comum em muitos processos acadêmicos. Não há inferência direta no texto."
+     },
+     {
+      "afirmacao": "A aprovação de um plano de atividades pelos coordenadores dos cursos de origem e de destino é obrigatória para a mobilidade acadêmica intrainstitucional.",
+      "motivo": "O contexto não menciona a obrigatoriedade de aprovação de um plano de atividades pelos coordenadores para a mobilidade acadêmica intrainstitucional."
+     },
+     {
+      "afirmacao": "O estudante deve se matricular em pelo menos o número mínimo de créditos exigido pelo curso de origem durante a mobilidade acadêmica intrainstitucional.",
+      "motivo": "O contexto não menciona qualquer exigência sobre matrícula mínima de créditos durante a mobilidade acadêmica intrainstitucional."
+     },
+     {
+      "afirmacao": "O pedido de mobilidade acadêmica intrainstitucional deve ser feito dentro do prazo estabelecido no Calendário Acadêmico.",
+      "motivo": "O contexto não menciona explicitamente a obrigatoriedade de se fazer o pedido dentro de um prazo específico do Calendário Acadêmico."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "A UNIPAMPA possui o programa de Mobilidade Acadêmica Interinstitucional.",
+      "motivo": "O contexto se refere apenas à mobilidade acadêmica intrainstitucional, ou seja, entre campi da mesma instituição. Não há menção ou indicação de um programa de mobilidade entre instituições diferentes (interinstitucional)."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "A Mobilidade Acadêmica Interinstitucional também permite que um estudante curse disciplinas em outro campus da UNIPAMPA de forma temporária.",
+      "motivo": "O contexto menciona que a Mobilidade Acadêmica Interinstitucional permite ao discente de outra IES cursar componentes curriculares na UNIPAMPA (vinculação temporária), mas não menciona explicitamente que permita ao discente da UNIPAMPA cursar disciplinas em outro campus da UNIPAMPA. A temporariedade é válida para cursos em outras instituições, não necessariamente dentro da própria UNIPAMPA. Além disso, a mobilidade intrainstitucional já aborda essa possibilidade dentro da UNIPAMPA. Não há menção clara de que a interinstitucional permita isso."
+     }
+    ],
+    "n_afirmacoes_referencia": 6,
+    "n_afirmacoes_fidelidade": 2
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 0.1667,
+    "f1": 0.4,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "O limite máximo de componentes curriculares que podem ser cursados por meio da mobilidade acadêmica intrainstitucional é de 14.",
+      "motivo": "O contexto não menciona nenhum limite máximo de componentes curriculares para a mobilidade acadêmica intrainstitucional."
+     },
+     {
+      "afirmacao": "Para realizar a mobilidade acadêmica intrainstitucional, é necessário estar em situação regular.",
+      "motivo": "O contexto não menciona a necessidade de estar em situação regular para realizar a mobilidade acadêmica intrainstitucional."
+     },
+     {
+      "afirmacao": "É necessário ter um plano de atividades aprovado pelos coordenadores dos cursos de origem e de destino.",
+      "motivo": "O contexto não menciona a necessidade de ter um plano de atividades aprovado pelos coordenadores dos cursos de origem e de destino."
+     },
+     {
+      "afirmacao": "É necessário matricular-se em pelo menos o número mínimo de créditos exigido pelo curso de origem.",
+      "motivo": "O contexto não menciona a necessidade de se matricular em um número mínimo de créditos exigido pelo curso de origem."
+     },
+     {
+      "afirmacao": "O pedido de mobilidade acadêmica intrainstitucional deve ser feito dentro do prazo do Calendário Acadêmico.",
+      "motivo": "O contexto não menciona a necessidade de o pedido ser feito dentro do prazo do Calendário Acadêmico."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "A mobilidade acadêmica pode ser realizada de forma Interinstitucional.",
+      "motivo": "O contexto descreve apenas a mobilidade acadêmica intrainstitucional e não menciona a possibilidade de mobilidade interinstitucional."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 6,
+    "n_afirmacoes_fidelidade": 4
+   }
+  }
+ },
+ {
+  "codigo": "P17",
+  "modelo": "llama3.1:8b",
+  "id": "R25",
+  "pergunta": "O que é o reingresso?",
+  "resposta_correta": "O reingresso é a modalidade do Processo Seletivo Complementar destinada a discentes da UNIPAMPA em situação de abandono ou cancelamento há, no máximo, 4 (quatro) semestres letivos regulares consecutivos.",
+  "resposta": "O reingresso é a modalidade do Processo Seletivo Complementar para discentes da UNIPAMPA em situação de abandono ou cancelamento há, no máximo, 04 (quatro) semestres letivos regulares consecutivos [1]. O discente reingressante deverá seguir o percurso formativo na versão atual do PPC [1].\n\nNão foi encontrado qual é a finalidade do reingresso.",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 0.795,
+   "completude": 0.875,
+   "fidelidade": 0.8334
+  },
+  "nivel_pt": {
+   "correcao": 2,
+   "completude": 2,
+   "fidelidade": 1
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.75,
+    "f1": 0.73,
+    "fidelidade": 0.6667,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "O Processo Seletivo Complementar tem como público-alvo discentes da UNIPAMPA.",
+      "motivo": "O contexto menciona que o reingresso é para discentes da UNIPAMPA, mas não afirma explicitamente que o Processo Seletivo Complementar como um todo tem como público-alvo apenas eles. No entanto, como o reingresso é uma modalidade desse processo e é direcionado aos discentes da UNIPAMPA, pode-se inferir que o público-alvo do Processo Seletivo Complementar inclui, pelo menos, esses discentes. Contudo, não há uma afirmação direta de que é exclusivo a eles."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "O discente reingressante deve seguir o percurso formativo na versão atual do Projeto Pedagógico de Curso (PPC).",
+      "motivo": "Não há menção no contexto sobre a obrigatoriedade de o discente reingressante seguir a versão atual do PPC. Essa informação não pode ser inferida."
+     },
+     {
+      "afirmacao": "Não há informação disponível sobre a finalidade específica do reingresso.",
+      "motivo": "O contexto não menciona explicitamente a finalidade específica do reingresso, apenas descreve quem pode participar e as condições para isso. Portanto, não é possível afirmar que não há informação sobre a finalidade, mas sim que ela não é explicitada."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "O Processo Seletivo Complementar por reingresso é destinado a estudantes da Universidade da Região da Campanha (UNIPAMPA).",
+      "motivo": "O contexto não menciona explicitamente que o reingresso é exclusivo para estudantes da UNIPAMPA, embora seja mencionado que é para discentes da UNIPAMPA em situação de abandono ou cancelamento. No entanto, não há restrição a outras universidades, apenas a discentes da própria instituição."
+     },
+     {
+      "afirmacao": "Não há menção na resposta sobre qual é a finalidade específica do reingresso.",
+      "motivo": "O contexto não detalha explicitamente a finalidade específica do reingresso, apenas descreve critérios e condições para sua realização. No entanto, a finalidade implícita é permitir que estudantes em situação de abandono ou cancelamento retornem ao curso, sem especificar um propósito além disso."
+     }
+    ],
+    "n_afirmacoes_referencia": 4,
+    "n_afirmacoes_fidelidade": 6
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 1.0,
+    "f1": 0.86,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "O discente reingressante deve seguir o percurso formativo na versão atual do PPC.",
+      "motivo": "O contexto não menciona nenhuma regra sobre o discente reingressante seguir o percurso formativo na versão atual do PPC."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 4,
+    "n_afirmacoes_fidelidade": 4
+   }
+  }
+ },
+ {
+  "codigo": "P18",
+  "modelo": "qwen3.8:27b",
+  "id": "R37",
+  "pergunta": "Quais são as modalidades do Processo Seletivo Complementar?",
+  "resposta_correta": "As modalidades do Processo Seletivo Complementar são: segundo ciclo de formação, reingresso, conclusão da primeira graduação, reopção de curso, transferência voluntária, portador de diploma e segunda licenciatura, destinada a graduados em uma licenciatura.",
+  "resposta": "As modalidades do Processo Seletivo Complementar são [1][3]:\n\n*   Segundo ciclo de formação;\n*   Reingresso;\n*   Conclusão da Primeira Graduação;\n*   Reopção de curso;\n*   Transferência voluntária;\n*   Portador de diploma;\n*   Segunda licenciatura, destinado para graduados em uma licenciatura [1].\n\nAlém disso, os documentos informam que poderão ser criadas outras modalidades conforme demandas institucionais [1].",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 0.875,
+   "completude": 0.9445,
+   "fidelidade": 0.95
+  },
+  "nivel_pt": {
+   "correcao": 2,
+   "completude": 2,
+   "fidelidade": 1
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.8889,
+    "f1": 0.82,
+    "fidelidade": 0.9,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "O Processo Seletivo Complementar possui modalidades de ingresso ou participação.",
+      "motivo": "O contexto menciona modalidades específicas, mas não afirma explicitamente que elas são modalidades de ingresso ou participação. É uma inferência implícita, mas não direta, pois não há uma afirmação clara sobre o propósito geral das modalidades."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "O Processo Seletivo Complementar poderá incluir outras modalidades conforme demandas institucionais.",
+      "motivo": "O contexto não menciona explicitamente a possibilidade de inclusão de outras modalidades, apenas lista as existentes. Não há inferência direta para essa afirmação."
+     },
+     {
+      "afirmacao": "A inclusão de novas modalidades no Processo Seletivo Complementar depende de informações contidas nos documentos oficiais.",
+      "motivo": "O contexto não menciona qualquer condição ou dependência relacionada à inclusão de novas modalidades em documentos oficiais. É uma afirmação não inferível diretamente do texto."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "A criação de novas modalidades depende de demandas específicas da instituição.",
+      "motivo": "Embora o parágrafo único mencione que outras modalidades podem ser criadas conforme demandas institucionais, não há uma afirmação explícita de que a criação depende *somente* de demandas específicas. A redação é mais aberta ('poderão ser criadas'), não limitando-se a uma dependência exclusiva de demandas. Além disso, o contexto não especifica critérios rígidos para criação, apenas que isso é possível conforme demandas."
+     }
+    ],
+    "n_afirmacoes_referencia": 9,
+    "n_afirmacoes_fidelidade": 10
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 1.0,
+    "f1": 0.93,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "Outras modalidades podem ser criadas para o Processo Seletivo Complementar conforme demandas institucionais.",
+      "motivo": "O contexto não menciona a possibilidade de criação de outras modalidades com base em demandas institucionais."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 8,
+    "n_afirmacoes_fidelidade": 8
+   }
+  }
+ },
+ {
+  "codigo": "P19",
+  "modelo": "phi4-mini",
+  "id": "R33",
+  "pergunta": "Quantos dias de licença tenho em caso de falecimento de um familiar?",
+  "resposta_correta": "Em caso de falecimento de cônjuge, companheiro, pais, madrasta ou padrasto, avós, irmão, filho, enteado ou pessoa sob sua guarda ou curatela, a licença é de 8 (oito) dias consecutivos.",
+  "resposta": "Você tem 8 dias consecutivos de licença em caso de falecimento de um familiar [1][3].",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 0.495,
+   "completude": 0.0,
+   "fidelidade": 0.75
+  },
+  "nivel_pt": {
+   "correcao": 1,
+   "completude": 0,
+   "fidelidade": 1
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.0,
+    "f1": 0.13,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "O falecimento de cônjuge dá direito a licença de 8 dias consecutivos.",
+      "motivo": "O contexto menciona 'familiar' de forma geral, mas não especifica se cônjuge é incluído explicitamente. Embora seja razoável inferir que cônjuge seja considerado um familiar, não há menção direta a ele."
+     },
+     {
+      "afirmacao": "O falecimento de companheiro dá direito a licença de 8 dias consecutivos.",
+      "motivo": "Assim como o cônjuge, 'companheiro' não é mencionado explicitamente no contexto. Não há base direta para inferir que ele seja incluído."
+     },
+     {
+      "afirmacao": "O falecimento de pais dá direito a licença de 8 dias consecutivos.",
+      "motivo": "O termo 'familiar' pode incluir pais, mas não há menção explícita a eles. Não é possível inferir diretamente."
+     },
+     {
+      "afirmacao": "O falecimento de madrasta dá direito a licença de 8 dias consecutivos.",
+      "motivo": "Não há referência explícita a madrasta ou padrasto no contexto. Não é possível inferir diretamente."
+     },
+     {
+      "afirmacao": "O falecimento de padrasto dá direito a licença de 8 dias consecutivos.",
+      "motivo": "Assim como a madrasta, não há menção explícita a padrasto no contexto."
+     },
+     {
+      "afirmacao": "O falecimento de avós dá direito a licença de 8 dias consecutivos.",
+      "motivo": "O termo 'familiar' pode incluir avós, mas não há menção explícita. Não é possível inferir diretamente."
+     },
+     {
+      "afirmacao": "O falecimento de irmão dá direito a licença de 8 dias consecutivos.",
+      "motivo": "O termo 'familiar' pode incluir irmãos, mas não há menção explícita. Não é possível inferir diretamente."
+     },
+     {
+      "afirmacao": "O falecimento de filho dá direito a licença de 8 dias consecutivos.",
+      "motivo": "O termo 'familiar' pode incluir filhos, mas não há menção explícita. Não é possível inferir diretamente."
+     },
+     {
+      "afirmacao": "O falecimento de enteado dá direito a licença de 8 dias consecutivos.",
+      "motivo": "Não há referência explícita a enteado no contexto. Não é possível inferir diretamente."
+     },
+     {
+      "afirmacao": "O falecimento de pessoa sob guarda dá direito a licença de 8 dias consecutivos.",
+      "motivo": "Não há referência explícita a pessoas sob guarda no contexto. Não é possível inferir diretamente."
+     },
+     {
+      "afirmacao": "O falecimento de pessoa sob curatela dá direito a licença de 8 dias consecutivos.",
+      "motivo": "Não há referência explícita a pessoas sob curatela no contexto. Não é possível inferir diretamente."
+     },
+     {
+      "afirmacao": "A licença por falecimento de um dos parentes ou pessoas mencionadas é de 8 dias consecutivos.",
+      "motivo": "O contexto menciona 'familiar' de forma geral, mas não lista explicitamente os parentes ou pessoas específicas. A afirmação é uma generalização que não pode ser inferida diretamente do texto."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "A licença mencionada é concedida por lei ou regulamento trabalhista brasileiro.",
+      "motivo": "O contexto não menciona explicitamente se a licença é concedida por lei ou regulamento trabalhista brasileiro, apenas descreve o direito em si. Não há informações sobre a origem legal ou regulamentar da licença."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 12,
+    "n_afirmacoes_fidelidade": 1
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 0.0,
+    "f1": 0.86,
+    "fidelidade": 0.5,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "Em caso de falecimento de cônjuge, companheiro, pais, madrasta ou padrasto, avós, irmão, filho, enteado ou pessoa sob sua guarda ou curatela, a licença é de 8 dias consecutivos.",
+      "motivo": "O contexto afirma que \"Você tem 8 dias consecutivos de licença em caso de falecimento de um familiar.\", mas não especifica a lista completa de parentes para os quais essa licença se aplica."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "O funcionário tem 8 dias consecutivos de licença.",
+      "motivo": "O contexto trata de estudantes e não de funcionários, e menciona 8 dias consecutivos apenas para licenças por falecimento de parentes, não especificando que seja para funcionários."
+     }
+    ],
+    "n_afirmacoes_referencia": 1,
+    "n_afirmacoes_fidelidade": 2
+   }
+  }
+ },
+ {
+  "codigo": "P20",
+  "modelo": "qwen3.8:27b",
+  "id": "R32",
+  "pergunta": "A partir de quando a licença maternidade pode ser requerida?",
+  "resposta_correta": "A licença maternidade pode ser requerida à Secretaria Acadêmica a partir do 8º (oitavo) mês de gestação ou após o nascimento do bebê.",
+  "resposta": "A licença maternidade pode ser requerida à Secretaria Acadêmica a partir do 8º (oitavo) mês de gestação ou após o nascimento do bebê [1].",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 0.835,
+   "completude": 0.8334,
+   "fidelidade": 1.0
+  },
+  "nivel_pt": {
+   "correcao": 2,
+   "completude": 2,
+   "fidelidade": 2
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.6667,
+    "f1": 0.67,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "A licença maternidade pode ser requerida **pela** Secretaria Acadêmica.",
+      "motivo": "O contexto menciona que a licença pode ser requerida **à** Secretaria Acadêmica, mas não afirma explicitamente que a própria Secretaria é a solicitante. A redação sugere que a solicitação é feita **para** a Secretaria, não que ela é a responsável por requerer. Além disso, não há menção de que a Secretaria é a única ou principal responsável por iniciar o processo. A palavra 'pela' implica uma agência ativa, o que não é confirmado."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "A licença maternidade pode ser requerida **pela** Secretaria Acadêmica.",
+      "motivo": "O contexto menciona que a licença pode ser requerida **à** Secretaria Acadêmica, mas não afirma explicitamente que a própria Secretaria é a solicitante. A redação sugere que a solicitação é feita **para** a Secretaria, não que ela é a responsável por requerer. Além disso, não há menção de que a Secretaria é a única ou principal responsável por iniciar o processo. A palavra 'pela' implica uma agência ativa, o que não é confirmado."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 3,
+    "n_afirmacoes_fidelidade": 3
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 1.0,
+    "f1": 1.0,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [],
+    "resposta_sem_apoio_na_referencia": [],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 2,
+    "n_afirmacoes_fidelidade": 2
+   }
+  }
+ },
+ {
+  "codigo": "P21",
+  "modelo": "phi4-mini",
+  "id": "R06",
+  "pergunta": "Em quantos dias o professor deve divulgar o resultado de uma avaliação?",
+  "resposta_correta": "O resultado das atividades de avaliação deve ser divulgado aos discentes em até 10 (dez) dias úteis após a sua realização.",
+  "resposta": "O resultado da avaliação deve ser divulgado aos discentes em até 10 (dez) dias úteis após sua realização [1][3].",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 1.0,
+   "completude": 1.0,
+   "fidelidade": 1.0
+  },
+  "nivel_pt": {
+   "correcao": 2,
+   "completude": 2,
+   "fidelidade": 2
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 1.0,
+    "f1": 1.0,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [],
+    "resposta_sem_apoio_na_referencia": [],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 2,
+    "n_afirmacoes_fidelidade": 3
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 1.0,
+    "f1": 1.0,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [],
+    "resposta_sem_apoio_na_referencia": [],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 2,
+    "n_afirmacoes_fidelidade": 2
+   }
+  }
+ },
+ {
+  "codigo": "P22",
+  "modelo": "qwen3.8:27b",
+  "id": "R17",
+  "pergunta": "Quais são os grupos de atividades complementares de graduação?",
+  "resposta_correta": "As atividades complementares de graduação se classificam em 4 (quatro) grupos: Grupo I, Atividades de Ensino; Grupo II, Atividades de Pesquisa; Grupo III, Atividades de Extensão; e Grupo IV, Atividades Culturais, Artísticas, Sociais, de Gestão e Exercício Profissional.",
+  "resposta": "Os grupos de Atividades Complementares de Graduação (ACG) são os seguintes [1][3]:\n\n*   **Grupo I:** Atividades de Ensino;\n*   **Grupo II:** Atividades de Pesquisa;\n*   **Grupo III:** Atividades de Extensão;\n*   **Grupo IV:** Atividades Culturais, Artísticas, Sociais, de Gestão e Exercício Profissional (conforme a Resolução CONSUNI/UNIPAMPA nº 480) [1] ou Atividades Culturais e Artísticas, Sociais e de Gestão (conforme o PPC 2019 do curso de Engenharia de Computação) [3].\n\nVale ressaltar que há uma pequena variação na nomenclatura do Grupo IV entre a norma geral da universidade e o projeto pedagógico específico citado.",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 0.73,
+   "completude": 1.0,
+   "fidelidade": 0.866
+  },
+  "nivel_pt": {
+   "correcao": 1,
+   "completude": 2,
+   "fidelidade": 1
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 1.0,
+    "f1": 0.73,
+    "fidelidade": 0.875,
+    "referencia_nao_encontrada": [],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "O Grupo IV das Atividades Complementares de Graduação inclui Atividades Culturais, Artísticas, Sociais, de Gestão e Exercício Profissional, conforme a Resolução CONSUNI/UNIPAMPA nº 480.",
+      "motivo": "O contexto menciona as atividades do Grupo IV, mas não cita explicitamente a Resolução CONSUNI/UNIPAMPA nº 480 como referência. A informação sobre o conteúdo do Grupo IV está presente, mas a menção à resolução específica não."
+     },
+     {
+      "afirmacao": "O Grupo IV das Atividades Complementares de Graduação, conforme o PPC 2019 do curso de Engenharia de Computação, inclui Atividades Culturais e Artísticas, Sociais e de Gestão.",
+      "motivo": "O contexto não menciona o PPC 2019 do curso de Engenharia de Computação nem faz referência a uma variação ou especificação particular para esse curso. A informação sobre o Grupo IV é geral e não restrita a esse projeto pedagógico."
+     },
+     {
+      "afirmacao": "Existe uma variação na nomenclatura do Grupo IV entre a norma geral da universidade e o projeto pedagógico específico do curso de Engenharia de Computação.",
+      "motivo": "O contexto não fornece informações suficientes para inferir uma variação na nomenclatura do Grupo IV entre normas gerais e projetos pedagógicos específicos. Não há menção a diferenças ou variações."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "O Grupo IV também pode incluir Atividades Culturais e Artísticas, Sociais e de Gestão, conforme o Projeto Pedagógico de Curso (PPC) de 2019 do curso de Engenharia de Computação.",
+      "motivo": "O PPC 2019 menciona o Grupo IV como 'Atividades Culturais e Artísticas, Sociais e de Gestão', mas não menciona explicitamente 'Exercício Profissional'. No entanto, o contexto não contradiz a afirmação, pois o Art. 73 da Resolução CONSUNI/UNIPAMPA nº 480 já abrange todas essas atividades. A afirmação é parcialmente correta, mas não é uma reprodução exata do texto, que inclui também 'Exercício Profissional'."
+     }
+    ],
+    "n_afirmacoes_referencia": 5,
+    "n_afirmacoes_fidelidade": 8
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 1.0,
+    "f1": 0.73,
+    "fidelidade": 0.8571,
+    "referencia_nao_encontrada": [],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "O Grupo IV inclui Atividades Culturais, Artísticas, Sociais, de Gestão e Exercício Profissional conforme a Resolução CONSUNI/UNIPAMPA nº 480.",
+      "motivo": "O contexto lista que o Grupo IV inclui Atividades Culturais, Artísticas, Sociais, de Gestão e Exercício Profissional, mas não menciona a Resolução CONSUNI/UNIPAMPA nº 480."
+     },
+     {
+      "afirmacao": "O Grupo IV também inclui Atividades Culturais e Artísticas, Sociais e de Gestão conforme o PPC 2019 do curso de Engenharia de Computação.",
+      "motivo": "O contexto não menciona o PPC 2019 do curso de Engenharia de Computação nem essa subdivisão específica do Grupo IV."
+     },
+     {
+      "afirmacao": "Existe uma variação na nomenclatura do Grupo IV entre a norma geral da universidade e o projeto pedagógico específico citado.",
+      "motivo": "O contexto não fornece informações sobre variações de nomenclatura entre a norma geral e um projeto pedagógico específico."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "Os grupos de Atividades Complementares de Graduação (ACG) são os seguintes:",
+      "motivo": "O contexto lista os grupos de ACGs em diferentes documentos, mas não apresenta uma lista consolidada ou afirma que os grupos são os seguintes de forma conclusiva para todos os documentos."
+     }
+    ],
+    "n_afirmacoes_referencia": 5,
+    "n_afirmacoes_fidelidade": 7
+   }
+  }
+ },
+ {
+  "codigo": "P23",
+  "modelo": "qwen3.8:27b",
+  "id": "R46",
+  "pergunta": "Qual é o tempo máximo para concluir o curso de Engenharia de Computação?",
+  "resposta_correta": "O tempo máximo para concluir o curso de Engenharia de Computação é de 20 (vinte) semestres letivos, o dobro da duração prevista de 10 semestres.",
+  "resposta": "O tempo máximo para concluir o curso de Engenharia de Computação é de **20 (vinte) semestres letivos** [1][2].\n\nAlém disso, a Resolução nº 240, de 25 de abril de 2019, estabelece que o tempo máximo para integralização dos cursos de graduação da UNIPAMPA deverá ser equivalente ao tempo mínimo do curso acrescido de 100% [3].",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 0.345,
+   "completude": 0.4166,
+   "fidelidade": 1.0
+  },
+  "nivel_pt": {
+   "correcao": 1,
+   "completude": 1,
+   "fidelidade": 2
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.3333,
+    "f1": 0.29,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "A duração prevista para o curso de Engenharia de Computação é de 10 semestres letivos.",
+      "motivo": "O contexto não menciona explicitamente a duração prevista (mínima) do curso, apenas o tempo máximo (20 semestres) e uma regra geral para outros cursos da UNIPAMPA. Não há informação suficiente para inferir que a duração mínima seja 10 semestres."
+     },
+     {
+      "afirmacao": "A duração máxima do curso de Engenharia de Computação é o dobro da duração prevista.",
+      "motivo": "A Resolução nº 240 menciona que o tempo máximo para integralização dos cursos de graduação da UNIPAMPA é equivalente ao tempo mínimo acrescido de 100% (ou seja, o dobro). No entanto, o contexto não especifica explicitamente a duração mínima do curso de Engenharia de Computação. Embora a lógica seja aplicável, não há inferência direta de que a duração mínima seja 10 semestres para esse curso específico, apenas que o máximo é o dobro do mínimo. Além disso, o contexto não afirma que a duração mínima seja 10 semestres para Engenharia de Computação, apenas que o máximo é 20 semestres."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "A Resolução nº 240, de 25 de abril de 2019, estabelece um tempo máximo para integralização dos cursos de graduação da UNIPAMPA.",
+      "motivo": "O contexto não menciona nenhuma resolução ou instituição específica (como UNIPAMPA) ou detalhes sobre regulamentação formal. A afirmação não pode ser inferida do texto dado."
+     },
+     {
+      "afirmacao": "O tempo máximo para integralização dos cursos de graduação da UNIPAMPA é equivalente ao tempo mínimo do curso acrescido de 100%.",
+      "motivo": "O contexto menciona que o tempo máximo é o dobro do tempo mínimo (10 semestres), o que equivale a um aumento de 100% sobre o tempo mínimo. No entanto, não há menção à UNIPAMPA ou a cursos de graduação em geral, apenas ao curso de Engenharia de Computação. Portanto, não é possível inferir essa afirmação diretamente."
+     },
+     {
+      "afirmacao": "A Resolução nº 240 foi publicada em 25 de abril de 2019.",
+      "motivo": "O contexto menciona a data 25 de abril de 2019, mas não está claro se ela se refere à publicação de uma resolução específica (Resolução nº 240) ou a outro contexto. Além disso, não há menção à UNIPAMPA ou à resolução em si. Portanto, não é possível inferir essa afirmação diretamente."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 3,
+    "n_afirmacoes_fidelidade": 4
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 0.5,
+    "f1": 0.4,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "A duração prevista para o curso de Engenharia de Computação é de 10 semestres.",
+      "motivo": "O contexto informa o tempo máximo de 20 semestres, mas não especifica uma duração prevista de 10 semestres."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "A Resolução nº 240, de 25 de abril de 2019, estabelece regras para a integralização dos cursos de graduação da UNIPAMPA.",
+      "motivo": "O contexto não menciona a Resolução nº 240, de 25 de abril de 2019, nem a UNIPAMPA."
+     },
+     {
+      "afirmacao": "O tempo máximo para integralização dos cursos de graduação da UNIPAMPA deve ser equivalente ao tempo mínimo do curso acrescido de 100%.",
+      "motivo": "O contexto menciona que o tempo máximo é o dobro da duração prevista (10 semestres), o que equivale a um acréscimo de 100%, mas não especifica que isso se aplica aos cursos de graduação da UNIPAMPA."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 2,
+    "n_afirmacoes_fidelidade": 3
+   }
+  }
+ },
+ {
+  "codigo": "P24",
+  "modelo": "phi4-mini",
+  "id": "R34",
+  "pergunta": "O que é preciso para obter o diploma?",
+  "resposta_correta": "Para obter o diploma, é preciso integralizar o curso conforme o projeto pedagógico e participar da colação de grau, que é condição necessária para a expedição do diploma digital. Para colar grau, o discente também deve estar em situação regular com o Exame Nacional de Desempenho de Estudantes, quite com a Justiça Eleitoral, sem débitos com a biblioteca e, se for do sexo masculino e tiver entre 18 e 45 anos, quite com o serviço militar obrigatório.",
+  "resposta": "Para obter o diploma, você precisa:\n\n1. Integralizar o curso conforme o projeto político pedagógico do curso e registro acadêmico no Sistema Institucional [2].\n2. Estar em situação regular relativa ao Exame Nacional de Desempenho de Estudantes (ENADE) [2].\n3. Ter quieta com a Justiça Eleitoral; estar quite com o serviço militar obrigatório, caso se trate de um discente masculino entre 18 e 45 anos [2]; ter quieta com as pendências da biblioteca [2] [5];\n4. Obter informações na coordenação do seu curso sobre prazos para a realização da prova [2].\n5. Se responder a inquérito disciplinar, não poderá colar grau até sua conclusão [2].\n\nAlém disso, se você estiver em período letivo especial (PLE), será considerado graduando do período regular imediatamente anterior ao PLE e deverá obedecer o calendário e o cronograma de procedimentos de Colações de Grau mais próximo [2]. Para os Portadores de Diploma, é necessário ter um diploma revalidado na forma do art. 48 da Lei 9.394, de 20 de dezembro de 1996 [3], entre outros documentos específicos relacionados ao seu caso [5].",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 0.5,
+   "completude": 0.6905,
+   "fidelidade": 0.9584
+  },
+  "nivel_pt": {
+   "correcao": 1,
+   "completude": 1,
+   "fidelidade": 1
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.6667,
+    "f1": 0.53,
+    "fidelidade": 0.9167,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "A participação na colação de grau é uma condição necessária para a expedição do diploma digital.",
+      "motivo": "O contexto não menciona a colação de grau como condição necessária para a expedição do diploma. Ele apenas menciona que a colação de grau é um procedimento relacionado à conclusão do curso, mas não que ela é pré-requisito para a expedição do diploma."
+     },
+     {
+      "afirmacao": "Para participar da colação de grau, o discente deve estar em situação regular com o Exame Nacional de Desempenho de Estudantes (ENEM).",
+      "motivo": "O contexto menciona o Exame Nacional de Desempenho de Estudantes (ENADE), e não o ENEM (Exame Nacional do Ensino Médio). Além disso, o ENADE é citado como condição para obter o diploma, não necessariamente para participar da colação de grau."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "Para obter o diploma, é necessário integralizar o curso conforme o projeto político pedagógico do curso e registrar-se no sistema acadêmico institucional.",
+      "motivo": "O contexto menciona a integralização conforme o projeto pedagógico, mas não faz referência explícita ao registro no sistema acadêmico institucional como condição para obtenção do diploma. Além disso, o termo usado é 'projeto pedagógico' e não 'projeto político pedagógico'."
+     },
+     {
+      "afirmacao": "As informações sobre prazos para a realização da prova de colação de grau devem ser obtidas na coordenação do curso.",
+      "motivo": "O contexto não menciona nada sobre onde obter informações sobre prazos para a colação de grau. Essa informação não pode ser inferida do texto fornecido."
+     },
+     {
+      "afirmacao": "Um discente que responder a inquérito disciplinar não poderá colar grau até a conclusão desse processo.",
+      "motivo": "O contexto não aborda nenhuma situação relacionada a inquéritos disciplinares ou suas implicações na colação de grau."
+     },
+     {
+      "afirmacao": "Um estudante em período letivo especial (PLE) será considerado graduando do período regular imediatamente anterior ao PLE e deverá seguir o calendário e cronograma de procedimentos de colação de grau mais próximo.",
+      "motivo": "O contexto não menciona nada sobre estudantes em período letivo especial (PLE) ou seus procedimentos específicos para colação de grau."
+     },
+     {
+      "afirmacao": "Para Portadores de Diploma, é necessário ter o diploma revalidado conforme o art. 48 da Lei 9.394, de 20 de dezembro de 1996, além de outros documentos específicos relacionados ao caso.",
+      "motivo": "O contexto não trata de Portadores de Diploma ou revalidação de diplomas, sendo essa informação não inferível do texto fornecido."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "O estudante precisa estar quite com todas as pendências relacionadas à biblioteca da instituição.",
+      "motivo": "O contexto afirma que o discente não deve ter 'pendências (débitos) com a biblioteca' para a colação de grau e obtenção do diploma, conforme Art. 2º, item IV. No entanto, não menciona que todas as pendências devem ser quitadas, apenas que não pode haver débitos pendentes."
+     }
+    ],
+    "n_afirmacoes_referencia": 6,
+    "n_afirmacoes_fidelidade": 12
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 0.7143,
+    "f1": 0.47,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "Para obter o diploma, é preciso participar da colação de grau.",
+      "motivo": "O contexto menciona procedimentos para colação de grau, mas não estabelece que a participação na colação de grau é uma condição necessária para obter o diploma."
+     },
+     {
+      "afirmacao": "A participação na colação de grau é condição necessária para a expedição do diploma digital.",
+      "motivo": "O contexto não menciona a expedição de diploma digital nem estabelece que a participação na colação de grau é uma condição para isso."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "Para obter o diploma, é necessário integralizar o curso conforme o projeto político pedagógico do curso e o registro acadêmico no Sistema Institucional.",
+      "motivo": "O contexto menciona a necessidade de integralizar o curso conforme o projeto pedagógico, mas não menciona o registro acadêmico no Sistema Institucional."
+     },
+     {
+      "afirmacao": "Para obter o diploma, é necessário obter informações na coordenação do curso sobre os prazos para a realização da prova.",
+      "motivo": "O contexto não menciona a necessidade de obter informações na coordenação do curso sobre prazos de prova."
+     },
+     {
+      "afirmacao": "Se um estudante responder a um inquérito disciplinar, ele não poderá colar grau até a conclusão do inquérito.",
+      "motivo": "O contexto não faz menção a inquéritos disciplinares e suas consequências para a colação de grau."
+     },
+     {
+      "afirmacao": "Se um estudante estiver em período letivo especial (PLE), ele será considerado graduando do período regular imediatamente anterior ao PLE.",
+      "motivo": "O contexto não contém nenhuma informação sobre o que acontece se um estudante estiver em período letivo especial (PLE)."
+     },
+     {
+      "afirmacao": "Estudantes em período letivo especial (PLE) deverão obedecer ao calendário e ao cronograma de procedimentos de Colações de Grau mais próximo.",
+      "motivo": "O contexto não menciona a existência de um período letivo especial (PLE) nem as obrigações dos estudantes nesse período."
+     },
+     {
+      "afirmacao": "Para Portadores de Diploma, é necessário ter um diploma revalidado na forma do art. 48 da Lei 9.394, de 20 de dezembro de 1996.",
+      "motivo": "O contexto não menciona nada sobre Portadores de Diploma ou a necessidade de diploma revalidado conforme o art. 48 da Lei 9.394/96."
+     },
+     {
+      "afirmacao": "Para Portadores de Diploma, são necessários outros documentos específicos relacionados ao seu caso.",
+      "motivo": "O contexto não menciona a necessidade de outros documentos específicos para Portadores de Diploma."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 7,
+    "n_afirmacoes_fidelidade": 10
+   }
+  }
+ },
+ {
+  "codigo": "P25",
+  "modelo": "phi4-mini",
+  "id": "R39",
+  "pergunta": "Quando começa o semestre letivo 2026/1?",
+  "resposta_correta": "O semestre letivo 2026/1 começa em 09/03/2026.",
+  "resposta": "O semestre letivo 2026/1 começa em [3] Período Letivo Especial I de 19 de janeiro de 2026 até 7 de março de 2026. No entanto, se você está perguntando especificamente sobre o início da primeira semana letiva do primeiro semestre (semestre letivo), então é no dia [4] Período Letivo: Semestre Letivo 2026/1; Data: 20/07/2026; Dia da Semana: segunda-feira.",
+  "humana": {
+   "correcao": 0,
+   "fidelidade": 2
+  },
+  "com_observacao": true,
+  "media_pt": {
+   "correcao": 0.0,
+   "completude": 0.0,
+   "fidelidade": 0.3
+  },
+  "nivel_pt": {
+   "correcao": 0,
+   "completude": 0,
+   "fidelidade": 0
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.0,
+    "f1": 0.0,
+    "fidelidade": 0.4,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "O semestre letivo 2026/1 teve início em 09 de março de 2026.",
+      "motivo": "O contexto menciona que o Período Letivo Especial I do semestre letivo 2026/1 inicia em 19 de janeiro de 2026 e termina em 7 de março de 2026. Além disso, o início da primeira semana letiva do primeiro semestre é informado como 20/07/2026. Não há menção a um início em 09 de março de 2026, e essa data não está associada a nenhum período letivo mencionado no texto. Portanto, não é possível inferir essa informação diretamente do contexto."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "O semestre letivo 2026/1 possui um Período Letivo Especial I.",
+      "motivo": "O contexto não menciona a existência de um Período Letivo Especial I para o semestre 2026/1, apenas a data de início do semestre letivo."
+     },
+     {
+      "afirmacao": "O Período Letivo Especial I do semestre letivo 2026/1 inicia em 19 de janeiro de 2026.",
+      "motivo": "O contexto não fornece informações sobre a existência ou data de início de um Período Letivo Especial I."
+     },
+     {
+      "afirmacao": "O Período Letivo Especial I do semestre letivo 2026/1 termina em 7 de março de 2026.",
+      "motivo": "Não há menção a um Período Letivo Especial I ou suas datas no contexto fornecido."
+     },
+     {
+      "afirmacao": "O início da primeira semana letiva do primeiro semestre letivo 2026/1 é em 20 de julho de 2026.",
+      "motivo": "O contexto menciona que o semestre letivo 2026/1 começa em 09/03/2026, não em julho. Além disso, não há referência a uma primeira semana letiva específica ou data de início em julho."
+     },
+     {
+      "afirmacao": "A primeira semana letiva do semestre letivo 2026/1 inicia em uma segunda-feira.",
+      "motivo": "O contexto não menciona o dia da semana de início do semestre letivo 2026/1, apenas a data de início (09/03/2026). Não é possível inferir se é segunda-feira ou outro dia."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "O início da primeira semana letiva do primeiro semestre letivo 2026/1 ocorre em 20 de julho de 2026.",
+      "motivo": "O contexto menciona que o Semestre Letivo 2026/1 inicia em 09/03/2026, não em 20/07/2026. O texto menciona 20/07/2026 como início do Período Letivo Especial II, não do primeiro semestre letivo."
+     },
+     {
+      "afirmacao": "A primeira semana letiva do semestre letivo 2026/1 inicia em uma segunda-feira.",
+      "motivo": "O contexto não menciona explicitamente o dia da semana de início do primeiro semestre letivo 2026/1. Embora seja possível inferir que o primeiro dia letivo seja uma segunda-feira (uma vez que o período inicia em 09/03/2026, que foi uma segunda-feira), não há uma afirmação direta no texto."
+     },
+     {
+      "afirmacao": "A data específica mencionada para o início do semestre letivo 2026/1 é 20/07/2026.",
+      "motivo": "O contexto menciona que o início do Semestre Letivo 2026/1 é em 09/03/2026, não em 20/07/2026. A data 20/07/2026 refere-se ao início do Período Letivo Especial II."
+     }
+    ],
+    "n_afirmacoes_referencia": 1,
+    "n_afirmacoes_fidelidade": 5
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 0.0,
+    "f1": 0.0,
+    "fidelidade": 0.2,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "O semestre letivo 2026/1 começa em 09/03/2026.",
+      "motivo": "O contexto afirma que o semestre letivo 2026/1 começa em 19 de janeiro de 2026, ou que a primeira semana letiva é em 20/07/2026, mas não menciona 09/03/2026 como data de início."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "O semestre letivo 2026/1 começa em Período Letivo Especial I de 19 de janeiro de 2026 até 7 de março de 2026.",
+      "motivo": "O contexto afirma que o semestre letivo 2026/1 começa em 09/03/2026, sem mencionar um Período Letivo Especial I com datas específicas."
+     },
+     {
+      "afirmacao": "A primeira semana letiva do primeiro semestre (semestre letivo) começa em 20 de julho de 2026.",
+      "motivo": "O contexto não menciona a data de início da primeira semana letiva do primeiro semestre."
+     },
+     {
+      "afirmacao": "A data de início da primeira semana letiva do primeiro semestre é 20/07/2026.",
+      "motivo": "O contexto não fornece nenhuma informação sobre a data de início da primeira semana letiva do primeiro semestre."
+     },
+     {
+      "afirmacao": "O dia da semana em que começa a primeira semana letiva do primeiro semestre é segunda-feira.",
+      "motivo": "O contexto não menciona o dia da semana em que começa a primeira semana letiva do primeiro semestre."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "O semestre letivo 2026/1 começa no Período Letivo Especial I.",
+      "motivo": "O contexto indica que o Período Letivo Especial I ocorre de 19/01 a 07/03/2026, e o Semestre Letivo 2026/1 começa em 09/03 a 18/07/2026, logo, o Semestre Letivo 2026/1 não começa no Período Letivo Especial I."
+     },
+     {
+      "afirmacao": "A primeira semana letiva do primeiro semestre começa em 20 de julho de 2026.",
+      "motivo": "O contexto mostra que o Semestre Letivo 2026/1 começa em 09/03 a 18/07/2026, e o Período Letivo Especial II começa em 20/07 a 15/08/2026. Não há informação que defina o início da primeira semana letiva do primeiro semestre como 20 de julho de 2026."
+     },
+     {
+      "afirmacao": "A data de início da primeira semana letiva é 20 de julho de 2026.",
+      "motivo": "O contexto não especifica a data de início da primeira semana letiva do primeiro semestre, apenas que o Semestre Letivo 2026/1 vai de 09/03 a 18/07/2026."
+     },
+     {
+      "afirmacao": "O dia da semana do início da primeira semana letiva é segunda-feira.",
+      "motivo": "O contexto não fornece o dia da semana para o início da primeira semana letiva do primeiro semestre."
+     }
+    ],
+    "n_afirmacoes_referencia": 1,
+    "n_afirmacoes_fidelidade": 5
+   }
+  }
+ },
+ {
+  "codigo": "P26",
+  "modelo": "phi4-mini",
+  "id": "R42",
+  "pergunta": "Quantos créditos tem a disciplina de Cálculo I?",
+  "resposta_correta": "A disciplina de Cálculo I tem 4 (quatro) créditos, com carga horária total de 60 horas.",
+  "resposta": "A disciplina de Cálculo I tem 4 créditos [5].",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 0.585,
+   "completude": 0.5,
+   "fidelidade": 0.5
+  },
+  "nivel_pt": {
+   "correcao": 1,
+   "completude": 1,
+   "fidelidade": 1
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.5,
+    "f1": 0.5,
+    "fidelidade": 0.0,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "A carga horária total da disciplina de Cálculo I é de 60 horas.",
+      "motivo": "O contexto não menciona nada sobre a carga horária da disciplina de Cálculo I, apenas os créditos. Não há informação suficiente para inferir a carga horária."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "A disciplina 'Cálculo I' é oferecida como uma disciplina acadêmica.",
+      "motivo": "O contexto menciona apenas informações sobre créditos e carga horária, mas não afirma explicitamente que a disciplina é oferecida como acadêmica. Não há informações suficientes para inferir isso diretamente."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "A disciplina denominada Cálculo I possui um total de 4 créditos.",
+      "motivo": "No contexto fornecido, não há menção explícita à disciplina Cálculo I com seu total de créditos. A tabela de migração curricular menciona equivalências entre disciplinas, mas não especifica o número de créditos de Cálculo I diretamente. No entanto, a equivalência para Cálculo I (até 2022/2) é Cálculo A (4 créditos) + Elementos de Matemática (4 créditos), o que sugere que Cálculo I tinha 8 créditos no currículo anterior (4 + 4). Não há referência direta a Cálculo I com 4 créditos no contexto atual. Além disso, não há menção direta à disciplina Cálculo I no texto, apenas sua equivalência no passado. Portanto, não é possível inferir diretamente que Cálculo I possui 4 créditos no contexto atual."
+     }
+    ],
+    "n_afirmacoes_referencia": 2,
+    "n_afirmacoes_fidelidade": 1
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 0.5,
+    "f1": 0.67,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "A carga horária total da disciplina de Cálculo I é de 60 horas.",
+      "motivo": "O contexto menciona que a disciplina tem 4 créditos, mas não especifica que a carga horária total é de 60 horas."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 2,
+    "n_afirmacoes_fidelidade": 1
+   }
+  }
+ },
+ {
+  "codigo": "P27",
+  "modelo": "phi4-mini",
+  "id": "R01",
+  "pergunta": "Quantos trancamentos totais posso fazer durante o curso?",
+  "resposta_correta": "Ao longo do curso, é possível solicitar no máximo 2 (dois) trancamentos totais em semestres letivos consecutivos ou 4 (quatro) trancamentos totais em semestres letivos intercalados, exceto nos casos previstos em legislação.",
+  "resposta": "Durante um semestre letivo regular, você pode solicitar até 2 trancamentos totais em semestres letivos consecutivos ou 4 trancamentos totais em semestres letivos intercalados [1][3].",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 0.735,
+   "completude": 0.7084,
+   "fidelidade": 0.9
+  },
+  "nivel_pt": {
+   "correcao": 1,
+   "completude": 1,
+   "fidelidade": 1
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.75,
+    "f1": 0.67,
+    "fidelidade": 0.8,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "Os trancamentos totais não são permitidos em todos os casos, pois há exceções previstas em legislação específica.",
+      "motivo": "O contexto não menciona nada sobre exceções ou legislação específica que regule os trancamentos totais. Ele apenas estabelece limites numéricos para trancamentos consecutivos ou intercalados, sem fazer referência a restrições adicionais ou exceções."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "Um estudante pode solicitar trancamentos de matrícula durante um semestre letivo regular.",
+      "motivo": "O contexto menciona trancamentos totais em semestres letivos, mas não especifica explicitamente se é possível solicitar trancamentos durante um semestre letivo regular. Além disso, não há menção direta sobre a possibilidade de trancamentos parciais ou durante o semestre, apenas sobre trancamentos totais. Portanto, não é possível inferir diretamente essa afirmação."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "Os semestres letivos consecutivos devem ser adjacentes no período do curso.",
+      "motivo": "O contexto não define explicitamente que os semestres consecutivos devem ser adjacentes, apenas menciona 'semestres letivos consecutivos'. Não há menção à obrigatoriedade de adjacência no texto, apenas a contagem máxima de trancamentos."
+     }
+    ],
+    "n_afirmacoes_referencia": 4,
+    "n_afirmacoes_fidelidade": 5
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 0.6667,
+    "f1": 0.8,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "As regras de trancamento estão sujeitas a exceções previstas em legislação.",
+      "motivo": "O contexto não menciona nenhuma informação sobre exceções previstas em legislação."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 3,
+    "n_afirmacoes_fidelidade": 2
+   }
+  }
+ },
+ {
+  "codigo": "P28",
+  "modelo": "qwen3.8:27b",
+  "id": "R12",
+  "pergunta": "Qual é a ordem de prioridade na matrícula em componentes curriculares?",
+  "resposta_correta": "A prioridade de matrícula segue esta ordem: (1) discentes com deficiência; (2) discentes público-alvo das demais ações afirmativas, acadêmicas mães de crianças de até cinco anos de idade e pessoas transgênero; (3) ingressantes; (4) discentes com matrícula regular em período ideal; (5) discentes no último ano do curso; (6) discentes que integralizaram mais de 80% da carga horária do curso em componentes obrigatórios e complementares; (7) discentes com matrícula regular; (8) ingressantes pelo edital do Segundo Ciclo de Formação do Bacharelado Interdisciplinar, em sua primeira solicitação de matrícula; (9) ingressantes pelo edital do Processo Seletivo Complementar; (10) ingressantes por transferência ex-officio. Quando as solicitações superam as vagas, usa-se o índice de desempenho para priorizar a matrícula entre os grupos 3 a 10.",
+  "resposta": "A ordem de prioridade na matrícula em componentes curriculares obedece à seguinte sequência [3]:\n\n1. Discentes com deficiência;\n2. Discentes classificados como público-alvo das demais ações afirmativas, acadêmicas-mães de menores de idade (até cinco anos de idade) e pessoas transgêneros;\n3. Discentes ingressantes;\n4. Discentes com matrícula regular em período ideal;\n5. Discentes no último ano do Curso;\n6. Discentes que integralizaram mais de 80% (oitenta por cento) da carga horária do curso em componentes curriculares obrigatórios e complementares;\n7. Discentes com matrícula regular;\n8. Discentes ingressantes pelo edital do Segundo Ciclo de Formação, do Bacharelado Interdisciplinar, em sua primeira solicitação de matrícula [3].",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 0.63,
+   "completude": 0.7678,
+   "fidelidade": 1.0
+  },
+  "nivel_pt": {
+   "correcao": 1,
+   "completude": 2,
+   "fidelidade": 2
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.7857,
+    "f1": 0.4,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "Os ingressantes pelo edital do Processo Seletivo Complementar têm prioridade na matrícula.",
+      "motivo": "Não há menção no contexto sobre ingressantes pelo Processo Seletivo Complementar ou qualquer critério relacionado a esse edital."
+     },
+     {
+      "afirmacao": "Os ingressantes por transferência ex-officio têm prioridade na matrícula.",
+      "motivo": "Não há menção no contexto sobre ingressantes por transferência ex-officio ou qualquer critério relacionado a esse tipo de ingresso."
+     },
+     {
+      "afirmacao": "Quando as solicitações de matrícula superam as vagas disponíveis, utiliza-se o índice de desempenho para priorizar entre os grupos de ingressantes (grupos 3 a 10).",
+      "motivo": "O contexto não menciona o uso de índice de desempenho para priorização entre grupos. A ordem de prioridade é estabelecida explicitamente, sem referência a critérios adicionais como o índice de desempenho."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "A ordem de prioridade para matrícula em componentes curriculares segue uma sequência específica.",
+      "motivo": "O contexto menciona uma ordem de prioridade para matrícula, mas não especifica se é para componentes curriculares em si, apenas para matrícula geral. Além disso, o contexto não afirma explicitamente que a sequência é específica para componentes curriculares, mas sim para matrícula em geral."
+     },
+     {
+      "afirmacao": "Discentes com deficiência têm prioridade na matrícula em componentes curriculares.",
+      "motivo": "O contexto afirma que discentes com deficiência têm prioridade na matrícula (em geral), mas não especifica se isso se aplica exclusivamente ou prioritariamente a componentes curriculares. A prioridade é mencionada de forma geral, não restrita a componentes curriculares."
+     },
+     {
+      "afirmacao": "Discentes ingressantes no curso têm prioridade na matrícula em componentes curriculares.",
+      "motivo": "O contexto menciona ingressantes como grupo 3 na ordem de prioridade, mas não especifica se isso se aplica apenas a componentes curriculares. A prioridade é geral, não restrita a componentes curriculares."
+     },
+     {
+      "afirmacao": "Discentes no último ano do curso têm prioridade na matrícula em componentes curriculares.",
+      "motivo": "O contexto menciona que discentes no último ano do curso (grupo 5) têm prioridade na matrícula, mas não especifica se isso se aplica apenas a componentes curriculares. A prioridade é geral."
+     },
+     {
+      "afirmacao": "Discentes que integralizaram mais de 80% da carga horária do curso em componentes curriculares obrigatórios e complementares têm prioridade na matrícula.",
+      "motivo": "O contexto menciona que discentes que integralizaram mais de 80% da carga horária em componentes obrigatórios e complementares (grupo 6) têm prioridade na matrícula, mas não especifica explicitamente se isso se refere apenas a componentes curriculares. No entanto, como os componentes obrigatórios e complementares são parte dos componentes curriculares, pode-se inferir que a prioridade se aplica a matrícula em geral, incluindo componentes curriculares. Ainda assim, a afirmação é um pouco ambígua, pois não especifica se a prioridade é exclusiva para componentes curriculares ou se é geral."
+     },
+     {
+      "afirmacao": "Discentes com matrícula regular (sem restrição de período) têm prioridade na matrícula.",
+      "motivo": "O contexto menciona discentes com matrícula regular (grupo 7), mas não especifica que isso se aplica apenas a matrícula regular sem restrição de período. Além disso, o grupo 4 já abrange discentes com matrícula regular em período ideal, o que é mais específico. A afirmação é vaga e não pode ser diretamente inferida como verdadeira sem mais contexto."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 14,
+    "n_afirmacoes_fidelidade": 9
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 0.75,
+    "f1": 0.86,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "A nona prioridade é dada aos ingressantes pelo edital do Processo Seletivo Complementar.",
+      "motivo": "O contexto não menciona nenhuma nona prioridade nem ingressantes pelo edital do Processo Seletivo Complementar."
+     },
+     {
+      "afirmacao": "A décima prioridade é dada aos ingressantes por transferência ex-officio.",
+      "motivo": "O contexto não menciona nenhuma décima prioridade nem ingressantes por transferência ex-officio."
+     },
+     {
+      "afirmacao": "Quando as solicitações de matrícula excedem o número de vagas, o índice de desempenho é utilizado para priorizar a matrícula entre os grupos 3 a 10.",
+      "motivo": "O contexto não menciona o uso do índice de desempenho em caso de excesso de solicitações de matrícula."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 12,
+    "n_afirmacoes_fidelidade": 11
+   }
+  }
+ },
+ {
+  "codigo": "P29",
+  "modelo": "qwen3.8:27b",
+  "id": "R20",
+  "pergunta": "O TCC precisa ter defesa pública?",
+  "resposta_correta": "Sim. O Trabalho de Conclusão de Curso exige defesa pública perante a banca de avaliação. No curso de Engenharia de Computação, os trabalhos são apresentados em sessão pública, em um seminário no final do semestre.",
+  "resposta": "Sim, o TCC exige defesa pública. A Resolução nº 29/2011 estabelece que é exigida a defesa pública do trabalho apresentado perante a Banca de Avaliação [3]. Além disso, a Instrução Normativa UNIPAMPA nº 16/2024 detalha os procedimentos para essa defesa, indicando que o discente a realizará conforme definido pelo curso e que, após a mesma, o orientador encaminhará a ata com a nota final [1].",
+  "humana": {
+   "correcao": 2,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 0.42,
+   "completude": 0.3333,
+   "fidelidade": 0.9
+  },
+  "nivel_pt": {
+   "correcao": 1,
+   "completude": 1,
+   "fidelidade": 1
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.3333,
+    "f1": 0.4,
+    "fidelidade": 0.8,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "No curso de Engenharia de Computação, os trabalhos são apresentados em sessão pública.",
+      "motivo": "O contexto não menciona especificamente o curso de Engenharia de Computação, apenas faz referência geral ao TCC e à defesa pública exigida pela instituição (UNIPAMPA). Não há informação suficiente para inferir que isso se aplica exclusivamente ou necessariamente a esse curso."
+     },
+     {
+      "afirmacao": "A apresentação do Trabalho de Conclusão de Curso ocorre em um seminário no final do semestre.",
+      "motivo": "O contexto não menciona a ocorrência da defesa em um seminário específico nem que ela aconteça obrigatoriamente no final do semestre. A defesa é descrita como uma apresentação perante a banca, sem detalhes sobre formato ou cronograma."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "A Resolução nº 29/2011 estabelece a obrigatoriedade da defesa pública do trabalho perante a Banca de Avaliação.",
+      "motivo": "O contexto não menciona nenhuma resolução ou documento regulamentar específico (como a Resolução nº 29/2011). A obrigatoriedade é descrita de forma geral, sem referência a um documento formal."
+     },
+     {
+      "afirmacao": "A defesa pública do TCC é regulamentada pela Resolução nº 29/2011.",
+      "motivo": "Assim como na afirmação anterior, o contexto não faz referência a nenhuma regulamentação específica, apenas menciona a obrigatoriedade da defesa pública sem detalhar normas ou resoluções."
+     },
+     {
+      "afirmacao": "A Instrução Normativa UNIPAMPA nº 16/2024 detalha os procedimentos para a defesa pública do TCC.",
+      "motivo": "O contexto não menciona nenhuma instrução normativa ou documento específico (como a Instrução Normativa UNIPAMPA nº 16/2024). A informação é genérica e não vinculada a um documento formal."
+     },
+     {
+      "afirmacao": "Após a defesa pública, o orientador encaminha a ata com a nota final do TCC.",
+      "motivo": "O contexto não menciona nada sobre o envio de ata ou nota final pelo orientador após a defesa. A informação não pode ser inferida do texto fornecido."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "A Instrução Normativa UNIPAMPA nº 16/2024 especifica os procedimentos para a defesa pública do TCC.",
+      "motivo": "A Instrução Normativa nº 16/2024 aborda procedimentos relacionados à defesa, como a composição da banca, envio do trabalho e local da defesa (Art. 2º, Art. 3º e §2º do Art. 2º), mas não especifica *explicitamente* que a defesa pública é obrigatória. A obrigatoriedade é estabelecida pela Resolução nº 29/2011. A norma 16/2024 trata mais dos procedimentos logísticos e de organização, não da obrigatoriedade em si."
+     }
+    ],
+    "n_afirmacoes_referencia": 3,
+    "n_afirmacoes_fidelidade": 5
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 0.3333,
+    "f1": 0.44,
+    "fidelidade": 1.0,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "No curso de Engenharia de Computação, os trabalhos são apresentados em sessão pública.",
+      "motivo": "O contexto menciona a exigência de defesa pública do TCC, mas não especifica que isso se aplica ao curso de Engenharia de Computação."
+     },
+     {
+      "afirmacao": "A apresentação dos trabalhos no curso de Engenharia de Computação ocorre em um seminário no final do semestre.",
+      "motivo": "O contexto não menciona que a apresentação dos trabalhos ocorra em um seminário no final do semestre, nem especifica o curso de Engenharia de Computação."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "A Resolução nº 29/2011 estabelece que é exigida a defesa pública do trabalho apresentado perante a Banca de Avaliação.",
+      "motivo": "O contexto menciona a exigência de defesa pública, mas não cita a Resolução nº 29/2011."
+     },
+     {
+      "afirmacao": "A Instrução Normativa UNIPAMPA nº 16/2024 detalha os procedimentos para a defesa do TCC.",
+      "motivo": "O contexto não menciona a Instrução Normativa UNIPAMPA nº 16/2024."
+     },
+     {
+      "afirmacao": "Após a defesa do TCC, o orientador encaminhará a ata com a nota final.",
+      "motivo": "O contexto não fornece nenhuma informação sobre o envio de ata com a nota final pelo orientador após a defesa."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [],
+    "n_afirmacoes_referencia": 3,
+    "n_afirmacoes_fidelidade": 5
+   }
+  }
+ },
+ {
+  "codigo": "P30",
+  "modelo": "llama3.1:8b",
+  "id": "R21",
+  "pergunta": "Quem pode ser professor orientador de estágio?",
+  "resposta_correta": "O orientador de estágio deve ser um docente em exercício na UNIPAMPA, vinculado ao curso em que o estagiário está matriculado, e precisa estar em exercício durante o período de orientação previsto no Termo de Compromisso de Estágio.",
+  "resposta": "De acordo com o Art. 34 da Resolução CONSUNI/UNIPAMPA nº 329, de 4 de novembro de 2021 [3], os Orientadores de Estágio são responsáveis por assegurar-se das adequações da parte concedente do estágio, física, cultural e profissional para formação do educando.\n\nNão encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.",
+  "humana": {
+   "correcao": 0,
+   "fidelidade": 2
+  },
+  "com_observacao": false,
+  "media_pt": {
+   "correcao": 0.07,
+   "completude": 0.0,
+   "fidelidade": 0.5
+  },
+  "nivel_pt": {
+   "correcao": 0,
+   "completude": 0,
+   "fidelidade": 1
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "completude": 0.0,
+    "f1": 0.14,
+    "fidelidade": 0.5,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "O orientador de estágio deve ser um docente.",
+      "motivo": "O contexto menciona apenas que os Orientadores de Estágio são responsáveis por assegurar adequações da parte concedente do estágio, mas não especifica que eles devem ser docentes. Não há informação suficiente para inferir essa obrigatoriedade."
+     },
+     {
+      "afirmacao": "O orientador de estágio deve estar em exercício na UNIPAMPA.",
+      "motivo": "O texto não menciona explicitamente que o orientador deve estar em exercício na UNIPAMPA, apenas que ele é responsável por assegurar adequações. Não há inferência direta para essa afirmação."
+     },
+     {
+      "afirmacao": "O orientador de estágio deve estar vinculado ao curso em que o estagiário está matriculado.",
+      "motivo": "O contexto não menciona explicitamente a vinculação do orientador ao curso do estagiário. A responsabilidade é sobre a adequação da parte concedente do estágio, não sobre a vinculação ao curso."
+     },
+     {
+      "afirmacao": "O orientador de estágio precisa estar em exercício durante o período de orientação.",
+      "motivo": "O texto não menciona explicitamente que o orientador precisa estar em exercício durante o período de orientação, apenas que ele é responsável por assegurar adequações. Não há inferência direta para essa afirmação."
+     },
+     {
+      "afirmacao": "O período de orientação é previsto no Termo de Compromisso de Estágio.",
+      "motivo": "O contexto não menciona explicitamente o Termo de Compromisso de Estágio como documento que prevê o período de orientação. Não há inferência direta para essa afirmação."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "O Art. 34 da Resolução CONSUNI/UNIPAMPA nº 329, de 4 de novembro de 2021, existe.",
+      "motivo": "O contexto menciona a Resolução CONSUNI/UNIPAMPA nº 329, mas não afirma explicitamente a existência do Art. 34. Não há informações suficientes para inferir a existência do artigo específico."
+     },
+     {
+      "afirmacao": "O Art. 34 da Resolução CONSUNI/UNIPAMPA nº 329, de 4 de novembro de 2021, trata sobre as responsabilidades dos Orientadores de Estágio.",
+      "motivo": "O contexto não menciona o Art. 34 nem suas disposições sobre responsabilidades dos orientadores. Não há base para inferir isso."
+     },
+     {
+      "afirmacao": "Os Orientadores de Estágio são responsáveis por assegurar adequações da parte concedente do estágio.",
+      "motivo": "O contexto não menciona explicitamente que os orientadores são responsáveis por 'assegurar adequações da parte concedente do estágio'. A responsabilidade mencionada é sobre a orientação durante o período de estágio, não sobre adequações específicas da parte concedente."
+     },
+     {
+      "afirmacao": "As adequações mencionadas no Art. 34 incluem aspectos físicos, culturais e profissionais.",
+      "motivo": "O contexto não menciona o Art. 34 nem quaisquer adequações específicas, tampouco detalhes sobre aspectos físicos, culturais ou profissionais. Não há base para inferir isso."
+     },
+     {
+      "afirmacao": "As adequações são necessárias para a formação do educando.",
+      "motivo": "O contexto não menciona adequações nem sua relação com a formação do educando. Não há base para inferir isso."
+     },
+     {
+      "afirmacao": "A informação sobre as responsabilidades dos Orientadores de Estágio não foi encontrada nos documentos disponíveis ao autor da mensagem.",
+      "motivo": "O contexto não menciona a ausência de informações sobre responsabilidades dos orientadores. Além disso, o contexto não é uma mensagem do autor, mas sim um trecho de texto sobre requisitos para orientadores de estágio."
+     },
+     {
+      "afirmacao": "O autor recomenda procurar a coordenação do curso para obter orientação sobre o tema.",
+      "motivo": "O contexto não menciona nenhuma recomendação ou sugestão de procurar a coordenação do curso. Não há base para inferir isso."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "A Resolução CONSUNI/UNIPAMPA nº 329, de 4 de novembro de 2021, estabelece requisitos no Artigo 34 sobre os Orientadores de Estágio.",
+      "motivo": "O contexto menciona o Art. 34, que trata das atribuições dos Orientadores de Estágio, mas não especifica se ele estabelece requisitos no Art. 34 sobre os Orientadores de Estágio. O Art. 34 descreve atribuições, não requisitos formais de seleção ou qualificação. Além disso, o Art. 34 se refere principalmente ao Art. 33, que trata das competências e atribuições gerais, não especificamente sobre requisitos. Portanto, não é possível inferir que o Art. 34 estabelece requisitos sobre os Orientadores de Estágio."
+     },
+     {
+      "afirmacao": "Recomenda-se que a coordenação do curso seja consultada para obter orientação sobre essa questão.",
+      "motivo": "O contexto não contém uma recomendação explícita para consultar a coordenação do curso. Embora o Art. 33.V mencione a participação do Coordenador de Curso na definição do professor orientador, não há uma orientação direta para consultá-lo sobre a questão em geral. Além disso, o contexto não fornece uma recomendação explícita ou implícita para buscar orientação na coordenação."
+     }
+    ],
+    "n_afirmacoes_referencia": 5,
+    "n_afirmacoes_fidelidade": 4
+   },
+   "gemma4:e4b-it-qat": {
+    "completude": 0.0,
+    "f1": 0.0,
+    "fidelidade": 0.5,
+    "referencia_nao_encontrada": [
+     {
+      "afirmacao": "O orientador de estágio deve ser um docente em exercício na UNIPAMPA.",
+      "motivo": "O contexto afirma que os Orientadores de Estágio são responsáveis por assegurar as adequações, mas não especifica que eles devem ser docentes em exercício na UNIPAMPA."
+     },
+     {
+      "afirmacao": "O orientador de estágio deve ser vinculado ao curso em que o estagiário está matriculado.",
+      "motivo": "O contexto não menciona qualquer vínculo do orientador de estágio com o curso do estagiário."
+     },
+     {
+      "afirmacao": "O orientador de estágio precisa estar em exercício durante o período de orientação previsto no Termo de Compromisso de Estágio.",
+      "motivo": "O contexto não fornece informações sobre a necessidade de o orientador estar em exercício durante o período de orientação."
+     }
+    ],
+    "resposta_sem_apoio_na_referencia": [
+     {
+      "afirmacao": "O Art. 34 da Resolução CONSUNI/UNIPAMPA nº 329, de 4 de novembro de 2021, estabelece que os Orientadores de Estágio são responsáveis por assegurar as adequações da parte concedente do estágio.",
+      "motivo": "O contexto fornecido não menciona o Art. 34 da Resolução CONSUNI/UNIPAMPA nº 329, de 4 de novembro de 2021, nem a responsabilidade específica dos Orientadores de Estágio em assegurar adequações da parte concedente."
+     },
+     {
+      "afirmacao": "As adequações que os Orientadores de Estágio devem assegurar incluem as esferas física, cultural e profissional para a formação do educando.",
+      "motivo": "O contexto não especifica quais tipos de adequações os Orientadores de Estágio devem assegurar, apenas que eles devem estar em exercício durante o período de orientação."
+     },
+     {
+      "afirmacao": "A informação sobre a responsabilidade dos Orientadores de Estágio não foi encontrada nos documentos disponíveis.",
+      "motivo": "O contexto descreve requisitos para o orientador de estágio (ser docente em exercício na UNIPAMPA, estar vinculado ao curso e estar em exercício durante o período de orientação), mas não aborda explicitamente a responsabilidade geral dos Orientadores de Estágio."
+     },
+     {
+      "afirmacao": "O usuário deve procurar a coordenação do seu curso para obter orientação.",
+      "motivo": "O contexto não contém nenhuma instrução para que o usuário procure a coordenação do seu curso para obter orientação."
+     }
+    ],
+    "resposta_sem_apoio_nos_trechos": [
+     {
+      "afirmacao": "A informação solicitada não foi encontrada nos documentos disponíveis.",
+      "motivo": "Esta afirmação é uma declaração genérica e não pode ser inferida diretamente do contexto fornecido, que contém informações específicas sobre normas de estágio e projetos pedagógicos."
+     },
+     {
+      "afirmacao": "A coordenação do curso deve ser procurada para obter orientação.",
+      "motivo": "O contexto menciona que o Orientador de Estágio pode orientar o discente a outro campo de estágio e notificar a parte concedente, e que o Orientador de Estágio tem atribuições, mas não afirma que a coordenação do curso deve ser procurada para obter orientação de forma geral."
+     }
+    ],
+    "n_afirmacoes_referencia": 3,
+    "n_afirmacoes_fidelidade": 4
+   }
+  }
+ }
+]

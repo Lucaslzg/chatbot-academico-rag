@@ -1,0 +1,101 @@
+{
+ "versao_chatbot": "16",
+ "criada_em": "2026-11-22T05:20:09",
+ "perguntas": {
+  "arquivo": "perguntas_reais.csv",
+  "assinatura": "6f256815ebe4",
+  "total": 19,
+  "usadas": 19,
+  "limite": null
+ },
+ "busca": {
+  "modo_busca": "hibrida",
+  "modelo_embeddings": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+  "assinatura_base": "1009d82e2794825b",
+  "top_k": 6,
+  "similaridade_minima": 0.5,
+  "janela_vizinhos": 1,
+  "contexto_max_caracteres": 20000,
+  "candidatos_fusao": 50,
+  "rrf_k": 60,
+  "bm25_k1": 1.2,
+  "bm25_b": 0.75,
+  "bm25_cabecalho": true
+ },
+ "modelos": [
+  {
+   "modelo": "llama3.1:8b",
+   "rotulo": "Llama 3.1 8B",
+   "opcoes": {
+    "temperature": 0.2,
+    "num_ctx": 8192,
+    "num_predict": 1024,
+    "top_k": 40,
+    "top_p": 0.9,
+    "min_p": 0.0,
+    "repeat_penalty": 1.1,
+    "repeat_last_n": 64,
+    "seed": 42,
+    "num_gpu": 0
+   },
+   "argumentos": {},
+   "tempo_limite": 900,
+   "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+   "rodou_em": "processador",
+   "fracao_na_placa": 0.0
+  },
+  {
+   "modelo": "qwen3.8:27b",
+   "rotulo": "Qwen 3.8 27B",
+   "opcoes": {
+    "temperature": 0.2,
+    "num_ctx": 8192,
+    "num_predict": 1024,
+    "top_k": 40,
+    "top_p": 0.9,
+    "min_p": 0.0,
+    "repeat_penalty": 1.1,
+    "repeat_last_n": 64,
+    "seed": 42,
+    "num_gpu": 0
+   },
+   "argumentos": {
+    "think": false
+   },
+   "tempo_limite": 3600,
+   "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+   "rodou_em": "processador",
+   "fracao_na_placa": 0.0
+  },
+  {
+   "modelo": "phi4-mini",
+   "rotulo": "Phi-4-mini 3.8B",
+   "opcoes": {
+    "temperature": 0.2,
+    "num_ctx": 8192,
+    "num_predict": 1024,
+    "top_k": 40,
+    "top_p": 0.9,
+    "min_p": 0.0,
+    "repeat_penalty": 1.1,
+    "repeat_last_n": 64,
+    "seed": 42,
+    "num_gpu": 0
+   },
+   "argumentos": {},
+   "tempo_limite": 600,
+   "digest": "78fad5d182a7c33065e153a5f8ba210754207ba9d91973f57dffa7f487363753",
+   "rodou_em": "processador",
+   "fracao_na_placa": 0.0
+  }
+ ],
+ "so_processador": true,
+ "prompt_sistema": "Você é o assistente acadêmico da Universidade Federal do Pampa (UNIPAMPA). Você responde dúvidas sobre documentos institucionais (normas, resoluções, projetos pedagógicos de curso e editais).\n\nRegras:\n1. Use SOMENTE as informações dos trechos numerados enviados junto com a pergunta. Não use conhecimento próprio e não faça suposições.\n2. Depois de cada informação, indique entre colchetes o número do trecho de onde ela veio, por exemplo [1] ou [2][3].\n3. Se os trechos não trouxerem a resposta, responda apenas: \"Não encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.\" Se trouxerem a resposta, mesmo que só em parte, não escreva essa frase: responda com o que os trechos informam e diga, em uma frase, o que não foi encontrado.\n4. Não invente regras, prazos, números, nomes ou procedimentos. Reproduza números e prazos exatamente como aparecem nos trechos.\n5. Se um trecho indicar que um dispositivo foi alterado ou revogado, considere apenas a redação em vigor.\n6. Se trechos de documentos diferentes trouxerem informações diferentes sobre o mesmo ponto (por exemplo, duas versões do PPC de um curso, ou uma norma e a portaria que a retifica), apresente cada uma e diga de qual documento ela vem.\n7. Responda em português do Brasil, de forma clara e objetiva. Use lista quando houver etapas ou itens.",
+ "mensagem_abstencao": "Não encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.",
+ "computador": {
+  "sistema": "Windows-10-10.0.19045-SP0",
+  "processador": "AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",
+  "nucleos_logicos": 16,
+  "python": "3.13.14"
+ }
+}

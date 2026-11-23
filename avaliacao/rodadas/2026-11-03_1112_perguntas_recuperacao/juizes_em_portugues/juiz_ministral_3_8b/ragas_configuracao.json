@@ -1,0 +1,28 @@
+[
+ {
+  "juiz": "ministral-3:8b",
+  "opcoes": {
+   "temperature": 0,
+   "num_ctx": 8192,
+   "num_predict": 2048,
+   "seed": 42
+  },
+  "ragas": "0.4.3",
+  "versao_chatbot": "13",
+  "lingua": "portugues",
+  "inicio": "2026-11-05T03:05:29"
+ },
+ {
+  "juiz": "ministral-3:8b",
+  "opcoes": {
+   "temperature": 0,
+   "num_ctx": 8192,
+   "num_predict": 2048,
+   "seed": 42
+  },
+  "ragas": "0.4.3",
+  "versao_chatbot": "15",
+  "lingua": "portugues",
+  "inicio": "2026-11-15T11:34:31"
+ }
+]

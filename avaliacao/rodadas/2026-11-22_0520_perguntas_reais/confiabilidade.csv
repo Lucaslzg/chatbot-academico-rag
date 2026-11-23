@@ -1,0 +1,4 @@
+﻿modelo;Modelo;Perguntas respondidas pelo modelo;Com resposta nos documentos;Respondeu;Abstenção pelo limiar;Abstenção do modelo;Abstenção com acréscimo;Respondeu, das que chegaram ao modelo;Sem resposta nos documentos;Absteve-se pelo limiar;Absteve-se o modelo;Respondeu sem base (perigoso);Absteve-se, das que chegaram ao modelo;Respostas vazias;Respostas mistas;Respostas sem citação;Cortadas no limite de tokens;Raciocinou mesmo desligado;Tempo médio (s);Tempo mediano (s);Escrita (tokens/s);Correção (F1) média (juízes);Completude média (juízes);Fidelidade média (juízes)
+llama3.1:8b;Llama 3.1 8B;19;15;15;0;0;0;100%;4;1;0;3;0%;0;3;0;0;0;96,2;84,8;6,1;0,25;0,26;0,76
+qwen3.8:27b;Qwen 3.8 27B;19;15;13;0;2;0;87%;4;1;2;1;67%;0;2;0;0;0;244,2;242,4;3,4;0,44;0,49;0,86
+phi4-mini;Phi-4-mini 3.8B;19;15;13;0;2;0;87%;4;1;0;3;0%;0;1;0;0;0;29,9;26,0;10,9;0,23;0,15;0,66

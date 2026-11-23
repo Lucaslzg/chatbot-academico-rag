@@ -1,0 +1,81 @@
+﻿modelo;id;pergunta;sem_resposta;categoria;motivo;resposta;resposta_correta;sua conferência
+llama3.1:8b;P004;Sou aluno de engenharia da computação e preciso fazer mais 3 optativas e esse semestre eu queria fazer pelo menos uma, qual ou quais tu me recomenda fazer estando no quinto semestre?;sim;resposta;respondeu a uma pergunta que os documentos não respondem;"Não há informações sobre recomendações de optativas no quinto semestre nos trechos fornecidos.
+
+No entanto, é possível identificar que o Componente Curricular ""Circuitos Elétricos I"" está previsto para o quinto semestre [3]. Além disso, os objetivos do curso incluem contribuir para a flexibilização curricular por meio de aprofundamento em área da engenharia de computação de interesse específico do discente [4][6].
+
+Não encontrei informações sobre recomendações de optativas no quinto semestre. Procure a coordenação do seu curso para obter orientação.";;manter
+llama3.1:8b;P006;Qual o contato do atual coordenador de curso do curso de engenharia de computação?;sim;resposta;respondeu a uma pergunta que os documentos não respondem;"O contato do atual coordenador de curso do curso de Engenharia de Computação é o Prof. Dr. Bruno Silveira Neves, conforme mencionado no trecho [5]. O número de telefone e o endereço eletrônico dele não estão disponíveis nos trechos fornecidos.
+
+Não encontrei a informação sobre como entrar em contato com o coordenador do curso.";;manter
+llama3.1:8b;P007;Se eu tiver passado em calculo 3, em um semestre em que apos a inscricao na materia eu mudei de ppc, esse calculo 3 pode valer como calculo B;não;mista;cita trechos e diz que não encontrou;"Não é possível determinar se o Cálculo III (4 créditos) pode valer como Cálculo B com base nos trechos fornecidos.
+
+[3] indica que o Cálculo III tem equivalência de 4 créditos básicos sobressalentes B4, mas não especifica se isso é equivalente a outro componente curricular específico como o Cálculo B.
+
+[1] e [2] indicam que o Cálculo II (4 créditos) + Álgebra Linear e Geometria Analítica (4 créditos) equivalem ao Cálculo B, mas não há menção explícita de equivalência entre o Cálculo III e o Cálculo B.
+
+[5] trata do tempo máximo de integralização dos cursos de graduação, mas não aborda a equivalência de componentes curriculares.
+
+Não encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.";"Sozinho, não. Pela tabela de equivalências do PPC de 2023, Cálculo III (4 créditos) vale 4 créditos básicos sobressalentes (B4); Cálculo B é obtido por Cálculo II mais 4 créditos básicos sobressalentes, que dão Cálculo B e Álgebra Linear e Geometria Analítica. Assim, Cálculo III pode completar essa equivalência para quem também cursou Cálculo II.";manter
+llama3.1:8b;P012;Como solicitar laurea acadêmica?;não;mista;cita trechos e diz que não encontrou;"A Láurea Acadêmica é menção conferida ao discente que concluir o curso de graduação com desempenho acadêmico excepcional, conforme os seguintes critérios, analisados pela Comissão de Curso:
+
+I. média aritmética resultante das notas atribuídas ao discente no processo de avaliação da aprendizagem nos componentes curriculares;
+II. atividades complementares de graduação desenvolvidas pelo discente ao longo de sua jornada acadêmica;
+III. aspectos formativos, tais como assiduidade, responsabilidade, ética e respeito;
+IV. comprometimento com o Projeto Institucional da UNIPAMPA.
+
+[2]
+
+A Comissão do Curso determina a concessão da Láurea Acadêmica de maneira conjunta e equilibrada, em consonância com as Normas Básicas de Graduação, Resolução n. 29 do CONSUNI de 28 de abril de 2011, Artigo 76 a 78.
+
+[2]
+
+A Láurea Acadêmica é concedida quando atendidos aos critérios expostos no artigo 76.
+
+[3]
+
+Quando houver, a PROGRAD enviará a Láurea Acadêmica ao discente. [4] Não encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.";Os documentos não preveem um pedido: a Láurea Acadêmica é concedida pela Comissão do Curso ao discente que conclui o curso com desempenho excepcional. Na Engenharia de Computação, os critérios incluem média no curso igual ou superior a 8,5, nota igual ou superior a 9,0 no TCC II e nenhuma reprovação, além de aspectos formativos e do comprometimento com o projeto institucional.;manter
+llama3.1:8b;P013;Como posso saber quais são as disciplinas que posso pegar nesse semestre, dado que estou no 5 semestre de engenharia de computação e não consegui vencer a disciplina de arquitetura e organização de computadores?;não;mista;cita trechos e diz que não encontrou;"Para saber quais disciplinas podem ser cursadas no semestre atual, é necessário verificar as informações dos trechos [1] e [3].
+
+[1] indica que o aluno pode solicitar matrícula em disciplinas de segundo semestre, desde que não haja sobreposição de horário com as turmas de Física I e Laboratório de Física I. No entanto, não há informações específicas sobre quais disciplinas podem ser cursadas no 5º semestre.
+
+[3] fornece a Tabela 1 – Créditos na modalidade semipresencial para os dez semestres do curso, mas não indica as disciplinas que devem ser cursadas em cada semestre. No entanto, é possível identificar as disciplinas que possuem carga horária na modalidade semipresencial e podem ser cursadas no 5º semestre.
+
+No entanto, o trecho [3] também fornece a Tabela 1 – Créditos na modalidade semipresencial para os dez semestres do curso. No entanto, não há informações sobre as disciplinas que devem ser cursadas em cada semestre.
+
+O trecho [5] indica que o aluno pode solicitar matrícula em disciplinas de segundo semestre, desde que não haja sobreposição de horário com as turmas de Física I e Laboratório de Física I. No entanto, não há informações específicas sobre quais disciplinas podem ser cursadas no 5º semestre.
+
+O trecho [6] fornece a Figura 5 - Distribuição percentual dos conteúdos entre os três núcleos formativos e as Tabelas 8 e 9 - Listas de equivalências para fins de aproveitamento. No entanto, não há informações sobre quais disciplinas podem ser cursadas no 5º semestre.
+
+Não encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.";Pelos pré-requisitos do PPC. Arquitetura e Organização de Computadores é pré-requisito de Sistemas Operacionais (que também exige Algoritmos e Classificação de Dados) e co-requisito de Projeto Digital II, que pode ser cursada no mesmo semestre que ela. As demais disciplinas podem ser pedidas se você já tiver os pré-requisitos de cada uma, e a orientação do curso é dar prioridade às disciplinas em atraso.;manter
+llama3.1:8b;P017;Por que as ofertas de disciplinas são feitas tão tardiamente?;sim;resposta;respondeu a uma pergunta que os documentos não respondem;"As ofertas de disciplinas são feitas tão tardiamente porque os prazos para envio das propostas de alterações curriculares (denominação, número de vagas, turno, tempo de integralização de curso de graduação) pela Coordenação de Curso à PROGRAD são definidos em 30/06 [4] e as ofertas devem ser registradas pela Secretaria Acadêmica até o dia 03/07 [4]. Além disso, os prazos para registro da oferta pela Secretaria Acadêmica são definidos em 08/06 a 22/06 [4], mas também há um período adicional de 13 e 14/07 [5] para registro da oferta.
+
+Não encontrei o motivo específico das ofertas serem feitas tão tardiamente nos trechos disponíveis.";;manter
+qwen3.8:27b;P004;Sou aluno de engenharia da computação e preciso fazer mais 3 optativas e esse semestre eu queria fazer pelo menos uma, qual ou quais tu me recomenda fazer estando no quinto semestre?;sim;mista;respondeu a uma pergunta que os documentos não respondem;"Os trechos fornecidos não contêm uma lista completa de disciplinas optativas nem critérios específicos de recomendação baseados no semestre atual (quinto) ou na necessidade de completar 3 optativas.
+
+O único trecho que menciona o quinto semestre é referente à disciplina **Circuitos Elétricos I**, mas os documentos a classificam como um ""Componente Curricular do Quinto Semestre"" e não especificam se ela é obrigatória, eletiva ou optativa [3]. Como as regras proíbem suposições sobre a natureza da disciplina (obrigatória vs. optativa) sem base textual explícita nos trechos, não posso recomendar essa disciplina como uma das suas 3 optativas necessárias.
+
+Não encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.";;corrigir para abstenção
+qwen3.8:27b;P006;Qual o contato do atual coordenador de curso do curso de engenharia de computação?;sim;mista;respondeu a uma pergunta que os documentos não respondem;Os documentos informam que o atual coordenador do curso de Engenharia de Computação é o Prof. Dr. Bruno Silveira Neves [2][5]. No entanto, não encontrei essa informação nos documentos disponíveis: os trechos fornecidos não contêm dados de contato (e-mail ou telefone) do coordenador. Procure a coordenação do seu curso para obter orientação.;;manter
+qwen3.8:27b;P016;Quanto às equivalências entre PPCs, como posso conseguir analisar as ementas e códigos de forma eficiente?;não;mista;cita trechos e diz que não encontrou;"Com base nos trechos fornecidos, não há instruções específicas sobre o procedimento ou método para analisar as ementas e códigos de forma eficiente para fins de equivalência entre PPCs.
+
+Os documentos apenas indicam que existem listas de equivalências disponíveis no Projeto Pedagógico do Curso (PPC) 2023 [5] e apresentam exemplos de ementas e objetivos de componentes curriculares específicos, como ""Algoritmos e Classificação de Dados"" [1][4], mas não detalham o processo de análise comparativa.
+
+Não encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.";"A seção 2.4.5 do PPC de 2023 (Migração curricular e equivalências) tem a tabela que relaciona cada componente cursado até 2022/2 ao seu equivalente no currículo de 2023; as ementas de cada componente estão nos PPCs de 2019 e de 2023.";manter
+phi4-mini;P004;Sou aluno de engenharia da computação e preciso fazer mais 3 optativas e esse semestre eu queria fazer pelo menos uma, qual ou quais tu me recomenda fazer estando no quinto semestre?;sim;resposta;respondeu a uma pergunta que os documentos não respondem;"No quinto semestre você pode escolher atividades complementares de graduação (ACG) que se encaixem em um dos grupos definidos no Projeto Pedagógico do Curso de Engenharia de Computação, Campus Bagé: PPC 2023 ([2]). Os grupos são:
+
+I. Atividades de Ensino
+II. Atividades de Pesquisa
+III. Atividades de Extensão
+IV. Atividades Culturais e Artísticas, Sociais e de Gestão
+
+Você pode escolher uma opção do Grupo I (Atividades de Ensino), Grupo II (Atividades de Pesquisa) ou Grupo III (Atividades de Extensão). Não há informações específicas sobre optativas adicionais no quinto semestre nos trechos fornecidos. Por favor, consulte sua coordenação para mais recomendações adaptadas às suas necessidades e interesses específicos ([2]).";;manter
+phi4-mini;P005;Segunto o PPC de 2019 da engenharia de computação qual são os requisitos para completar minha carga horaria de ingles?;não;abstencao;abstenção com outras palavras (conferir se é mesmo abstenção);Não encontrei esa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.;"No PPC de 2019, a carga horária de inglês é a do Grupo I.2 das Atividades Complementares de Graduação (Atividades de Ensino em Língua Inglesa), com mínimo de 10 e máximo de 30 horas, pela tabela do Anexo I. Contam a disciplina de graduação de língua inglesa e o curso de inglês, desde que tenham no mínimo 60 horas, e o certificado de proficiência em língua inglesa; cada atividade vale até 10 horas (até 30 horas no total das disciplinas e até 20 no dos cursos e no dos certificados). O art. 7º do regulamento traz outro mínimo para o grupo, de 4 horas (máximo de 40), num inciso que repete o nome do Grupo I.1.";manter
+phi4-mini;P006;Qual o contato do atual coordenador de curso do curso de engenharia de computação?;sim;resposta;respondeu a uma pergunta que os documentos não respondem;O contato atual coordenador de curso do curso de engenharia de computação é o Professor Dr. Bruno Silveira Neves [5].;;manter
+phi4-mini;P007;Se eu tiver passado em calculo 3, em um semestre em que apos a inscricao na materia eu mudei de ppc, esse calculo 3 pode valer como calculo B;não;abstencao_com_acrescimo;diz que não encontrou e acrescenta algo sem citar;A partir dos trechos fornecidos, não encontramos informações específicas que respondam diretamente à sua pergunta sobre se um cálculo 3 tomado em uma época anterior pode valer como Calculus B após mudar de PPC. [Não encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.];"Sozinho, não. Pela tabela de equivalências do PPC de 2023, Cálculo III (4 créditos) vale 4 créditos básicos sobressalentes (B4); Cálculo B é obtido por Cálculo II mais 4 créditos básicos sobressalentes, que dão Cálculo B e Álgebra Linear e Geometria Analítica. Assim, Cálculo III pode completar essa equivalência para quem também cursou Cálculo II.";corrigir para abstenção
+phi4-mini;P012;Como solicitar laurea acadêmica?;não;mista;cita trechos e diz que não encontrou;"Para solicitar Laurea Acadêmica, você deve:
+
+1. Concluir o curso de graduação com desempenho acadêmico excepcional [2][3].
+2. A Comissão de Curso determinar da maneira conjunta e equilibrada se atender aos critérios estabelecidos na Resolução n° 29/2011 (média aritmética, atividades complementares, aspectos formativos, compromisso com o Projeto Institucional) [2].
+
+A instrução Normativa UNIPAMPA nº 5 não fornece informações específicas sobre como solicitar Laurea Acadêmica. Portanto, ""Não encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.""";Os documentos não preveem um pedido: a Láurea Acadêmica é concedida pela Comissão do Curso ao discente que conclui o curso com desempenho excepcional. Na Engenharia de Computação, os critérios incluem média no curso igual ou superior a 8,5, nota igual ou superior a 9,0 no TCC II e nenhuma reprovação, além de aspectos formativos e do comprometimento com o projeto institucional.;manter
+phi4-mini;P017;Por que as ofertas de disciplinas são feitas tão tardiamente?;sim;resposta;respondeu a uma pergunta que os documentos não respondem;As ofertas de disciplinas são feitas tardiamente devido ao cronograma estabelecido nas portarias, que especifica datas finais para diferentes etapas do processo seletivo e aproveitamento das atividades complementares de graduação (ACGs) e atividades curriculares de extensão específicas (ACEEs). Por exemplo, a data limite para encaminhar as ofertas de componentes curriculares pela Comissão Local de Ensino é 13-23 de novembro [5], e a data limite para o encaminhamento da oferta de componentes curriculares pela Secretaria Acadêmica é 11 de dezembro [6]. Essas datas tardias podem estar relacionadas à organização eficiente do processo seletivo complementar, garantindo que todas as etapas sejam concluídas antes do início das novas ofertas.;;manter

@@ -1,0 +1,393 @@
+{
+ "rodada": "2026-11-22_0520_perguntas_reais",
+ "calculado_em": "2026-11-22T14:00:54",
+ "metodo": "11",
+ "lingua": "portugues",
+ "faltam": {
+  "ministral-3:8b": 0,
+  "gemma4:e4b-it-qat": 0
+ },
+ "juizes": [
+  {
+   "modelo": "ministral-3:8b",
+   "rotulo": "Ministral 3 8B",
+   "familia": "Mistral (Mistral AI)",
+   "pasta": "juizes_em_portugues/juiz_ministral_3_8b"
+  },
+  {
+   "modelo": "gemma4:e4b-it-qat",
+   "rotulo": "Gemma 4 E4B",
+   "familia": "Gemma (Google)",
+   "pasta": "juizes_em_portugues/juiz_gemma4_e4b_it_qat"
+  }
+ ],
+ "perguntas": {
+  "arquivo": "perguntas_reais.csv",
+  "assinatura": "6f256815ebe4",
+  "total": 19,
+  "usadas": 19,
+  "limite": null
+ },
+ "total_perguntas": 19,
+ "cobertura": {
+  "media_dos_juizes": {
+   "n": 15,
+   "media": 0.543,
+   "mediana": 0.583,
+   "zeros": 2
+  },
+  "por_juiz": {
+   "ministral-3:8b": {
+    "n": 15,
+    "media": 0.576,
+    "mediana": 0.5,
+    "zeros": 2
+   },
+   "gemma4:e4b-it-qat": {
+    "n": 15,
+    "media": 0.51,
+    "mediana": 0.5,
+    "zeros": 4
+   }
+  }
+ },
+ "tabela": [
+  {
+   "modelo": "llama3.1:8b",
+   "rotulo": "Llama 3.1 8B",
+   "familia": "Llama (Meta)",
+   "por_juiz": {
+    "ministral-3:8b": {
+     "correcao": {
+      "n": 15,
+      "media": 0.222,
+      "mediana": 0.24,
+      "zeros": 5
+     },
+     "completude": {
+      "n": 15,
+      "media": 0.283,
+      "mediana": 0.167,
+      "zeros": 6
+     },
+     "fidelidade": {
+      "n": 18,
+      "media": 0.726,
+      "mediana": 0.732,
+      "zeros": 0
+     }
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": {
+      "n": 15,
+      "media": 0.283,
+      "mediana": 0.22,
+      "zeros": 3
+     },
+     "completude": {
+      "n": 15,
+      "media": 0.244,
+      "mediana": 0.111,
+      "zeros": 7
+     },
+     "fidelidade": {
+      "n": 18,
+      "media": 0.792,
+      "mediana": 0.854,
+      "zeros": 0
+     }
+    }
+   },
+   "erros_do_juiz": {
+    "ministral-3:8b": 0,
+    "gemma4:e4b-it-qat": 0
+   },
+   "correcao": {
+    "n": 15,
+    "media": 0.253,
+    "mediana": 0.23,
+    "zeros": 2
+   },
+   "completude": {
+    "n": 15,
+    "media": 0.263,
+    "mediana": 0.139,
+    "zeros": 6
+   },
+   "fidelidade": {
+    "n": 18,
+    "media": 0.759,
+    "mediana": 0.779,
+    "zeros": 0
+   }
+  },
+  {
+   "modelo": "qwen3.8:27b",
+   "rotulo": "Qwen 3.8 27B",
+   "familia": "Qwen (Alibaba)",
+   "por_juiz": {
+    "ministral-3:8b": {
+     "correcao": {
+      "n": 13,
+      "media": 0.448,
+      "mediana": 0.44,
+      "zeros": 0
+     },
+     "completude": {
+      "n": 13,
+      "media": 0.493,
+      "mediana": 0.429,
+      "zeros": 2
+     },
+     "fidelidade": {
+      "n": 14,
+      "media": 0.8,
+      "mediana": 0.84,
+      "zeros": 0
+     }
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": {
+      "n": 13,
+      "media": 0.428,
+      "mediana": 0.46,
+      "zeros": 1
+     },
+     "completude": {
+      "n": 13,
+      "media": 0.492,
+      "mediana": 0.4,
+      "zeros": 2
+     },
+     "fidelidade": {
+      "n": 14,
+      "media": 0.919,
+      "mediana": 1.0,
+      "zeros": 0
+     }
+    }
+   },
+   "erros_do_juiz": {
+    "ministral-3:8b": 0,
+    "gemma4:e4b-it-qat": 0
+   },
+   "correcao": {
+    "n": 13,
+    "media": 0.438,
+    "mediana": 0.45,
+    "zeros": 0
+   },
+   "completude": {
+    "n": 13,
+    "media": 0.493,
+    "mediana": 0.414,
+    "zeros": 1
+   },
+   "fidelidade": {
+    "n": 14,
+    "media": 0.86,
+    "mediana": 0.908,
+    "zeros": 0
+   }
+  },
+  {
+   "modelo": "phi4-mini",
+   "rotulo": "Phi-4-mini 3.8B",
+   "familia": "Phi (Microsoft)",
+   "por_juiz": {
+    "ministral-3:8b": {
+     "correcao": {
+      "n": 13,
+      "media": 0.249,
+      "mediana": 0.29,
+      "zeros": 4
+     },
+     "completude": {
+      "n": 13,
+      "media": 0.153,
+      "mediana": 0.0,
+      "zeros": 8
+     },
+     "fidelidade": {
+      "n": 16,
+      "media": 0.58,
+      "mediana": 0.6,
+      "zeros": 2
+     }
+    },
+    "gemma4:e4b-it-qat": {
+     "correcao": {
+      "n": 13,
+      "media": 0.217,
+      "mediana": 0.19,
+      "zeros": 5
+     },
+     "completude": {
+      "n": 13,
+      "media": 0.153,
+      "mediana": 0.1,
+      "zeros": 6
+     },
+     "fidelidade": {
+      "n": 16,
+      "media": 0.741,
+      "mediana": 0.83,
+      "zeros": 1
+     }
+    }
+   },
+   "erros_do_juiz": {
+    "ministral-3:8b": 0,
+    "gemma4:e4b-it-qat": 0
+   },
+   "correcao": {
+    "n": 13,
+    "media": 0.233,
+    "mediana": 0.2,
+    "zeros": 3
+   },
+   "completude": {
+    "n": 13,
+    "media": 0.153,
+    "mediana": 0.056,
+    "zeros": 6
+   },
+   "fidelidade": {
+    "n": 16,
+    "media": 0.661,
+    "mediana": 0.75,
+    "zeros": 0
+   }
+  }
+ ],
+ "concordancia": [
+  {
+   "juiz_a": "ministral-3:8b",
+   "juiz_b": "gemma4:e4b-it-qat",
+   "metrica": "correcao",
+   "n": 41,
+   "pearson": 0.605,
+   "diferenca_media": 0.154
+  },
+  {
+   "juiz_a": "ministral-3:8b",
+   "juiz_b": "gemma4:e4b-it-qat",
+   "metrica": "completude",
+   "n": 41,
+   "pearson": 0.952,
+   "diferenca_media": 0.055
+  },
+  {
+   "juiz_a": "ministral-3:8b",
+   "juiz_b": "gemma4:e4b-it-qat",
+   "metrica": "fidelidade",
+   "n": 48,
+   "pearson": 0.544,
+   "diferenca_media": 0.192
+  },
+  {
+   "juiz_a": "ministral-3:8b",
+   "juiz_b": "gemma4:e4b-it-qat",
+   "metrica": "cobertura",
+   "n": 15,
+   "pearson": 0.59,
+   "diferenca_media": 0.223
+  }
+ ],
+ "comparacoes": [
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "qwen3.8:27b",
+   "metrica": "correcao",
+   "perguntas": 13,
+   "n": 13,
+   "w_mais": 12.0,
+   "mediana_diferenca": -0.18000000000000005,
+   "p": 0.01708984375
+  },
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "qwen3.8:27b",
+   "metrica": "completude",
+   "perguntas": 13,
+   "n": 11,
+   "w_mais": 12.0,
+   "mediana_diferenca": -0.09999999999999998,
+   "p": 0.0673828125
+  },
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "qwen3.8:27b",
+   "metrica": "fidelidade",
+   "perguntas": 14,
+   "n": 14,
+   "w_mais": 28.0,
+   "mediana_diferenca": -0.09135000000000004,
+   "p": 0.13525390625
+  },
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "phi4-mini",
+   "metrica": "correcao",
+   "perguntas": 13,
+   "n": 12,
+   "w_mais": 43.5,
+   "mediana_diferenca": 0.024999999999999994,
+   "p": 0.74951171875
+  },
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "phi4-mini",
+   "metrica": "completude",
+   "perguntas": 13,
+   "n": 8,
+   "w_mais": 32.0,
+   "mediana_diferenca": 0.0625,
+   "p": 0.0546875
+  },
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "phi4-mini",
+   "metrica": "fidelidade",
+   "perguntas": 16,
+   "n": 16,
+   "w_mais": 94.0,
+   "mediana_diferenca": 0.09199999999999997,
+   "p": 0.19281005859375
+  },
+  {
+   "modelo_a": "qwen3.8:27b",
+   "modelo_b": "phi4-mini",
+   "metrica": "correcao",
+   "perguntas": 12,
+   "n": 12,
+   "w_mais": 67.0,
+   "mediana_diferenca": 0.2375,
+   "p": 0.02685546875
+  },
+  {
+   "modelo_a": "qwen3.8:27b",
+   "modelo_b": "phi4-mini",
+   "metrica": "completude",
+   "perguntas": 12,
+   "n": 10,
+   "w_mais": 54.0,
+   "mediana_diferenca": 0.25,
+   "p": 0.00390625
+  },
+  {
+   "modelo_a": "qwen3.8:27b",
+   "modelo_b": "phi4-mini",
+   "metrica": "fidelidade",
+   "perguntas": 13,
+   "n": 12,
+   "w_mais": 65.0,
+   "mediana_diferenca": 0.08730000000000004,
+   "p": 0.04248046875
+  }
+ ],
+ "notas_antigas": {
+  "ministral-3:8b": 0,
+  "gemma4:e4b-it-qat": 0
+ }
+}

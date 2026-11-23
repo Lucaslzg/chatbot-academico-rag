@@ -1,0 +1,211 @@
+{
+ "rodada": "2026-11-22_0520_perguntas_reais",
+ "calculado_em": "2026-11-22T13:15:11",
+ "juiz": [
+  "ministral-3:8b"
+ ],
+ "opcoes_juiz": {
+  "temperature": 0,
+  "num_ctx": 8192,
+  "num_predict": 2048,
+  "seed": 42
+ },
+ "registro_do_juiz": [
+  {
+   "juiz": "ministral-3:8b",
+   "opcoes": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 2048,
+    "seed": 42
+   },
+   "ragas": "0.4.3",
+   "versao_chatbot": "16",
+   "lingua": "portugues",
+   "inicio": "2026-11-22T08:02:54"
+  }
+ ],
+ "lingua": "portugues",
+ "perguntas": {
+  "arquivo": "perguntas_reais.csv",
+  "assinatura": "6f256815ebe4",
+  "total": 19,
+  "usadas": 19,
+  "limite": null
+ },
+ "metodo": "11",
+ "notas_antigas": 0,
+ "cobertura": {
+  "n": 15,
+  "media": 0.576,
+  "mediana": 0.5,
+  "zeros": 2
+ },
+ "tabela": [
+  {
+   "modelo": "llama3.1:8b",
+   "rotulo": "Llama 3.1 8B",
+   "correcao": {
+    "n": 15,
+    "media": 0.222,
+    "mediana": 0.24,
+    "zeros": 5
+   },
+   "completude": {
+    "n": 15,
+    "media": 0.283,
+    "mediana": 0.167,
+    "zeros": 6
+   },
+   "fidelidade": {
+    "n": 18,
+    "media": 0.726,
+    "mediana": 0.732,
+    "zeros": 0
+   },
+   "erros_do_juiz": 0,
+   "notas_antigas": 0
+  },
+  {
+   "modelo": "qwen3.8:27b",
+   "rotulo": "Qwen 3.8 27B",
+   "correcao": {
+    "n": 13,
+    "media": 0.448,
+    "mediana": 0.44,
+    "zeros": 0
+   },
+   "completude": {
+    "n": 13,
+    "media": 0.493,
+    "mediana": 0.429,
+    "zeros": 2
+   },
+   "fidelidade": {
+    "n": 14,
+    "media": 0.8,
+    "mediana": 0.84,
+    "zeros": 0
+   },
+   "erros_do_juiz": 0,
+   "notas_antigas": 0
+  },
+  {
+   "modelo": "phi4-mini",
+   "rotulo": "Phi-4-mini 3.8B",
+   "correcao": {
+    "n": 13,
+    "media": 0.249,
+    "mediana": 0.29,
+    "zeros": 4
+   },
+   "completude": {
+    "n": 13,
+    "media": 0.153,
+    "mediana": 0.0,
+    "zeros": 8
+   },
+   "fidelidade": {
+    "n": 16,
+    "media": 0.58,
+    "mediana": 0.6,
+    "zeros": 2
+   },
+   "erros_do_juiz": 0,
+   "notas_antigas": 0
+  }
+ ],
+ "comparacoes": [
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "qwen3.8:27b",
+   "metrica": "correcao",
+   "perguntas": 13,
+   "n": 12,
+   "w_mais": 5.0,
+   "mediana_diferenca": -0.2,
+   "p": 0.0048828125
+  },
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "qwen3.8:27b",
+   "metrica": "completude",
+   "perguntas": 13,
+   "n": 10,
+   "w_mais": 13.0,
+   "mediana_diferenca": -0.10000000000000003,
+   "p": 0.150390625
+  },
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "qwen3.8:27b",
+   "metrica": "fidelidade",
+   "perguntas": 14,
+   "n": 13,
+   "w_mais": 22.0,
+   "mediana_diferenca": -0.11949999999999994,
+   "p": 0.10986328125
+  },
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "phi4-mini",
+   "metrica": "correcao",
+   "perguntas": 13,
+   "n": 7,
+   "w_mais": 14.0,
+   "mediana_diferenca": 0.0,
+   "p": 1.0
+  },
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "phi4-mini",
+   "metrica": "completude",
+   "perguntas": 13,
+   "n": 8,
+   "w_mais": 31.0,
+   "mediana_diferenca": 0.125,
+   "p": 0.078125
+  },
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "phi4-mini",
+   "metrica": "fidelidade",
+   "perguntas": 16,
+   "n": 15,
+   "w_mais": 84.5,
+   "mediana_diferenca": 0.09050000000000002,
+   "p": 0.17266845703125
+  },
+  {
+   "modelo_a": "qwen3.8:27b",
+   "modelo_b": "phi4-mini",
+   "metrica": "correcao",
+   "perguntas": 12,
+   "n": 11,
+   "w_mais": 56.5,
+   "mediana_diferenca": 0.17,
+   "p": 0.0341796875
+  },
+  {
+   "modelo_a": "qwen3.8:27b",
+   "modelo_b": "phi4-mini",
+   "metrica": "completude",
+   "perguntas": 12,
+   "n": 8,
+   "w_mais": 35.0,
+   "mediana_diferenca": 0.275,
+   "p": 0.015625
+  },
+  {
+   "modelo_a": "qwen3.8:27b",
+   "modelo_b": "phi4-mini",
+   "metrica": "fidelidade",
+   "perguntas": 13,
+   "n": 12,
+   "w_mais": 60.0,
+   "mediana_diferenca": 0.17459999999999998,
+   "p": 0.10986328125
+  }
+ ],
+ "total_perguntas": 19
+}

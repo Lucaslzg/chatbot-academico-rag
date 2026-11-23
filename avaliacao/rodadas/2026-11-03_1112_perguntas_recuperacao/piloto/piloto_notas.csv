@@ -1,0 +1,31 @@
+﻿codigo;correcao;fidelidade;observacao
+P01;correta;fiel;
+P02;parcial;fiel;pelo que observei, neste caso, ele tenta trazer uma resposta mais completa para a pergunta, mas ao trazer as respostas de cada uma das possíveis modalidades de atestado, ele acaba omitindo cada uma delas, ou seja, ele trás as informações, mas não as separa muito bem, deixando a resposta confusa.
+P03;correta;fiel;
+P04;correta;fiel;
+P05;parcial;fiel;Ele recuperou e apresentou ao usuário o trecho que demonstra que no caso de transferência ( caso da pergunta o usuário) a regra de 50% não se aplica, mas ainda assim não conseguiu fazer esta associação, chegando a uma conclusão final incompleta.
+P06;correta;fiel;
+P07;parcial;parcial;"Ao final ele reafirmou não ter encontrado esta informação na documentação, oque é algo esperado pois a informação não estava nos trechos recuperados, isso é uma ação correta, mas ao mesmo tempo trousse a informação do período do semestre letivo, e adicionou um ""Portanto, podemos concluir que o período para solicitar o trancamento total em 2026/1 é durante o semestre letivo de 09/03 a 18/07/2026."" que seria uma informação extra, mas sugerir que podemos concluir isso não é algo que deveria ocorrer."
+P08;correta;fiel;
+P09;correta;fiel;
+P10;correta;fiel;"Aqui ele apresenta que existe a possibilidade, e depois apresenta o paragrafo que permite ela, o correto seria falar que não, pois seria o caso normal, e apresentar a exceção abaixo, ficando um ""Não, com exceção de..."""
+P11;correta;fiel;
+P12;correta;fiel;
+P13;correta;fiel;
+P14;correta;fiel;
+P15;parcial;fiel;perdeu um detalhe de exceção
+P16;correta;fiel;Ela não trouxe os requisitos presentes na resposta de referência, mas acredito que ela cobre a resposta que o usuário precisaria inicialmente.
+P17;correta;fiel;
+P18;correta;fiel;
+P19;correta;fiel;
+P20;correta;fiel;
+P21;correta;fiel;
+P22;correta;fiel;
+P23;correta;fiel;
+P24;correta;fiel;
+P25;incorreta;fiel;ele confundiu o documento fonte, e respondeu a informação errada, mesmo tendo acesso a correta.
+P26;correta;fiel;
+P27;correta;fiel;
+P28;correta;fiel;
+P29;correta;fiel;
+P30;incorreta;fiel;

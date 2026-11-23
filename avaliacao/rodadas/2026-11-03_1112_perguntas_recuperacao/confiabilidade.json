@@ -1,0 +1,589 @@
+{
+ "rodada": "2026-11-03_1112_perguntas_recuperacao",
+ "calculada_em": "2026-11-15T20:43:11",
+ "versao_chatbot": "15",
+ "versao_da_rodada": "08",
+ "perguntas": {
+  "arquivo": "perguntas_recuperacao.json",
+  "assinatura": "646fd8fee83d",
+  "total": 61,
+  "usadas": 61,
+  "limite": null
+ },
+ "total_perguntas": 61,
+ "limiar": 0.5,
+ "linhas_repetidas": {},
+ "tabela": [
+  {
+   "modelo": "llama3.1:8b",
+   "rotulo": "Llama 3.1 8B",
+   "respondidas": 61,
+   "respondiveis": 53,
+   "respondeu": 52,
+   "absteve_antes": 0,
+   "absteve_modelo": 1,
+   "acrescimo_respondivel": 0,
+   "taxa_resposta": 0.9811320754716981,
+   "sem_resposta": 8,
+   "absteve_limiar_certo": 3,
+   "absteve_modelo_certo": 3,
+   "respondeu_sem_base": 2,
+   "taxa_abstencao_certa": 0.6,
+   "vazias": 0,
+   "mistas": 2,
+   "sem_citacao": 3,
+   "cortadas": 0,
+   "raciocinou": 0,
+   "tempo_medio_s": 64.2,
+   "tempo_mediano_s": 63.4,
+   "tokens_por_s": 6.3,
+   "correcao_media": 0.377,
+   "completude_media": 0.595,
+   "fidelidade_media": 0.717
+  },
+  {
+   "modelo": "qwen3.8:27b",
+   "rotulo": "Qwen 3.8 27B",
+   "respondidas": 61,
+   "respondiveis": 53,
+   "respondeu": 52,
+   "absteve_antes": 0,
+   "absteve_modelo": 1,
+   "acrescimo_respondivel": 0,
+   "taxa_resposta": 0.9811320754716981,
+   "sem_resposta": 8,
+   "absteve_limiar_certo": 3,
+   "absteve_modelo_certo": 5,
+   "respondeu_sem_base": 0,
+   "taxa_abstencao_certa": 1.0,
+   "vazias": 0,
+   "mistas": 1,
+   "sem_citacao": 0,
+   "cortadas": 0,
+   "raciocinou": 0,
+   "tempo_medio_s": 175.1,
+   "tempo_mediano_s": 178.6,
+   "tokens_por_s": 3.7,
+   "correcao_media": 0.612,
+   "completude_media": 0.703,
+   "fidelidade_media": 0.918
+  },
+  {
+   "modelo": "phi4-mini",
+   "rotulo": "Phi-4-mini 3.8B",
+   "respondidas": 61,
+   "respondiveis": 53,
+   "respondeu": 49,
+   "absteve_antes": 0,
+   "absteve_modelo": 4,
+   "acrescimo_respondivel": 0,
+   "taxa_resposta": 0.9245283018867925,
+   "sem_resposta": 8,
+   "absteve_limiar_certo": 3,
+   "absteve_modelo_certo": 5,
+   "respondeu_sem_base": 0,
+   "taxa_abstencao_certa": 1.0,
+   "vazias": 0,
+   "mistas": 3,
+   "sem_citacao": 0,
+   "cortadas": 0,
+   "raciocinou": 0,
+   "tempo_medio_s": 21.9,
+   "tempo_mediano_s": 21.8,
+   "tokens_por_s": 11.4,
+   "correcao_media": 0.489,
+   "completude_media": 0.491,
+   "fidelidade_media": 0.784
+  }
+ ],
+ "comparacoes": [
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "qwen3.8:27b",
+   "criterio": "absteve-se nas perguntas sem resposta",
+   "perguntas": 8,
+   "so_a": [],
+   "so_b": [
+    "N04",
+    "N05"
+   ],
+   "p": 0.5
+  },
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "qwen3.8:27b",
+   "criterio": "respondeu as perguntas com resposta",
+   "perguntas": 53,
+   "so_a": [
+    "R03"
+   ],
+   "so_b": [
+    "R52"
+   ],
+   "p": 1.0
+  },
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "phi4-mini",
+   "criterio": "absteve-se nas perguntas sem resposta",
+   "perguntas": 8,
+   "so_a": [],
+   "so_b": [
+    "N04",
+    "N05"
+   ],
+   "p": 0.5
+  },
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "phi4-mini",
+   "criterio": "respondeu as perguntas com resposta",
+   "perguntas": 53,
+   "so_a": [
+    "R03",
+    "R07",
+    "R09",
+    "R24"
+   ],
+   "so_b": [
+    "R52"
+   ],
+   "p": 0.375
+  },
+  {
+   "modelo_a": "qwen3.8:27b",
+   "modelo_b": "phi4-mini",
+   "criterio": "absteve-se nas perguntas sem resposta",
+   "perguntas": 8,
+   "so_a": [],
+   "so_b": [],
+   "p": 1.0
+  },
+  {
+   "modelo_a": "qwen3.8:27b",
+   "modelo_b": "phi4-mini",
+   "criterio": "respondeu as perguntas com resposta",
+   "perguntas": 53,
+   "so_a": [
+    "R07",
+    "R09",
+    "R24"
+   ],
+   "so_b": [],
+   "p": 0.25
+  }
+ ],
+ "revisar": [
+  {
+   "modelo": "llama3.1:8b",
+   "id": "R03",
+   "pergunta": "Quantas vezes posso trancar a mesma disciplina?",
+   "sem_resposta": "não",
+   "categoria": "mista",
+   "motivo": "cita trechos e diz que não encontrou",
+   "resposta": "Não há menção específica sobre trancar disciplinas no texto fornecido. O documento trata sobre o Trancamento Total de matrícula, que ocorre quando o discente solicita interrupção dos estudos pelo prazo de 1 (um) semestre letivo regular [1]. Não encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.",
+   "resposta_correta": "Cada componente curricular pode ser trancado apenas uma vez ao longo do curso."
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "R11",
+   "pergunta": "Em quais situações o aluno perde o vínculo com a universidade?",
+   "sem_resposta": "não",
+   "categoria": "abstencao_com_acrescimo",
+   "motivo": "diz que não encontrou e acrescenta algo sem citar",
+   "resposta": "O aluno perde o vínculo com a universidade em seguintes situações:\n\n- Cancelamento de matrícula [6, I];\n- Abandono [7];\n- Desligamento [8], que ocorre em 7 situações:\n  - Discente ultrapassa o tempo máximo de integralização curricular previsto no projeto pedagógico do curso com o qual possui vínculo [8, I];\n  - Discente reprovado por frequência em todos os componentes curriculares matriculados no semestre, durante 2 (dois) semestres consecutivos ou 4 (quatro) intercalados, quando discente de curso presencial [8, II];\n  - Ao ser reprovado por nota em todos os componentes curriculares em que estiver matriculado no semestre, por 2 (duas) vezes consecutivas ou 3 (três) intercaladas, quando discente de curso nas modalidades semipresencial e a distância [8, III];\n  - Discente ingressante sem registro de frequência em nenhum componente curricular, no primeiro semestre letivo [8, IV];\n  - Sanção disciplinar submetida ao discente, em consonância com o inciso V, do artigo 158, do Regimento Geral da Universidade [8, V];\n  - Decisão judicial, com trânsito em julgado [8, VI];\n  - Em caso de óbito do discente [8, VII].\n- Transferência externa (voluntária ou ex-officio) [5, V].\n\nNão encontrei informação sobre a perda do vínculo por meio da colação de grau.",
+   "resposta_correta": "O discente perde o vínculo com o curso, e a vaga, por cancelamento de matrícula, abandono, desligamento, reopção de curso, transferência externa (voluntária ou ex-officio) ou colação de grau. O abandono ocorre quando, nos prazos do Calendário Acadêmico, o discente não faz matrícula no semestre letivo regular nem solicita trancamento de matrícula ou sem oferta de disciplina. O desligamento ocorre, entre outros casos, quando o discente ultrapassa o tempo máximo de integralização (salvo discente com deficiência), é reprovado por frequência em todos os componentes do semestre por 2 semestres consecutivos ou 4 intercalados em curso presencial, ou é ingressante sem frequência em nenhum componente no primeiro semestre, além de sanção disciplinar, decisão judicial transitada em julgado ou óbito."
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "R21",
+   "pergunta": "Quem pode ser professor orientador de estágio?",
+   "sem_resposta": "não",
+   "categoria": "mista",
+   "motivo": "cita trechos e diz que não encontrou",
+   "resposta": "De acordo com o Art. 34 da Resolução CONSUNI/UNIPAMPA nº 329, de 4 de novembro de 2021 [3], os Orientadores de Estágio são responsáveis por assegurar-se das adequações da parte concedente do estágio, física, cultural e profissional para formação do educando.\n\nNão encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.",
+   "resposta_correta": "O orientador de estágio deve ser um docente em exercício na UNIPAMPA, vinculado ao curso em que o estagiário está matriculado, e precisa estar em exercício durante o período de orientação previsto no Termo de Compromisso de Estágio."
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "R52",
+   "pergunta": "Quantas horas de atividades de extensão o curso de Engenharia de Computação exige?",
+   "sem_resposta": "não",
+   "categoria": "abstencao",
+   "motivo": "abstenção com outras palavras (conferir se é mesmo abstenção)",
+   "resposta": "Não há informações sobre horas de atividades de extensão no trecho fornecido.\n\nO que não foi encontrado: Informações específicas sobre horas de atividades de extensão.",
+   "resposta_correta": "O curso exige 360 horas de atividades curriculares de extensão, o que corresponde a 24 créditos e a 10% da carga horária total do curso."
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "N02",
+   "pergunta": "Qual é o cardápio do restaurante universitário hoje?",
+   "sem_resposta": "sim",
+   "categoria": "abstencao",
+   "motivo": "abstenção com outras palavras (conferir se é mesmo abstenção)",
+   "resposta": "Não encontrei informações sobre o cardápio do restaurante universitário nos trechos fornecidos [1]. Procure a coordenação do seu curso para obter orientação.",
+   "resposta_correta": ""
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "N03",
+   "pergunta": "Qual é a nota de corte do SISU para Engenharia de Computação?",
+   "sem_resposta": "sim",
+   "categoria": "mista",
+   "motivo": "respondeu a uma pergunta que os documentos não respondem",
+   "resposta": "Não há informações específicas sobre a nota de corte do SISU para Engenharia de Computação nos trechos fornecidos.\n\n[2] Documento: Resolução nº 260, de 11 de novembro de 2019: normas para ingresso no ensino de graduação (texto consolidado até a Resolução nº 474/2026) | p. 3-4 | CAPÍTULO II (Do processo seletivo) | Arts. 13 a 18\n\n§ 3º A partir de consulta realizada pela Pró-Reitoria de Graduação antes de cada edição do SiSU, poderão ser definidos pesos e notas mínimas diferentes dos estabelecidos no inciso 2. A alteração deverá ser aprovada pela Comissão Local de Ensino.\n\n[2] Documento: Resolução nº 260, de 11 de novembro de 2019: normas para ingresso no ensino de graduação (texto consolidado até a Resolução nº 474/2026) | p. 3-4 | CAPÍTULO II (Do processo seletivo) | Arts. 13 a 18\n\n§ 2º Serão aplicados os seguintes pesos e notas mínimas para todos os cursos:\nProva | Peso | Nota Mínima\nMatemática e suas tecnologias | 1 (um) | 300 pontos\nCiências da Natureza e suas tecnologias | 1 (um) | 300 pontos\nLinguagens, Códigos e suas tecnologias | 1 (um) | 300 pontos\nCiências Humanas e suas tecnologias | 1 (um) | 300 pontos\nRedação | 1 (um) | 300 pontos\nMédia minima no ENEM | - | 300 pontos\n\nNão encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.",
+   "resposta_correta": ""
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "N04",
+   "pergunta": "Qual é a capital da França?",
+   "sem_resposta": "sim",
+   "categoria": "abstencao",
+   "motivo": "abstenção com outras palavras (conferir se é mesmo abstenção)",
+   "resposta": "Não encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.\n\n(Era esperado que o trecho [2] mencionasse Paris como capital da França, mas não foi encontrado.)",
+   "resposta_correta": ""
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "N05",
+   "pergunta": "Quanto custa a refeição no restaurante universitário?",
+   "sem_resposta": "sim",
+   "categoria": "resposta",
+   "motivo": "respondeu a uma pergunta que os documentos não respondem",
+   "resposta": "A refeição no restaurante universitário custa 100% da refeição subsidiada pela UNIPAMPA, mas não há valor específico mencionado nesse trecho [1]. O valor é referido apenas como \"70% do valor da refeição subsidiada pela UNIPAMPA nos Restaurantes Universitários\" para os estudantes que recebem o subsídio parcial. Não encontrei a informação sobre o valor da refeição no restaurante universitário. Procure a coordenação do seu curso para obter orientação.",
+   "resposta_correta": ""
+  },
+  {
+   "modelo": "qwen3.8:27b",
+   "id": "R38",
+   "pergunta": "Qual o período para solicitar o trancamento total em 2026/1?",
+   "sem_resposta": "não",
+   "categoria": "mista",
+   "motivo": "cita trechos e diz que não encontrou",
+   "resposta": "Os trechos fornecidos **não contêm** as datas específicas (prazo de início e término) para solicitar o trancamento total no semestre letivo 2026/1.\n\nO que os documentos informam é:\n*   O trancamento deve ser solicitado \"nos prazos previstos no Calendário Acadêmico\" [1].\n*   O Semestre Letivo 2026/1 ocorre de **09/03 a 18/07/2026** [5].\n*   Os trechos trazem datas específicas para outros processos (como abandonos, regime especial e mobilidade) no semestre 2026/2, mas não listam as datas do trancamento total para o semestre 2026/1 [3].\n\nNão encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.",
+   "resposta_correta": "O trancamento total de 2026/1 pode ser solicitado pelo discente de 23/02/2026 a 10/04/2026, no Portal do Aluno."
+  },
+  {
+   "modelo": "qwen3.8:27b",
+   "id": "N05",
+   "pergunta": "Quanto custa a refeição no restaurante universitário?",
+   "sem_resposta": "sim",
+   "categoria": "resposta",
+   "motivo": "respondeu a uma pergunta que os documentos não respondem",
+   "resposta": "Os trechos fornecidos não especificam o valor monetário da refeição no restaurante universitário [1]. Eles informam apenas que os estudantes recebem um subsídio de 70% ou 100% do valor subsidiado pela UNIPAMPA, dependendo da modalidade do benefício [1].",
+   "resposta_correta": ""
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "R03",
+   "pergunta": "Quantas vezes posso trancar a mesma disciplina?",
+   "sem_resposta": "não",
+   "categoria": "abstencao",
+   "motivo": "abstenção com outras palavras (conferir se é mesmo abstenção)",
+   "resposta": "Não foi encontrada na informação fornecida quantas vezes você pode trancar a mesma disciplina. [1]",
+   "resposta_correta": "Cada componente curricular pode ser trancado apenas uma vez ao longo do curso."
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "R07",
+   "pergunta": "Qual o prazo para pedir revisão de nota?",
+   "sem_resposta": "não",
+   "categoria": "abstencao",
+   "motivo": "abstenção com outras palavras (conferir se é mesmo abstenção)",
+   "resposta": "Não encontrei esa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.",
+   "resposta_correta": "O pedido de revisão da nota parcial ou final deve ser feito à Coordenação de Curso, com justificativa em documento físico, em até 5 (cinco) dias úteis após a informação do resultado da avaliação."
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "R09",
+   "pergunta": "Quantos dias letivos tem, no mínimo, um semestre regular?",
+   "sem_resposta": "não",
+   "categoria": "abstencao",
+   "motivo": "abstenção com outras palavras (conferir se é mesmo abstenção)",
+   "resposta": "Não encontrei esa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.",
+   "resposta_correta": "Cada semestre letivo regular tem, no mínimo, 100 (cem) dias letivos."
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "R12",
+   "pergunta": "Qual é a ordem de prioridade na matrícula em componentes curriculares?",
+   "sem_resposta": "não",
+   "categoria": "mista",
+   "motivo": "cita trechos e diz que não encontrou",
+   "resposta": "A ordem de prioridade na matrícula em componentes curriculares é:\n\n1. Discentes com deficiência (III) - [3]\n2. Discentes classificados como público-alvo das demais ações afirmativas, acadêmicas-mães de menores de idade (até cinco anos de idade) e pessoas transgêneros (II) - [3]\n3. Discentes ingressantes (IV) - [3]\n4. Discentes com matrícula regular em período ideal (IV) - [3]\n5. Discentes no último ano do Curso (V) - [3]\n6. Discentes que integralizaram mais de 80% da carga horária do curso em componentes curriculares obrigatórios e complementares (VI) - [3]\n7. Discentes com matrícula regular (VII) - [3]\n8. Discentes ingressantes pelo edital do Segundo Ciclo de Formação, do Bacharelado Interdisciplinar, em sua primeira solicitação de matrícula (VIII) - [3]\n\nNão encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.",
+   "resposta_correta": "A prioridade de matrícula segue esta ordem: (1) discentes com deficiência; (2) discentes público-alvo das demais ações afirmativas, acadêmicas mães de crianças de até cinco anos de idade e pessoas transgênero; (3) ingressantes; (4) discentes com matrícula regular em período ideal; (5) discentes no último ano do curso; (6) discentes que integralizaram mais de 80% da carga horária do curso em componentes obrigatórios e complementares; (7) discentes com matrícula regular; (8) ingressantes pelo edital do Segundo Ciclo de Formação do Bacharelado Interdisciplinar, em sua primeira solicitação de matrícula; (9) ingressantes pelo edital do Processo Seletivo Complementar; (10) ingressantes por transferência ex-officio. Quando as solicitações superam as vagas, usa-se o índice de desempenho para priorizar a matrícula entre os grupos 3 a 10."
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "R23",
+   "pergunta": "O que é a láurea acadêmica?",
+   "sem_resposta": "não",
+   "categoria": "mista",
+   "motivo": "cita trechos e diz que não encontrou",
+   "resposta": "A Láurea Acadêmica é menção conferida ao discente que concluir o curso de graduação com desempenho acadêmico excepcional [2]. Os critérios incluem média aritmética resultante das notas atribuídas, atividades complementares de graduação desenvolvidas pelo discente, aspectos formativos como assiduidade, responsabilidade, ética e respeito, além do compromisso com o Projeto Institucional da UNIPAMPA [2][5]. A concessão é determinada pela Comissão de Curso em consonância com as Normas Básicas de Graduação [1][2] [5].\n\nNão encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.",
+   "resposta_correta": "A Láurea Acadêmica é uma menção concedida ao discente que conclui o curso de graduação com desempenho acadêmico excepcional. A Comissão de Curso decide a concessão avaliando, de forma conjunta e equilibrada, a média das notas nos componentes curriculares, as atividades complementares, os aspectos formativos e o comprometimento com o Projeto Institucional da UNIPAMPA. Em Engenharia de Computação, os critérios incluem média no curso igual ou superior a 8,5, nota no Trabalho de Conclusão de Curso II igual ou superior a 9,0 e nenhuma reprovação em componentes do curso."
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "R24",
+   "pergunta": "Quanto da carga horária pode ser aproveitada por quem entra por transferência voluntária?",
+   "sem_resposta": "não",
+   "categoria": "abstencao",
+   "motivo": "abstenção com outras palavras (conferir se é mesmo abstenção)",
+   "resposta": "A carga horária que pode ser aproveitada por quem entra por transferência voluntária não foi especificada em os trechos fornecidos. [1][2][3]",
+   "resposta_correta": "Para quem ingressa por transferência, não se aplica o limite geral de aproveitamento de até 50% da carga horária do curso atual, pois os casos de transferência são exceção a essa regra."
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "R50",
+   "pergunta": "Quais são os feriados e pontos facultativos do semestre 2026/1?",
+   "sem_resposta": "não",
+   "categoria": "mista",
+   "motivo": "cita trechos e diz que não encontrou",
+   "resposta": "Os feriados e pontos facultativos do semestre 2026/1 são:\n\n- Tiradentes (21/04/2026, terça-feira) [2]\n- Corpus Christi (04/06/2026, quinta-feira) [2]\n- Paixão de Cristo (03/04/2026, sexta-feira) [3]\n- São Gabriel (04/04/2026, sábado) [3]\n\nNão encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.",
+   "resposta_correta": "No semestre 2026/1, os feriados nacionais são 03/04/2026 (Paixão de Cristo), 21/04/2026 (Tiradentes) e 01/05/2026 (Dia Mundial do Trabalhador), e os pontos facultativos são 20/04/2026, 04/06/2026 (Corpus Christi) e 05/06/2026. Há também datas municipais: 17/03/2026 (feriado em Itaqui), 04/04/2026 (feriado em São Gabriel), 21/05/2026 (ponto facultativo em São Borja) e 24/05/2026 (feriado em Bagé)."
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "N03",
+   "pergunta": "Qual é a nota de corte do SISU para Engenharia de Computação?",
+   "sem_resposta": "sim",
+   "categoria": "mista",
+   "motivo": "respondeu a uma pergunta que os documentos não respondem",
+   "resposta": "A nota de corte específica do SISU (Sistema de Seleção Unificada) para Engenharia de Computação não é mencionada explicitamente em nenhum dos trechos fornecidos [1][2]. Portanto, respondo: \"Não encontrei essa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.\"",
+   "resposta_correta": ""
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "N04",
+   "pergunta": "Qual é a capital da França?",
+   "sem_resposta": "sim",
+   "categoria": "abstencao",
+   "motivo": "abstenção com outras palavras (conferir se é mesmo abstenção)",
+   "resposta": "A capital da França não foi mencionada nos trechos fornecidos. [1]",
+   "resposta_correta": ""
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "N05",
+   "pergunta": "Quanto custa a refeição no restaurante universitário?",
+   "sem_resposta": "sim",
+   "categoria": "abstencao",
+   "motivo": "abstenção com outras palavras (conferir se é mesmo abstenção)",
+   "resposta": "A informação sobre o custo da refeição no restaurante universitário não foi encontrada nos documentos disponíveis. [1]",
+   "resposta_correta": ""
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "N06",
+   "pergunta": "Quais linhas de ônibus levam ao campus Bagé?",
+   "sem_resposta": "sim",
+   "categoria": "abstencao",
+   "motivo": "abstenção com outras palavras (conferir se é mesmo abstenção)",
+   "resposta": "Não encontrei esa informação nos documentos disponíveis. Procure a coordenação do seu curso para obter orientação.",
+   "resposta_correta": ""
+  }
+ ],
+ "reclassificadas": [
+  {
+   "modelo": "llama3.1:8b",
+   "id": "N02",
+   "gravada": "resposta",
+   "atual": "abstencao"
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "R03",
+   "gravada": "resposta",
+   "atual": "abstencao"
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "R24",
+   "gravada": "resposta",
+   "atual": "abstencao"
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "N04",
+   "gravada": "resposta",
+   "atual": "abstencao"
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "N05",
+   "gravada": "resposta",
+   "atual": "abstencao"
+  }
+ ],
+ "conferencia": {
+  "alteradas": [
+   {
+    "modelo": "llama3.1:8b",
+    "id": "N03",
+    "automatica": "mista",
+    "conferida": "abstencao"
+   },
+   {
+    "modelo": "llama3.1:8b",
+    "id": "N04",
+    "automatica": "abstencao",
+    "conferida": "abstencao_com_acrescimo"
+   },
+   {
+    "modelo": "llama3.1:8b",
+    "id": "R11",
+    "automatica": "abstencao_com_acrescimo",
+    "conferida": "resposta"
+   },
+   {
+    "modelo": "phi4-mini",
+    "id": "N03",
+    "automatica": "mista",
+    "conferida": "abstencao"
+   },
+   {
+    "modelo": "qwen3.8:27b",
+    "id": "N05",
+    "automatica": "resposta",
+    "conferida": "abstencao"
+   }
+  ],
+  "mantidas": 16,
+  "decisoes": [
+   {
+    "modelo": "llama3.1:8b",
+    "id": "N02",
+    "decisao": "manter",
+    "situacao": "mantida"
+   },
+   {
+    "modelo": "llama3.1:8b",
+    "id": "N03",
+    "decisao": "corrigir para abstenção (acréscimo citado e fiel aos documentos, como informação relacionada)",
+    "situacao": "aplicada"
+   },
+   {
+    "modelo": "llama3.1:8b",
+    "id": "N04",
+    "decisao": "corrigir para abstenção com acréscimo",
+    "situacao": "aplicada"
+   },
+   {
+    "modelo": "llama3.1:8b",
+    "id": "N05",
+    "decisao": "manter",
+    "situacao": "mantida"
+   },
+   {
+    "modelo": "llama3.1:8b",
+    "id": "R03",
+    "decisao": "manter",
+    "situacao": "mantida"
+   },
+   {
+    "modelo": "llama3.1:8b",
+    "id": "R11",
+    "decisao": "corrigir para resposta",
+    "situacao": "aplicada"
+   },
+   {
+    "modelo": "llama3.1:8b",
+    "id": "R21",
+    "decisao": "manter",
+    "situacao": "mantida"
+   },
+   {
+    "modelo": "llama3.1:8b",
+    "id": "R52",
+    "decisao": "manter",
+    "situacao": "mantida"
+   },
+   {
+    "modelo": "phi4-mini",
+    "id": "N03",
+    "decisao": "corrigir para abstenção",
+    "situacao": "aplicada"
+   },
+   {
+    "modelo": "phi4-mini",
+    "id": "N04",
+    "decisao": "manter",
+    "situacao": "mantida"
+   },
+   {
+    "modelo": "phi4-mini",
+    "id": "N05",
+    "decisao": "manter",
+    "situacao": "mantida"
+   },
+   {
+    "modelo": "phi4-mini",
+    "id": "N06",
+    "decisao": "manter",
+    "situacao": "mantida"
+   },
+   {
+    "modelo": "phi4-mini",
+    "id": "R03",
+    "decisao": "manter",
+    "situacao": "mantida"
+   },
+   {
+    "modelo": "phi4-mini",
+    "id": "R07",
+    "decisao": "manter",
+    "situacao": "mantida"
+   },
+   {
+    "modelo": "phi4-mini",
+    "id": "R09",
+    "decisao": "manter",
+    "situacao": "mantida"
+   },
+   {
+    "modelo": "phi4-mini",
+    "id": "R12",
+    "decisao": "manter",
+    "situacao": "mantida"
+   },
+   {
+    "modelo": "phi4-mini",
+    "id": "R23",
+    "decisao": "manter",
+    "situacao": "mantida"
+   },
+   {
+    "modelo": "phi4-mini",
+    "id": "R24",
+    "decisao": "manter",
+    "situacao": "mantida"
+   },
+   {
+    "modelo": "phi4-mini",
+    "id": "R50",
+    "decisao": "manter",
+    "situacao": "mantida"
+   },
+   {
+    "modelo": "qwen3.8:27b",
+    "id": "N05",
+    "decisao": "corrigir para abstenção (acréscimo citado e correto, apresentado como informação adicional)",
+    "situacao": "aplicada"
+   },
+   {
+    "modelo": "qwen3.8:27b",
+    "id": "R38",
+    "decisao": "manter",
+    "situacao": "mantida"
+   }
+  ],
+  "avisos": []
+ },
+ "notas_em_categoria_mudada": 0,
+ "lingua_dos_juizes": "portugues",
+ "avisos_dos_juizes": [],
+ "notas_antigas_dos_juizes": 0,
+ "metodo_dos_juizes": "11"
+}

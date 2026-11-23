@@ -1,0 +1,233 @@
+{
+ "rodada": "2026-11-03_1112_perguntas_recuperacao",
+ "calculado_em": "2026-11-04T23:37:06",
+ "juiz": [
+  "ministral-3:8b"
+ ],
+ "opcoes_juiz": {
+  "temperature": 0,
+  "num_ctx": 8192,
+  "num_predict": 2048,
+  "seed": 42
+ },
+ "registro_do_juiz": [
+  {
+   "juiz": "ministral-3:8b",
+   "opcoes": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 2048,
+    "seed": 42
+   },
+   "ragas": "0.4.3",
+   "versao_chatbot": "09",
+   "inicio": "2026-11-03T14:34:27"
+  },
+  {
+   "juiz": "ministral-3:8b",
+   "opcoes": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 2048,
+    "seed": 42
+   },
+   "ragas": "0.4.3",
+   "versao_chatbot": "10",
+   "inicio": "2026-11-04T01:50:08"
+  },
+  {
+   "juiz": "ministral-3:8b",
+   "opcoes": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 2048,
+    "seed": 42
+   },
+   "ragas": "0.4.3",
+   "versao_chatbot": "12",
+   "inicio": "2026-11-04T20:04:43"
+  }
+ ],
+ "perguntas": {
+  "arquivo": "perguntas_recuperacao.json",
+  "assinatura": "646fd8fee83d",
+  "total": 61,
+  "usadas": 61,
+  "limite": null
+ },
+ "metodo": "11",
+ "notas_antigas": 0,
+ "cobertura": {
+  "n": 53,
+  "media": 0.813,
+  "mediana": 1.0,
+  "zeros": 5
+ },
+ "tabela": [
+  {
+   "modelo": "llama3.1:8b",
+   "rotulo": "Llama 3.1 8B",
+   "correcao": {
+    "n": 52,
+    "media": 0.356,
+    "mediana": 0.335,
+    "zeros": 16
+   },
+   "completude": {
+    "n": 52,
+    "media": 0.523,
+    "mediana": 0.5,
+    "zeros": 8
+   },
+   "fidelidade": {
+    "n": 54,
+    "media": 0.708,
+    "mediana": 0.75,
+    "zeros": 1
+   },
+   "erros_do_juiz": 0,
+   "notas_antigas": 0
+  },
+  {
+   "modelo": "qwen3.8:27b",
+   "rotulo": "Qwen 3.8 27B",
+   "correcao": {
+    "n": 52,
+    "media": 0.588,
+    "mediana": 0.605,
+    "zeros": 7
+   },
+   "completude": {
+    "n": 52,
+    "media": 0.692,
+    "mediana": 0.775,
+    "zeros": 4
+   },
+   "fidelidade": {
+    "n": 53,
+    "media": 0.876,
+    "mediana": 1.0,
+    "zeros": 0
+   },
+   "erros_do_juiz": 0,
+   "notas_antigas": 0
+  },
+  {
+   "modelo": "phi4-mini",
+   "rotulo": "Phi-4-mini 3.8B",
+   "correcao": {
+    "n": 49,
+    "media": 0.455,
+    "mediana": 0.46,
+    "zeros": 10
+   },
+   "completude": {
+    "n": 49,
+    "media": 0.486,
+    "mediana": 0.429,
+    "zeros": 7
+   },
+   "fidelidade": {
+    "n": 50,
+    "media": 0.728,
+    "mediana": 0.838,
+    "zeros": 6
+   },
+   "erros_do_juiz": 0,
+   "notas_antigas": 0
+  }
+ ],
+ "comparacoes": [
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "qwen3.8:27b",
+   "metrica": "correcao",
+   "perguntas": 51,
+   "n": 41,
+   "w_mais": 120.0,
+   "mediana_diferenca": -0.14,
+   "p": 1.9313643861096352e-05
+  },
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "qwen3.8:27b",
+   "metrica": "completude",
+   "perguntas": 51,
+   "n": 31,
+   "w_mais": 92.0,
+   "mediana_diferenca": 0.0,
+   "p": 0.0015379814431071281
+  },
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "qwen3.8:27b",
+   "metrica": "fidelidade",
+   "perguntas": 52,
+   "n": 44,
+   "w_mais": 147.5,
+   "mediana_diferenca": -0.18334999999999996,
+   "p": 1.757872496455093e-05
+  },
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "phi4-mini",
+   "metrica": "correcao",
+   "perguntas": 48,
+   "n": 41,
+   "w_mais": 336.0,
+   "mediana_diferenca": 0.0,
+   "p": 0.22449448210682021
+  },
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "phi4-mini",
+   "metrica": "completude",
+   "perguntas": 48,
+   "n": 27,
+   "w_mais": 212.5,
+   "mediana_diferenca": 0.0,
+   "p": 0.5817246437072754
+  },
+  {
+   "modelo_a": "llama3.1:8b",
+   "modelo_b": "phi4-mini",
+   "metrica": "fidelidade",
+   "perguntas": 49,
+   "n": 43,
+   "w_mais": 393.5,
+   "mediana_diferenca": -0.06669999999999998,
+   "p": 0.34197172229096395
+  },
+  {
+   "modelo_a": "qwen3.8:27b",
+   "modelo_b": "phi4-mini",
+   "metrica": "correcao",
+   "perguntas": 49,
+   "n": 40,
+   "w_mais": 554.0,
+   "mediana_diferenca": 0.07999999999999996,
+   "p": 0.052634769985161256
+  },
+  {
+   "modelo_a": "qwen3.8:27b",
+   "modelo_b": "phi4-mini",
+   "metrica": "completude",
+   "perguntas": 49,
+   "n": 29,
+   "w_mais": 385.0,
+   "mediana_diferenca": 0.0,
+   "p": 0.00010612979531288147
+  },
+  {
+   "modelo_a": "qwen3.8:27b",
+   "modelo_b": "phi4-mini",
+   "metrica": "fidelidade",
+   "perguntas": 49,
+   "n": 32,
+   "w_mais": 384.5,
+   "mediana_diferenca": 0.0,
+   "p": 0.022937204223126173
+  }
+ ],
+ "total_perguntas": 61
+}

@@ -1,0 +1,229 @@
+{
+ "rodada": "2026-11-22_0520_perguntas_reais",
+ "criado_em": "2026-11-22T08:01:30",
+ "versao_chatbot": "16",
+ "semente": 20261104,
+ "por_modelo": 19,
+ "cortes": {
+  "correcao": [
+   0.25,
+   0.75
+  ],
+  "fidelidade": [
+   0.5,
+   1.0
+  ]
+ },
+ "amostra": [
+  {
+   "modelo": "qwen3.8:27b",
+   "id": "P019",
+   "codigo": "P01"
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "P005",
+   "codigo": "P02"
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "P008",
+   "codigo": "P03"
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "P015",
+   "codigo": "P04"
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "P007",
+   "codigo": "P05"
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "P007",
+   "codigo": "P06"
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "P014",
+   "codigo": "P07"
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "P013",
+   "codigo": "P08"
+  },
+  {
+   "modelo": "qwen3.8:27b",
+   "id": "P012",
+   "codigo": "P09"
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "P003",
+   "codigo": "P10"
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "P010",
+   "codigo": "P11"
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "P008",
+   "codigo": "P12"
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "P019",
+   "codigo": "P13"
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "P012",
+   "codigo": "P14"
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "P001",
+   "codigo": "P15"
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "P002",
+   "codigo": "P16"
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "P018",
+   "codigo": "P17"
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "P013",
+   "codigo": "P18"
+  },
+  {
+   "modelo": "qwen3.8:27b",
+   "id": "P018",
+   "codigo": "P19"
+  },
+  {
+   "modelo": "qwen3.8:27b",
+   "id": "P002",
+   "codigo": "P20"
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "P003",
+   "codigo": "P21"
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "P019",
+   "codigo": "P22"
+  },
+  {
+   "modelo": "qwen3.8:27b",
+   "id": "P001",
+   "codigo": "P23"
+  },
+  {
+   "modelo": "qwen3.8:27b",
+   "id": "P014",
+   "codigo": "P24"
+  },
+  {
+   "modelo": "qwen3.8:27b",
+   "id": "P015",
+   "codigo": "P25"
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "P002",
+   "codigo": "P26"
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "P015",
+   "codigo": "P27"
+  },
+  {
+   "modelo": "qwen3.8:27b",
+   "id": "P013",
+   "codigo": "P28"
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "P011",
+   "codigo": "P29"
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "P016",
+   "codigo": "P30"
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "P011",
+   "codigo": "P31"
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "P016",
+   "codigo": "P32"
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "P018",
+   "codigo": "P33"
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "P014",
+   "codigo": "P34"
+  },
+  {
+   "modelo": "qwen3.8:27b",
+   "id": "P016",
+   "codigo": "P35"
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "P012",
+   "codigo": "P36"
+  },
+  {
+   "modelo": "qwen3.8:27b",
+   "id": "P007",
+   "codigo": "P37"
+  },
+  {
+   "modelo": "llama3.1:8b",
+   "id": "P001",
+   "codigo": "P38"
+  },
+  {
+   "modelo": "qwen3.8:27b",
+   "id": "P010",
+   "codigo": "P39"
+  },
+  {
+   "modelo": "qwen3.8:27b",
+   "id": "P003",
+   "codigo": "P40"
+  },
+  {
+   "modelo": "phi4-mini",
+   "id": "P010",
+   "codigo": "P41"
+  },
+  {
+   "modelo": "qwen3.8:27b",
+   "id": "P011",
+   "codigo": "P42"
+  }
+ ]
+}

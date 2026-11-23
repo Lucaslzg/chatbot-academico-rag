@@ -1,0 +1,849 @@
+[
+ {
+  "id": "R01",
+  "pergunta": "Quantos trancamentos totais posso fazer durante o curso?",
+  "fonte": "Res_480-2026_Normas_dos_Processos_Academicos_da_Graduacao.pdf",
+  "artigos": [
+   37
+  ],
+  "resposta_correta": "Ao longo do curso, é possível solicitar no máximo 2 (dois) trancamentos totais em semestres letivos consecutivos ou 4 (quatro) trancamentos totais em semestres letivos intercalados, exceto nos casos previstos em legislação.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R02",
+  "pergunta": "Aluno ingressante pode fazer trancamento total da matrícula?",
+  "fonte": "Res_480-2026_Normas_dos_Processos_Academicos_da_Graduacao.pdf",
+  "artigos": [
+   37
+  ],
+  "resposta_correta": "Não. O trancamento total não é concedido a discentes ingressantes, independentemente da forma de ingresso, exceto quando o discente for convocado ou já estiver em serviço militar obrigatório.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R03",
+  "pergunta": "Quantas vezes posso trancar a mesma disciplina?",
+  "fonte": "Res_480-2026_Normas_dos_Processos_Academicos_da_Graduacao.pdf",
+  "artigos": [
+   38
+  ],
+  "resposta_correta": "Cada componente curricular pode ser trancado apenas uma vez ao longo do curso.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R04",
+  "pergunta": "Qual é a nota mínima para ser aprovado em uma disciplina?",
+  "fonte": "Res_029-2011_Normas_Basicas_de_Graduacao_consolidada_ate_Res_480-2026.pdf",
+  "artigos": [
+   59
+  ],
+  "resposta_correta": "Para ser aprovado, o discente precisa obter nota final igual ou maior que 6 (seis).",
+  "sem_resposta": false
+ },
+ {
+  "id": "R05",
+  "pergunta": "Qual a frequência mínima exigida para aprovação?",
+  "alternativas": [
+   {
+    "fonte": "Res_480-2026_Normas_dos_Processos_Academicos_da_Graduacao.pdf",
+    "artigos": [
+     53
+    ]
+   },
+   {
+    "fonte": "Res_029-2011_Normas_Basicas_de_Graduacao_consolidada_ate_Res_480-2026.pdf",
+    "artigos": [
+     59
+    ]
+   }
+  ],
+  "resposta_correta": "A frequência mínima exigida para aprovação é de 75% de presença no componente curricular. Quem ultrapassa 25% de faltas é reprovado por frequência.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R06",
+  "pergunta": "Em quantos dias o professor deve divulgar o resultado de uma avaliação?",
+  "fonte": "Res_029-2011_Normas_Basicas_de_Graduacao_consolidada_ate_Res_480-2026.pdf",
+  "artigos": [
+   59
+  ],
+  "resposta_correta": "O resultado das atividades de avaliação deve ser divulgado aos discentes em até 10 (dez) dias úteis após a sua realização.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R07",
+  "pergunta": "Qual o prazo para pedir revisão de nota?",
+  "fonte": "Res_029-2011_Normas_Basicas_de_Graduacao_consolidada_ate_Res_480-2026.pdf",
+  "artigos": [
+   60
+  ],
+  "resposta_correta": "O pedido de revisão da nota parcial ou final deve ser feito à Coordenação de Curso, com justificativa em documento físico, em até 5 (cinco) dias úteis após a informação do resultado da avaliação.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R08",
+  "pergunta": "Até quando o calendário acadêmico deve ser aprovado?",
+  "fonte": "Res_253-2019_Atividades_e_Calendario_Academico.pdf",
+  "artigos": [
+   8
+  ],
+  "resposta_correta": "O Calendário Acadêmico deve ser homologado pelo Conselho Universitário até 31 de outubro do ano anterior ao de sua vigência.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R09",
+  "pergunta": "Quantos dias letivos tem, no mínimo, um semestre regular?",
+  "alternativas": [
+   {
+    "fonte": "Res_253-2019_Atividades_e_Calendario_Academico.pdf",
+    "artigos": [
+     9
+    ]
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "trecho": "(mínimo de 100) dias letivos"
+   }
+  ],
+  "resposta_correta": "Cada semestre letivo regular tem, no mínimo, 100 (cem) dias letivos.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R10",
+  "pergunta": "Quantas vezes posso mudar de curso por reopção?",
+  "fonte": "Res_260-2019_Normas_de_Ingresso_na_Graduacao_consolidada_ate_Res_474-2026.pdf",
+  "artigos": [
+   53
+  ],
+  "resposta_correta": "A reopção de curso pode ser feita no máximo duas vezes.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R11",
+  "pergunta": "Em quais situações o aluno perde o vínculo com a universidade?",
+  "fonte": "Res_480-2026_Normas_dos_Processos_Academicos_da_Graduacao.pdf",
+  "artigos": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "resposta_correta": "O discente perde o vínculo com o curso, e a vaga, por cancelamento de matrícula, abandono, desligamento, reopção de curso, transferência externa (voluntária ou ex-officio) ou colação de grau. O abandono ocorre quando, nos prazos do Calendário Acadêmico, o discente não faz matrícula no semestre letivo regular nem solicita trancamento de matrícula ou sem oferta de disciplina. O desligamento ocorre, entre outros casos, quando o discente ultrapassa o tempo máximo de integralização (salvo discente com deficiência), é reprovado por frequência em todos os componentes do semestre por 2 semestres consecutivos ou 4 intercalados em curso presencial, ou é ingressante sem frequência em nenhum componente no primeiro semestre, além de sanção disciplinar, decisão judicial transitada em julgado ou óbito.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R12",
+  "pergunta": "Qual é a ordem de prioridade na matrícula em componentes curriculares?",
+  "fonte": "Res_480-2026_Normas_dos_Processos_Academicos_da_Graduacao.pdf",
+  "artigos": [
+   33
+  ],
+  "resposta_correta": "A prioridade de matrícula segue esta ordem: (1) discentes com deficiência; (2) discentes público-alvo das demais ações afirmativas, acadêmicas mães de crianças de até cinco anos de idade e pessoas transgênero; (3) ingressantes; (4) discentes com matrícula regular em período ideal; (5) discentes no último ano do curso; (6) discentes que integralizaram mais de 80% da carga horária do curso em componentes obrigatórios e complementares; (7) discentes com matrícula regular; (8) ingressantes pelo edital do Segundo Ciclo de Formação do Bacharelado Interdisciplinar, em sua primeira solicitação de matrícula; (9) ingressantes pelo edital do Processo Seletivo Complementar; (10) ingressantes por transferência ex-officio. Quando as solicitações superam as vagas, usa-se o índice de desempenho para priorizar a matrícula entre os grupos 3 a 10.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R13",
+  "pergunta": "O que preciso apresentar para pedir licença para tratamento de saúde?",
+  "fonte": "Res_249-2019_Licencas_e_Afastamentos_Ensino_de_Graduacao.pdf",
+  "artigos": [
+   17
+  ],
+  "resposta_correta": "É preciso entregar à Secretaria Acadêmica um atestado ou laudo médico, ou de cirurgião dentista, com o início e o fim do período da licença.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R14",
+  "pergunta": "Em quanto tempo devo entregar o atestado médico?",
+  "fonte": "Res_249-2019_Licencas_e_Afastamentos_Ensino_de_Graduacao.pdf",
+  "artigos": [
+   17
+  ],
+  "resposta_correta": "Na licença para tratamento de saúde, o pedido com o atestado ou laudo deve ser entregue à Secretaria Acadêmica em até 5 (cinco) dias consecutivos a partir do prazo indicado no atestado ou laudo. Pedidos apresentados depois desse prazo não são aceitos.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R15",
+  "pergunta": "Qual o prazo máximo de uma licença acadêmica?",
+  "fonte": "Res_249-2019_Licencas_e_Afastamentos_Ensino_de_Graduacao.pdf",
+  "artigos": [
+   6
+  ],
+  "resposta_correta": "A licença pode ser concedida por, no máximo, 30 (trinta) dias consecutivos.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R16",
+  "pergunta": "Por quanto tempo posso ficar afastado para realizar estudos em outra instituição?",
+  "fonte": "Res_249-2019_Licencas_e_Afastamentos_Ensino_de_Graduacao.pdf",
+  "artigos": [
+   31
+  ],
+  "resposta_correta": "O afastamento para realização de estudos dura, no máximo, 2 (dois) semestres letivos consecutivos, que não são contabilizados no prazo de integralização do curso.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R17",
+  "pergunta": "Quais são os grupos de atividades complementares de graduação?",
+  "alternativas": [
+   {
+    "fonte": "Res_480-2026_Normas_dos_Processos_Academicos_da_Graduacao.pdf",
+    "artigos": [
+     73
+    ]
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "paginas": [
+     406,
+     406
+    ],
+    "trecho": "Grupo I"
+   }
+  ],
+  "resposta_correta": "As atividades complementares de graduação se classificam em 4 (quatro) grupos: Grupo I, Atividades de Ensino; Grupo II, Atividades de Pesquisa; Grupo III, Atividades de Extensão; e Grupo IV, Atividades Culturais, Artísticas, Sociais, de Gestão e Exercício Profissional.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R18",
+  "pergunta": "Qual a carga horária mínima de ACG em cada grupo no curso de Engenharia de Computação?",
+  "alternativas": [
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "paginas": [
+     406,
+     410
+    ],
+    "trecho": "h, máximo"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "paginas": [
+     406,
+     410
+    ],
+    "trecho": "horas, máximo de"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "paginas": [
+     406,
+     410
+    ],
+    "trecho": "em cada um dos grupos acima"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2019.pdf",
+    "paginas": [
+     202,
+     205
+    ],
+    "trecho": "h, máximo"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2019.pdf",
+    "paginas": [
+     202,
+     205
+    ],
+    "trecho": "horas, máximo de"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2019.pdf",
+    "paginas": [
+     202,
+     205
+    ],
+    "trecho": "em cada um dos grupos acima"
+   }
+  ],
+  "resposta_correta": "Para quem segue o Projeto Pedagógico do Curso de 2023, os mínimos são: 10 horas no Grupo I, todas no subgrupo I.2 (Ensino em Língua Inglesa), já que o I.1 (Ensino) não tem mínimo; 8 horas no Grupo II (Pesquisa); nenhum mínimo no Grupo III (Extensão); e 8 horas no Grupo IV (Culturais e Artísticas, Sociais e de Gestão). Para quem segue o Projeto Pedagógico de 2019, o mínimo é de 12 horas em cada um dos quatro grupos, com o Grupo I dividido em 8 horas no I.1 e 4 horas no I.2.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R19",
+  "pergunta": "Quem pode compor a banca de avaliação do TCC?",
+  "alternativas": [
+   {
+    "fonte": "Res_029-2011_Normas_Basicas_de_Graduacao_consolidada_ate_Res_480-2026.pdf",
+    "artigos": [
+     127
+    ]
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "trecho": "bancas serão compostas"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2019.pdf",
+    "trecho": "bancas serão compostas"
+   }
+  ],
+  "resposta_correta": "A banca de avaliação é composta por docentes lotados na UNIPAMPA ou por convidados, que podem ser professores de outras instituições ou profissionais não docentes com formação de nível superior, experiência e atuação na área do trabalho. No curso de Engenharia de Computação, a banca examinadora é interna e tem 3 (três) membros: o orientador e 2 (dois) outros professores do curso ou da UNIPAMPA, podendo um deles ser o professor coordenador do componente curricular.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R20",
+  "pergunta": "O TCC precisa ter defesa pública?",
+  "alternativas": [
+   {
+    "fonte": "Res_029-2011_Normas_Basicas_de_Graduacao_consolidada_ate_Res_480-2026.pdf",
+    "artigos": [
+     126
+    ]
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "trecho": "sessão pública"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2019.pdf",
+    "trecho": "sessão pública"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "trecho": "apresentação pública dos trabalhos perante as bancas"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2019.pdf",
+    "trecho": "apresentação pública dos trabalhos perante as bancas"
+   }
+  ],
+  "resposta_correta": "Sim. O Trabalho de Conclusão de Curso exige defesa pública perante a banca de avaliação. No curso de Engenharia de Computação, os trabalhos são apresentados em sessão pública, em um seminário no final do semestre.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R21",
+  "pergunta": "Quem pode ser professor orientador de estágio?",
+  "fonte": "Res_329-2021_Normas_de_Estagios_consolidada_ate_Res_437-2025.pdf",
+  "artigos": [
+   2,
+   24
+  ],
+  "resposta_correta": "O orientador de estágio deve ser um docente em exercício na UNIPAMPA, vinculado ao curso em que o estagiário está matriculado, e precisa estar em exercício durante o período de orientação previsto no Termo de Compromisso de Estágio.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R22",
+  "pergunta": "Quais são os direitos do estagiário?",
+  "fonte": "Res_329-2021_Normas_de_Estagios_consolidada_ate_Res_437-2025.pdf",
+  "artigos": [
+   41
+  ],
+  "resposta_correta": "São direitos do estagiário: ter local de estágio provido pela UNIPAMPA, podendo sugerir o concedente para apreciação da Coordenação de Estágios; receber orientação para realizar as atividades previstas no Plano de Estágio; estar segurado contra acidentes pessoais durante o estágio; pedir mudança do local de estágio, com justificativa escrita; e receber da Coordenação de Estágio ou do orientador os critérios de avaliação.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R23",
+  "pergunta": "O que é a láurea acadêmica?",
+  "alternativas": [
+   {
+    "fonte": "Res_029-2011_Normas_Basicas_de_Graduacao_consolidada_ate_Res_480-2026.pdf",
+    "artigos": [
+     76,
+     77,
+     78
+    ]
+   },
+   {
+    "fonte": "Norma_de_Concessao_de_Laurea_Academica_EC.pdf",
+    "artigos": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  ],
+  "resposta_correta": "A Láurea Acadêmica é uma menção concedida ao discente que conclui o curso de graduação com desempenho acadêmico excepcional. A Comissão de Curso decide a concessão avaliando, de forma conjunta e equilibrada, a média das notas nos componentes curriculares, as atividades complementares, os aspectos formativos e o comprometimento com o Projeto Institucional da UNIPAMPA. Em Engenharia de Computação, os critérios incluem média no curso igual ou superior a 8,5, nota no Trabalho de Conclusão de Curso II igual ou superior a 9,0 e nenhuma reprovação em componentes do curso.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R24",
+  "pergunta": "Quanto da carga horária pode ser aproveitada por quem entra por transferência voluntária?",
+  "fonte": "Res_480-2026_Normas_dos_Processos_Academicos_da_Graduacao.pdf",
+  "artigos": [
+   59
+  ],
+  "resposta_correta": "Para quem ingressa por transferência, não se aplica o limite geral de aproveitamento de até 50% da carga horária do curso atual, pois os casos de transferência são exceção a essa regra.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R25",
+  "pergunta": "O que é o reingresso?",
+  "fonte": "Res_260-2019_Normas_de_Ingresso_na_Graduacao_consolidada_ate_Res_474-2026.pdf",
+  "artigos": [
+   44
+  ],
+  "resposta_correta": "O reingresso é a modalidade do Processo Seletivo Complementar destinada a discentes da UNIPAMPA em situação de abandono ou cancelamento há, no máximo, 4 (quatro) semestres letivos regulares consecutivos.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R26",
+  "pergunta": "Quais os requisitos de carga horária e conteúdo para o aproveitamento de estudos?",
+  "fonte": "Res_480-2026_Normas_dos_Processos_Academicos_da_Graduacao.pdf",
+  "artigos": [
+   60
+  ],
+  "resposta_correta": "Na equivalência de conteúdos, o componente cursado deve corresponder a, no mínimo, 75% da carga horária total e 75% de identidade com o conteúdo da ementa ou do conteúdo programático do componente da UNIPAMPA. Se o componente aprovado tiver menos de 75% de conteúdos similares, ou conteúdos não similares mas pertinentes à formação, o aproveitamento pode ser feito por valor formativo, a critério da coordenação de curso.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R27",
+  "pergunta": "Quem pode se matricular no regime especial?",
+  "fonte": "Res_260-2019_Normas_de_Ingresso_na_Graduacao_consolidada_ate_Res_474-2026.pdf",
+  "artigos": [
+   85
+  ],
+  "resposta_correta": "Podem se matricular no regime especial portadores de diploma de curso superior, discentes de outra instituição de ensino superior e portadores de certificado de conclusão do ensino médio com mais de 60 (sessenta) anos, desde que haja vaga e parecer favorável da Coordenação Acadêmica.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R28",
+  "pergunta": "Quantas disciplinas posso cursar no regime especial?",
+  "fonte": "Res_260-2019_Normas_de_Ingresso_na_Graduacao_consolidada_ate_Res_474-2026.pdf",
+  "artigos": [
+   90
+  ],
+  "resposta_correta": "No regime especial, é possível cursar no máximo 2 (dois) componentes curriculares por semestre letivo, por até 4 (quatro) semestres letivos.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R29",
+  "pergunta": "Posso cursar disciplinas em outro campus da UNIPAMPA?",
+  "alternativas": [
+   {
+    "fonte": "Res_260-2019_Normas_de_Ingresso_na_Graduacao_consolidada_ate_Res_474-2026.pdf",
+    "artigos": [
+     98,
+     99
+    ]
+   },
+   {
+    "fonte": "Calendario_Academico_Graduacao_2026_Portaria_1602-2025.pdf",
+    "trecho": "componentes curriculares em outros campi"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "trecho": "campus distinto daquele que faz a oferta"
+   }
+  ],
+  "resposta_correta": "Sim, por meio da mobilidade acadêmica intrainstitucional, que permite cursar temporariamente componentes curriculares em outro campus, até o máximo de 14 (quatorze) componentes. Para isso, é preciso estar em situação regular, ter plano de atividades aprovado pelos coordenadores dos cursos de origem e de destino, matricular-se em pelo menos o número mínimo de créditos exigido pelo curso de origem e fazer o pedido no prazo do Calendário Acadêmico.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R30",
+  "pergunta": "Quanto tempo dura um período de aula na UNIPAMPA?",
+  "fonte": "Res_253-2019_Atividades_e_Calendario_Academico.pdf",
+  "artigos": [
+   17
+  ],
+  "resposta_correta": "Cada período de aula na UNIPAMPA dura 55 (cinquenta e cinco) minutos.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R31",
+  "pergunta": "Quando o provável formando pode pedir a modalidade especial de oferta de componente curricular?",
+  "alternativas": [
+   {
+    "fonte": "Res_480-2026_Normas_dos_Processos_Academicos_da_Graduacao.pdf",
+    "artigos": [
+     16,
+     17
+    ]
+   },
+   {
+    "fonte": "Calendario_Academico_Graduacao_2026_Portaria_1602-2025.pdf",
+    "trecho": "MODALIDADE ESPECIAL 2026"
+   }
+  ],
+  "resposta_correta": "O provável formando pode pedir a modalidade especial no período definido no Calendário Acadêmico, desde que tenha, além da oferta regular do semestre, no máximo 2 (dois) componentes curriculares não ofertados ou ofertados com colisão de horário que impeçam sua colação de grau, respeitada a carga horária máxima definida no Projeto Pedagógico do Curso. Em 2026, o pedido à Coordenação do Curso é feito em 03 e 04/03/2026, para o semestre 2026/1, e de 10 a 12/08/2026, para o semestre 2026/2.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R32",
+  "pergunta": "A partir de quando a licença maternidade pode ser requerida?",
+  "fonte": "Res_249-2019_Licencas_e_Afastamentos_Ensino_de_Graduacao.pdf",
+  "artigos": [
+   12
+  ],
+  "resposta_correta": "A licença maternidade pode ser requerida à Secretaria Acadêmica a partir do 8º (oitavo) mês de gestação ou após o nascimento do bebê.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R33",
+  "pergunta": "Quantos dias de licença tenho em caso de falecimento de um familiar?",
+  "fonte": "Res_249-2019_Licencas_e_Afastamentos_Ensino_de_Graduacao.pdf",
+  "artigos": [
+   19
+  ],
+  "resposta_correta": "Em caso de falecimento de cônjuge, companheiro, pais, madrasta ou padrasto, avós, irmão, filho, enteado ou pessoa sob sua guarda ou curatela, a licença é de 8 (oito) dias consecutivos.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R34",
+  "pergunta": "O que é preciso para obter o diploma?",
+  "alternativas": [
+   {
+    "fonte": "Res_029-2011_Normas_Basicas_de_Graduacao_consolidada_ate_Res_480-2026.pdf",
+    "artigos": [
+     71
+    ]
+   },
+   {
+    "fonte": "IN_05-2022_Diploma_Digital_e_Colacao_de_Grau.pdf",
+    "artigos": [
+     2,
+     3
+    ]
+   }
+  ],
+  "resposta_correta": "Para obter o diploma, é preciso integralizar o curso conforme o projeto pedagógico e participar da colação de grau, que é condição necessária para a expedição do diploma digital. Para colar grau, o discente também deve estar em situação regular com o Exame Nacional de Desempenho de Estudantes, quite com a Justiça Eleitoral, sem débitos com a biblioteca e, se for do sexo masculino e tiver entre 18 e 45 anos, quite com o serviço militar obrigatório.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R35",
+  "pergunta": "Quais os requisitos para participar do programa de mobilidade acadêmica interinstitucional?",
+  "fonte": "Res_260-2019_Normas_de_Ingresso_na_Graduacao_consolidada_ate_Res_474-2026.pdf",
+  "artigos": [
+   95,
+   96
+  ],
+  "resposta_correta": "É preciso haver convênio válido entre as instituições de ensino superior envolvidas, atender a todos os critérios do convênio ou do edital específico, quando for o caso, ter plano de atividades aprovado pela universidade de origem e ter autorização das instituições envolvidas.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R36",
+  "pergunta": "Quem define o limite de orientandos de TCC por professor?",
+  "fonte": "Res_029-2011_Normas_Basicas_de_Graduacao_consolidada_ate_Res_480-2026.pdf",
+  "artigos": [
+   122
+  ],
+  "resposta_correta": "Cabe à Comissão de Curso definir o limite máximo de trabalhos de conclusão de curso orientados ao mesmo tempo por professor.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R37",
+  "pergunta": "Quais são as modalidades do Processo Seletivo Complementar?",
+  "fonte": "Res_260-2019_Normas_de_Ingresso_na_Graduacao_consolidada_ate_Res_474-2026.pdf",
+  "artigos": [
+   32,
+   33
+  ],
+  "resposta_correta": "As modalidades do Processo Seletivo Complementar são: segundo ciclo de formação, reingresso, conclusão da primeira graduação, reopção de curso, transferência voluntária, portador de diploma e segunda licenciatura, destinada a graduados em uma licenciatura.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R38",
+  "pergunta": "Qual o período para solicitar o trancamento total em 2026/1?",
+  "fonte": "Calendario_Academico_Graduacao_2026_Portaria_1602-2025.pdf",
+  "trecho": "TRANCAMENTO TOTAL 2026/1",
+  "resposta_correta": "O trancamento total de 2026/1 pode ser solicitado pelo discente de 23/02/2026 a 10/04/2026, no Portal do Aluno.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R39",
+  "pergunta": "Quando começa o semestre letivo 2026/1?",
+  "alternativas": [
+   {
+    "fonte": "Calendario_Academico_Graduacao_2026_Portaria_1602-2025.pdf",
+    "trecho": "INÍCIO DO SEMESTRE LETIVO 2026/1"
+   },
+   {
+    "fonte": "Calendario_Academico_Graduacao_2026_Portaria_1602-2025.pdf",
+    "trecho": "Abertura do Semestre Letivo 2026/1"
+   },
+   {
+    "fonte": "Calendario_Academico_Graduacao_2026_Portaria_1602-2025.pdf",
+    "trecho": "09/03 a 18/07/2026"
+   },
+   {
+    "fonte": "Portaria_0618-2026_Pontos_Facultativos.pdf",
+    "trecho": "09/03 a 18/07/2026"
+   }
+  ],
+  "resposta_correta": "O semestre letivo 2026/1 começa em 09/03/2026.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R40",
+  "pergunta": "Quantas horas de atividades complementares preciso cumprir no curso de Engenharia de Computação?",
+  "alternativas": [
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "trecho": "75 horas"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "trecho": "75 (setenta e cinco) horas"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2019.pdf",
+    "trecho": "120 horas de atividades complementares"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2019.pdf",
+    "trecho": "120 (cento e vinte) horas de atividades complementares"
+   }
+  ],
+  "resposta_correta": "Quem segue o Projeto Pedagógico do Curso de 2023 precisa validar 75 horas de atividades complementares de graduação. No Projeto Pedagógico de 2019, eram exigidas 120 horas.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R41",
+  "pergunta": "Qual o horário de funcionamento da biblioteca do campus Bagé?",
+  "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+  "trecho": "horário de funcionamento da Biblioteca",
+  "resposta_correta": "A biblioteca funciona das 8 horas às 21 horas, de segunda a sexta-feira.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R42",
+  "pergunta": "Quantos créditos tem a disciplina de Cálculo I?",
+  "alternativas": [
+   {
+    "fonte": "PPC_EngComp_Bage_2019.pdf",
+    "trecho": "Componente Curricular: Cálculo I Carga"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "trecho": "Cálculo I (4 créditos)"
+   }
+  ],
+  "resposta_correta": "A disciplina de Cálculo I tem 4 (quatro) créditos, com carga horária total de 60 horas.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R43",
+  "pergunta": "Quem envia a versão final do TCC para a biblioteca?",
+  "fonte": "IN_16-2024_Entrega_e_Defesa_de_TCC_de_Graduacao.pdf",
+  "artigos": [
+   6
+  ],
+  "trecho": "biblioteca",
+  "resposta_correta": "A Coordenação de Trabalho de Conclusão de Curso encaminha, pelo Sistema Eletrônico de Informações, o processo com a versão final dos trabalhos para a biblioteca do campus do curso.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R44",
+  "pergunta": "Qual a duração máxima de um estágio na mesma empresa?",
+  "fonte": "Res_329-2021_Normas_de_Estagios_consolidada_ate_Res_437-2025.pdf",
+  "artigos": [
+   16
+  ],
+  "resposta_correta": "O estágio na mesma parte concedente não pode durar mais de 2 (dois) anos, exceto quando se tratar de discente com deficiência.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R45",
+  "pergunta": "Quantas horas por semana posso fazer de estágio?",
+  "fonte": "Res_329-2021_Normas_de_Estagios_consolidada_ate_Res_437-2025.pdf",
+  "artigos": [
+   14
+  ],
+  "resposta_correta": "A jornada de estágio pode ser de até 30 horas semanais, com no máximo 6 horas diárias. Em cursos que alternam teoria e prática, nos períodos sem aulas presenciais e se previsto no projeto pedagógico do curso, pode chegar a 40 horas semanais, com até 8 horas diárias.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R46",
+  "pergunta": "Qual é o tempo máximo para concluir o curso de Engenharia de Computação?",
+  "alternativas": [
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "trecho": "Tempo Máximo: | 20"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "trecho": "Duração máxima: 20 semestres"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "trecho": "intencionalmente o dobro"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2019.pdf",
+    "trecho": "Tempo Máximo: 20"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2019.pdf",
+    "trecho": "intencionalmente o dobro"
+   },
+   {
+    "fonte": "Res_240-2019_Tempo_Maximo_de_Integralizacao.pdf",
+    "artigos": [
+     1
+    ]
+   }
+  ],
+  "resposta_correta": "O tempo máximo para concluir o curso de Engenharia de Computação é de 20 (vinte) semestres letivos, o dobro da duração prevista de 10 semestres.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R47",
+  "pergunta": "Como faço para usar o nome social nos registros da universidade?",
+  "fonte": "Res_061-2013_Nome_Social.pdf",
+  "artigos": [
+   1,
+   2
+  ],
+  "resposta_correta": "A pessoa transgênero deve fazer uma solicitação de próprio punho, nas devidas instâncias, a qualquer tempo a partir do ingresso na UNIPAMPA, pedindo a inclusão do nome social nos documentos acadêmicos. Na solicitação, deve apresentar a Carteira de Nome Social ou, na falta dela, uma autodeclaração. Menores de 18 anos precisam apresentar autorização por escrito dos pais ou responsáveis legais.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R48",
+  "pergunta": "Filhos de estudantes podem comer no restaurante universitário?",
+  "fonte": "Res_477-2026_Politica_Materna_e_Parental.pdf",
+  "artigos": [
+   4
+  ],
+  "trecho": "Restaurante Universitário",
+  "resposta_correta": "Sim. A norma prevê o acesso ao Restaurante Universitário de crianças filhas ou dependentes legais de estudantes regularmente matriculados em cursos presenciais de graduação ou de pós-graduação, desde que acompanhadas pela mãe ou por outros agentes da maternagem, conforme as normas institucionais vigentes. Também prevê, conforme disponibilidade orçamentária e normas específicas, a oferta de refeição subsidiada para filhos ou dependentes legais de estudantes.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R49",
+  "pergunta": "Qual a carga horária total do curso de Engenharia de Computação?",
+  "alternativas": [
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "trecho": "3.600 horas"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "trecho": "3600 horas"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2019.pdf",
+    "trecho": "3600 horas"
+   }
+  ],
+  "resposta_correta": "A carga horária total do curso de Engenharia de Computação é de 3.600 horas.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R50",
+  "pergunta": "Quais são os feriados e pontos facultativos do semestre 2026/1?",
+  "alternativas": [
+   {
+    "fonte": "Portaria_0618-2026_Pontos_Facultativos.pdf",
+    "trecho": "Semestre Letivo 2026/1; Data"
+   },
+   {
+    "fonte": "Calendario_Academico_Graduacao_2026_Portaria_1602-2025.pdf",
+    "trecho": "Semestre letivo 2026/1; Data"
+   }
+  ],
+  "resposta_correta": "No semestre 2026/1, os feriados nacionais são 03/04/2026 (Paixão de Cristo), 21/04/2026 (Tiradentes) e 01/05/2026 (Dia Mundial do Trabalhador), e os pontos facultativos são 20/04/2026, 04/06/2026 (Corpus Christi) e 05/06/2026. Há também datas municipais: 17/03/2026 (feriado em Itaqui), 04/04/2026 (feriado em São Gabriel), 21/05/2026 (ponto facultativo em São Borja) e 24/05/2026 (feriado em Bagé).",
+  "sem_resposta": false
+ },
+ {
+  "id": "R51",
+  "pergunta": "A universidade tem rede wi-fi para os alunos?",
+  "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+  "trecho": "Wi-Fi",
+  "resposta_correta": "Sim. No campus, os alunos têm à disposição uma rede Wi-Fi com controle de acesso e autenticação integrada ao sistema acadêmico, que cobre todos os andares dos Blocos 1 e 2.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R52",
+  "pergunta": "Quantas horas de atividades de extensão o curso de Engenharia de Computação exige?",
+  "alternativas": [
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "trecho": "compreendem 360 horas"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "trecho": "360 h (24 créditos)"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "trecho": "Atividades Curriculares de Extensão; Carga Horária: 360"
+   }
+  ],
+  "resposta_correta": "O curso exige 360 horas de atividades curriculares de extensão, o que corresponde a 24 créditos e a 10% da carga horária total do curso.",
+  "sem_resposta": false
+ },
+ {
+  "id": "R53",
+  "pergunta": "Quantas vagas o curso de Engenharia de Computação oferece?",
+  "alternativas": [
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "trecho": "Número de Vagas Oferecidas"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "trecho": "Número de vagas: 50"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "trecho": "50 vagas"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2023_revisao_2024-01-02.pdf",
+    "trecho": "50 (cinquenta) vagas"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2019.pdf",
+    "trecho": "Número de Vagas Oferecidas"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2019.pdf",
+    "trecho": "50 vagas"
+   },
+   {
+    "fonte": "PPC_EngComp_Bage_2019.pdf",
+    "trecho": "50 (cinquenta) vagas"
+   }
+  ],
+  "resposta_correta": "O curso de Engenharia de Computação oferece 50 (cinquenta) vagas anuais.",
+  "sem_resposta": false
+ },
+ {
+  "id": "N01",
+  "pergunta": "Qual o valor da bolsa permanência?",
+  "sem_resposta": true,
+  "resposta_correta": ""
+ },
+ {
+  "id": "N02",
+  "pergunta": "Qual é o cardápio do restaurante universitário hoje?",
+  "sem_resposta": true,
+  "resposta_correta": ""
+ },
+ {
+  "id": "N03",
+  "pergunta": "Qual é a nota de corte do SISU para Engenharia de Computação?",
+  "sem_resposta": true,
+  "resposta_correta": ""
+ },
+ {
+  "id": "N04",
+  "pergunta": "Qual é a capital da França?",
+  "sem_resposta": true,
+  "resposta_correta": ""
+ },
+ {
+  "id": "N05",
+  "pergunta": "Quanto custa a refeição no restaurante universitário?",
+  "sem_resposta": true,
+  "resposta_correta": ""
+ },
+ {
+  "id": "N06",
+  "pergunta": "Quais linhas de ônibus levam ao campus Bagé?",
+  "sem_resposta": true,
+  "resposta_correta": ""
+ },
+ {
+  "id": "N07",
+  "pergunta": "Qual é a senha padrão do Portal do Aluno?",
+  "sem_resposta": true,
+  "resposta_correta": ""
+ },
+ {
+  "id": "N08",
+  "pergunta": "Como faço para trocar a senha do e-mail institucional?",
+  "sem_resposta": true,
+  "resposta_correta": ""
+ }
+]

@@ -1,0 +1,43 @@
+﻿codigo;correcao;fidelidade;observacao
+P01;correta;fiel;
+P02;incorreta;fiel;não foram recuperados trechos relevantes para a resposta, mesmo eles existindo, o modelo respondeu de forma esperada para os trechos recuperados, o erro estava nos trechos.
+P03;incorreta;infiel;"o modelo alucionou completamente, e não entendeu oque a sigla ""APA"" usada pelo usuário significava."
+P04;correta;fiel;
+P05;parcial;fiel;Nesta resposta ele aponta as informações de equivalência corretas, mas não faz o calculo lógico de afirmar ou não a equivalência por si só, oque esta certo, pois os trechos recuperados realmente não apontam isso diretamente.
+P06;;;para este também, as informações dos documentos realmente não apontam a equivalência direta, e ele não apontou as informações de conversão, mas nas nossas regras dissemos que valeria a resposta principal, acho que precisamos rever a resposta correta desta pergunta.
+P07;parcial;fiel;não trousse as informações do ppc de 2019, apenas do mais novo
+P08;incorreta;parcial;a recuperação não trousse a informação necessaria, e a resposta foi gerada apenas falando sobre matérias do segundo semestre, ele basicamente ignorou completamente metade da pergunta do usuario pois não tinha as informações, ao invez de se abster como deveria.
+P09;correta;fiel;
+P10;parcial;fiel;os trechos recuperados não fornecem a informação sobre 2026, oque ele corretamente aponta
+P11;correta;fiel;
+P12;incorreta;fiel;"os trechos fornecidos não tem anda a ver com a pergunta, novamente, a busca não conseguiu interpretar ""APA"" como uma abreviação para ""Análise e Projeto de Algoritmos"""
+P13;incorreta;infiel;respondeu completamente errado, tendo os trechos certos fornecidos.
+P14;correta;fiel;
+P15;parcial;fiel;respondeu apenas de um dos PPCs
+P16;correta;fiel;
+P17;;;"o mesmo se absteu ao não conseguir as informações que a pessoa pediu, e forneceu informações complementares ""Não encontrei informações sobre onde ficam disponíveis as ACGs e ACEEs após o período informado nos calendários acadêmicos."""
+P18;;;Ele também se absteve após não encontrar a resposta nos trechos recuperados
+P19;;;Também se absteve e forneceu informações que poderiam ser uteis
+P20;correta;fiel;
+P21;parcial;fiel;não trouxe a informação do outro ppc pois julgou ja estar completo
+P22;incorreta;fiel;
+P23;correta;fiel;
+P24;correta;fiel;
+P25;correta;fiel;
+P26;correta;fiel;
+P27;correta;fiel;
+P28;;;ele se absteve com informações que poderiam ser uteis,
+P29;;;Ele se absteve com informações que poderiam ser uteis, pois não recebeu os trechos necessarios
+P30;correta;fiel;
+P31;correta;fiel;
+P32;correta;fiel;
+P33;incorreta;fiel;
+P34;parcial;fiel;após responder para um dos ppcs, não entregou a informação do outro
+P35;correta;fiel;ele apontou a resposta correta, e então se absteve porque interpretou o usuario de forma estranha
+P36;correta;fiel;ele aponta a resposta correta, e então se abstem por achar que faltavam informações
+P37;correta;fiel;
+P38;parcial;fiel;obteve informação de um dos PPC, e não denviou a informação do outro
+P39;correta;fiel;
+P40;parcial;fiel;não obteve a extração da parte que falava do 2026/2
+P41;correta;fiel;
+P42;correta;fiel;

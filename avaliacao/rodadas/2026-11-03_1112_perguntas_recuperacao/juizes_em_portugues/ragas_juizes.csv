@@ -1,0 +1,4 @@
+﻿modelo;rotulo;correcao_media_juizes;correcao_n;correcao_ministral_3_8b;correcao_gemma4_e4b_it_qat;completude_media_juizes;completude_n;completude_ministral_3_8b;completude_gemma4_e4b_it_qat;fidelidade_media_juizes;fidelidade_n;fidelidade_ministral_3_8b;fidelidade_gemma4_e4b_it_qat;erros_dos_juizes
+llama3.1:8b;Llama 3.1 8B;0,377;52;0,369;0,384;0,595;52;0,571;0,620;0,717;54;0,691;0,743;0
+qwen3.8:27b;Qwen 3.8 27B;0,612;52;0,556;0,667;0,703;52;0,668;0,738;0,918;52;0,855;0,980;0
+phi4-mini;Phi-4-mini 3.8B;0,489;49;0,448;0,531;0,491;49;0,469;0,513;0,784;49;0,737;0,830;0

@@ -1,0 +1,15 @@
+[
+ {
+  "juiz": "gemma4:e4b-it-qat",
+  "opcoes": {
+   "temperature": 0,
+   "num_ctx": 8192,
+   "num_predict": 2048,
+   "seed": 42
+  },
+  "ragas": "0.4.3",
+  "versao_chatbot": "16",
+  "lingua": "portugues",
+  "inicio": "2026-11-22T13:15:11"
+ }
+]
