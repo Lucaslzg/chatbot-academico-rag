@@ -1,0 +1,13 @@
+# Dependências do chatbot acadêmico (RAG local)
+# Instale com: pip install -r requirements.txt
+#
+# Esta revisão NÃO acrescentou bibliotecas: todas já estavam no .venv.
+# Versões com que o código foi testado (as mesmas do .venv em 18/09/2026):
+#   chromadb 1.5.9 | sentence-transformers 5.6.0 | transformers 5.12.1 | torch 2.12.1
+#   pymupdf 1.27.2.3 | ollama 0.6.2 | numpy 2.4.6 | Python 3.13
+
+chromadb>=1.0               # base vetorial persistente (cosseno); usa a API de configuração 1.x
+sentence-transformers>=5.0  # embeddings locais (família Sentence-BERT); instala o torch
+pymupdf>=1.24               # PDF: texto, posição, fonte e tabelas (importado como "fitz")
+ollama>=0.4                 # cliente Python do Ollama (geração local)
+numpy                       # já vem com as anteriores; usado na avaliação da busca

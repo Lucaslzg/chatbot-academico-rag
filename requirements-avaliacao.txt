@@ -1,0 +1,17 @@
+# Dependências só da avaliação com o RAGAS (avaliar-ragas.bat). O chat, a
+# rodada e os testes não precisam delas. Instale uma vez pelo
+# instalar-avaliacao.bat (ou python instalar_avaliacao.py), e não direto pelo
+# pip: sozinho, o pip não leva em conta o que os pacotes do chatbot exigem e,
+# em 03/11/2026, trocaria o huggingface-hub por uma versão que o transformers
+# do chatbot não aceita, parando a indexação e o chat. O instalar_avaliacao.py
+# instala este arquivo com os pacotes do chatbot fixados nas versões de agora.
+#
+# O RAGAS 0.4.3 ainda importa partes do LangChain que a versão 1 retirou
+# (langchain_community.chat_models.vertexai): com o LangChain 1, o "import
+# ragas" falha. Por isso o LangChain fica na série 0.3. Combinação testada em
+# 03/11/2026 (Python 3.13).
+ragas==0.4.3
+langchain>=0.3,<1.0
+langchain-core>=0.3,<1.0
+langchain-community>=0.3,<0.4
+langchain-openai>=0.3,<1.0
