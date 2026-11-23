@@ -2,24 +2,26 @@
 chcp 65001 >nul
 cd /d "%~dp0"
 if not exist ".venv\Scripts\activate.bat" (
-    echo Ambiente virtual .venv nao encontrado nesta pasta.
-    echo Crie com:  python -m venv .venv   e depois:  .venv\Scripts\pip install -r requirements.txt
+    echo Ambiente virtual .venv não encontrado nesta pasta.
+    echo Para criá-lo, siga a seção Instalação do README.md.
     pause
     exit /b 1
 )
 call .venv\Scripts\activate.bat
-echo ============================================
-echo   Avaliacao com o RAGAS da rodada mais recente
-echo   (os juizes rodam na placa de video, com os prompts em portugues; pode levar horas)
-echo ============================================
+echo ================================================================
+echo   Notas dos LLMs avaliadores (RAGAS) na rodada mais recente
+echo   Os avaliadores rodam na placa de vídeo, com os prompts em português.
+echo   Pode levar algumas horas.
+echo ================================================================
 echo.
 python avaliar_ragas.py %*
 echo.
-echo Opcoes (depois do nome deste arquivo):
-echo   --limite 3                                  so as 3 primeiras perguntas (para medir o tempo do juiz)
-echo   --rodada avaliacao\rodadas\NOME             outra rodada
-echo   --modelos llama3.2:3b                       so os modelos indicados
-echo   --ingles                                    os juizes com os prompts do RAGAS como vem, em ingles
-echo Depois: avaliar-respostas.bat (a tabela final, com as medias do juiz)
+echo Opções, escritas depois do nome do arquivo no terminal:
+echo   --limite 3                        só as 3 primeiras perguntas, para medir o tempo
+echo   --rodada avaliacao\rodadas\NOME   outra rodada
+echo   --modelos phi4-mini               só as respostas dos modelos indicados
+echo   --juiz ministral-3:8b             só o avaliador indicado
+echo   --ingles                          prompts originais do RAGAS, em inglês
+echo Depois, atualize a tabela com avaliar-respostas.bat.
 echo.
 pause

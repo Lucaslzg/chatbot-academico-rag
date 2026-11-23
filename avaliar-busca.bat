@@ -2,23 +2,23 @@
 chcp 65001 >nul
 cd /d "%~dp0"
 if not exist ".venv\Scripts\activate.bat" (
-    echo Ambiente virtual .venv nao encontrado nesta pasta.
-    echo Crie com:  python -m venv .venv   e depois:  .venv\Scripts\pip install -r requirements.txt
+    echo Ambiente virtual .venv não encontrado nesta pasta.
+    echo Para criá-lo, siga a seção Instalação do README.md.
     pause
     exit /b 1
 )
 call .venv\Scripts\activate.bat
-echo ============================================
-echo   Comparacao das buscas na base indexada
-echo   (densa, BM25 e hibrida; nao usa o LLM)
-echo ============================================
+echo ================================================================
+echo   Avaliação da busca
+echo   Compara as buscas densa, lexical (BM25) e híbrida.
+echo   Não usa os modelos de linguagem.
+echo ================================================================
 echo.
 python avaliar_recuperacao.py --comparar-buscas %*
 echo.
-echo Opcoes (depois do nome deste arquivo):
-echo   --k 6                               fragmentos por pergunta (padrao: TOP_K do config.py)
-echo   --arquivo avaliacao\outro.csv       outro conjunto de perguntas
-echo Para comparar as segmentacoes (cerca de 16 min):
-echo   python avaliar_recuperacao.py --comparar
+echo Opções, escritas depois do nome do arquivo no terminal:
+echo   --k 6                           fragmentos por pergunta (padrão: TOP_K do config.py)
+echo   --arquivo avaliacao\outro.csv   outro conjunto de perguntas
+echo Comparação das segmentações, mais demorada:  python avaliar_recuperacao.py --comparar
 echo.
 pause

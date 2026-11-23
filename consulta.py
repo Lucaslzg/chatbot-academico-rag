@@ -591,8 +591,10 @@ class AssistenteRAG:
 # ---------------------------------------------------------------------------
 # Interface de linha de comando
 # ---------------------------------------------------------------------------
-AJUDA = ("Comandos: /fontes mostra os trechos usados na última resposta; "
-         "/ajuda mostra esta ajuda; sair encerra.")
+AJUDA = ("Comandos:\n"
+         "  /fontes   mostra os trechos usados na última resposta\n"
+         "  /ajuda    mostra estes comandos\n"
+         "  sair      encerra o chat")
 
 _NOMES_BUSCA = {"densa": "densa (por sentido)", "bm25": "BM25 (por palavras)",
                 "hibrida": "híbrida (por sentido e por palavras)"}
@@ -634,32 +636,34 @@ def main(argv: list[str] | None = None) -> int:
         sys.stdout.reconfigure(errors="replace")
     except (AttributeError, ValueError):
         pass
-    print("Chatbot acadêmico (RAG local com Ollama)")
+    print("Chatbot acadêmico (protótipo com RAG local)")
+    print("Responde com base nos documentos institucionais indexados, com os modelos rodando neste computador.\n")
+    print("Preparando o assistente...")
     assistente = AssistenteRAG(modelo_llm=argv[0] if argv else None)
     info = info_modelo(assistente.modelo_llm)
     try:
         modo = Recuperador.modo_valido()
         _ = assistente.colecao
-        print(f"Carregando o modelo de embeddings ({assistente.modelo.nome})...")
+        print(f"  Modelo de embeddings: {assistente.modelo.nome}")
         for aviso in assistente.verificar_base():
-            print(f"Aviso: {aviso}")
-        print(f"Busca: {_NOMES_BUSCA[modo]}")
+            print(f"  Aviso: {aviso}")
+        print(f"  Busca: {_NOMES_BUSCA[modo]}")
         if modo != "densa":
-            print("Montando o índice da busca por palavras...")
+            print("  Montando o índice da busca por palavras...")
             assistente.recuperador.preparar(modo)
-        detalhes = ["só no processador" if config.SO_PROCESSADOR else "processador e placa de vídeo"]
+        detalhes = ["só no processador" if config.SO_PROCESSADOR else "no processador e na placa de vídeo"]
         if info["raciocinio"]:
             detalhes.append("raciocínio desligado")
-        print(f"Modelo de linguagem: {info['rotulo']} ({assistente.modelo_llm}; {', '.join(detalhes)})")
-        print(f"Verificando o Ollama e o modelo {assistente.modelo_llm}...")
+        print(f"  Modelo de linguagem: {info['rotulo']} ({assistente.modelo_llm}), {', '.join(detalhes)}")
+        print("  Conferindo o Ollama...")
         assistente.verificar_ollama()
-        print("Carregando o modelo de linguagem (pode levar alguns segundos)...")
+        print("  Carregando o modelo de linguagem, o que pode levar alguns segundos...")
         assistente.aquecer()
     except (ErroChatbot, ErroEmbeddings) as erro:
-        print(f"\nERRO: {erro}")
+        print(f"\nErro: {erro}")
         return 1
 
-    print(f"\nPronto. Faça sua pergunta. {AJUDA}")
+    print(f"\nPronto! Digite sua pergunta e tecle Enter.\n{AJUDA}")
     ultima: Resposta | None = None
     while True:
         try:
@@ -683,19 +687,19 @@ def main(argv: list[str] | None = None) -> int:
         try:
             resposta = assistente.responder(pergunta, ao_receber=lambda t: print(t, end="", flush=True))
         except KeyboardInterrupt:
-            print("\n(resposta interrompida)")
+            print("\nResposta interrompida.")
             continue
         except ErroChatbot as erro:
-            print(f"\nERRO: {erro}")
+            print(f"\nErro: {erro}")
             continue
         if not resposta.gerada_pelo_llm:
             print(resposta.texto, end="")
         print()
         if resposta.mista:
-            print("\n(Atenção: a resposta usa os trechos citados, mas também diz que não encontrou a "
-                  "informação. Confira as fontes abaixo ou use /fontes.)")
+            print("\nAtenção: a resposta cita trechos dos documentos, mas também diz que não encontrou a "
+                  "informação. Confira as fontes abaixo ou digite /fontes.")
         imprimir_fontes(resposta)
-        print(f"(tempo: {_decimal(resposta.tempos['total_s'], 1)} s)")
+        print(f"Tempo de resposta: {_decimal(resposta.tempos['total_s'], 1)} s")
         ultima = resposta
     return 0
 
